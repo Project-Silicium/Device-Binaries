@@ -67,17 +67,3 @@ ButtonsDxe:
 - Reason: Helps navigating Menus (e.g. UEFI Menu)
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 ```
-
-### Poco F1
-
-```
-HALIOMMU:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-
-ButtonsDxe:
-
-- Reason: Helps navigating Menus (e.g. UEFI Menu)
-- Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
-```
