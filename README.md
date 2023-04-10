@@ -2,6 +2,15 @@
 
 ## Patches
 
+### Galaxy Tab S8 5G
+
+```
+ClockDxe:
+
+- Reason: MDSS reinitializes and we lose framebuffer.
+- Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+```
+
 ### Xiaomi 11T Pro
 
 ```
