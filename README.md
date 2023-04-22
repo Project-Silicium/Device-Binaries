@@ -105,7 +105,7 @@ ButtonsDxe:
 ClockDxe:
 
 - Reason: Functions already set up something causing a crash trying to reset them again.
-- Patch: A LAB Function has ben removed to not execute Functions and set Vars.
+- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
 ```
 
 ### Redmi 9T
