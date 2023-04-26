@@ -112,6 +112,12 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+#### ClockDxe:
+
+- Reason: Functions already set up something causing a crash trying to reset them again.
+- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
+- Patch Creator: [Kernel357](https://github.com/Kernel357)
+
 ## Redmi Note 8/8T
 
 #### ButtonsDxe:
