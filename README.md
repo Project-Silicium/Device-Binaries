@@ -101,6 +101,11 @@ ButtonsDxe:
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu)
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+
+ClockDxe:
+
+- Reason: Functions already set up something causing a crash trying to reset them again.
+- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
 ```
 
 ### Redmi Note 8/8T
