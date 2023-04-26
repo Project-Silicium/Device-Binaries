@@ -2,136 +2,140 @@
 
 ## Patches
 
-### Galaxy Tab S8 5G
+## Galaxy Tab S8 5G
 
-```
-ClockDxe:
+#### ClockDxe:
 
 - Reason: MDSS reinitializes and we lose framebuffer.
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-HALIOMMU:
+#### HALIOMMU:
 
 - Reason: A DTB Protocol can't be found, causing the driver to crash.
 - Patch: DTB Protocol check has be patched to always return Success.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-SdccDxe:
+#### SdccDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains, another Patch removes an ASSERT Function.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-UFSDxe:
+#### UFSDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-```
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-### Galaxy Z Fold 3 5G
+## Galaxy Z Fold 3 5G
 
-```
-ClockDxe:
+#### ClockDxe:
 
 - Reason: MDSS reinitializes and we lose framebuffer.
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-FeatureEnablerDxe & MinidumpTADxe:
+#### FeatureEnablerDxe & MinidumpTADxe:
 
 - Reason: The TZ applet it already brought up.
 - Patch: Both DXEs were patched to not start again the TZ applet.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-QcomWDogDxe:
+#### QcomWDogDxe:
 
 - Reason: ReturnStatusCodeHandler implementation is different.
 - Patch: Dependency check routine was patched to not fail.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-UFSDxe:
+#### UFSDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-UsbConfigDxe:
+#### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux.
 - Patch: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
-```
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### Xiaomi 11T Pro
+## Xiaomi 11T Pro
 
-```
-ButtonsDxe:
+#### ButtonsDxe:
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu)
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-ClockDxe:
+#### ClockDxe:
 
 - Reason: MDSS reinitializes and we lose framebuffer.
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-FeatureEnablerDxe & MinidumpTADxe:
+#### FeatureEnablerDxe & MinidumpTADxe:
 
 - Reason: The TZ applet it already brought up.
 - Patch: Both DXEs were patched to not start again the TZ applet.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-PmicDxe:
+#### PmicDxe:
 
 - Reason: The PMIC AUX chip is already powered on by the previous firmware.
 - Patch: PMIC AUX (LEICA) init sequence was patched to not fail.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-QcomWDogDxe:
+#### QcomWDogDxe:
 
 - Reason: ReturnStatusCodeHandler implementation is different.
 - Patch: Dependency check routine was patched to not fail.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-UFSDxe:
+#### UFSDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-UsbConfigDxe:
+#### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux.
 - Patch: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
-```
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### Mi A3
+## Mi A3
 
-```
-ButtonsDxe:
-
-- Reason: Helps navigating Menus (e.g. UEFI Menu)
-- Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
-
-ClockDxe:
-
-- Reason: Functions already set up something causing a crash trying to reset them again.
-- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
-```
-
-### Redmi Note 8/8T
-
-```
-ButtonsDxe:
+#### ButtonsDxe:
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu)
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-ClockDxe:
+## Redmi Note 8/8T
 
-- Reason: Functions already set up something causing a crash trying to reset them again.
-- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
-```
-
-### Redmi 9T
-
-```
-ButtonsDxe:
+#### ButtonsDxe:
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu)
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-ClockDxe:
+#### ClockDxe:
 
 - Reason: Functions already set up something causing a crash trying to reset them again.
 - Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
-```
+- Patch Creator: [Kernel357](https://github.com/Kernel357)
+
+## Redmi 9T
+
+#### ButtonsDxe:
+
+- Reason: Helps navigating Menus (e.g. UEFI Menu)
+- Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+#### ClockDxe:
+
+- Reason: Functions already set up something causing a crash trying to reset them again.
+- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
+- Patch Creator: [Kernel357](https://github.com/Kernel357)
