@@ -25,7 +25,7 @@
 #### UFSDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Patch: MMU related setup routine was patched to not recreate already existing MMU domains, another Patch removes invaild return value.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ## Galaxy Z Fold 3 5G
