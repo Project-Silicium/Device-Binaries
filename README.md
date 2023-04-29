@@ -10,6 +10,12 @@
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+#### PmicDxe (**Not Finisched!**):
+
+- Reason: Tries to find SPMI handle but failes causing an crash.
+- Patch: SPMI handle check has ben patched to always return success.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
+
 #### HALIOMMU:
 
 - Reason: A DTB Protocol can't be found, causing the driver to crash.
