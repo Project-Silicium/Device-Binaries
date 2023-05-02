@@ -134,9 +134,9 @@
 
 #### ClockDxe:
 
-- Reason: Functions already set up something causing a crash trying to reset them again.
-- Patch: The code that was causing the problem has been removed (we don't know what it does at the moment, but this patch allows you to run ClockDxe)
-- Patch Creator: [Kernel357](https://github.com/Kernel357)
+- Reason: A feature that uses the NPA protocol has been removed to avoid causing a crash
+- Patch: Npa Protocol Check has ben removed to not cause a crash
+- Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
 
 ## Redmi 9T
 
