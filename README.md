@@ -96,6 +96,12 @@
 - Patch: Both DXEs were patched to not start again the TZ applet.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+#### ParserDxe:
+
+- Reason: ParsrLck can't be found by the Driver causing the Driver not to load.
+- Patch: ParsrLck check has ben patched to not fail.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
+
 #### PmicDxe:
 
 - Reason: The PMIC AUX chip is already powered on by the previous firmware.
