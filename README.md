@@ -15,6 +15,12 @@
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+#### ParserDxe:
+
+- Reason: ParsrLck can't be found by the Driver causing the Driver not to load.
+- Patch: ParsrLck check has ben patched to not fail.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
+
 #### PmicDxe:
 
 - Reason: Tries to find SPMI handle but failes causing an crash.
