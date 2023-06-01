@@ -45,6 +45,12 @@
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains, another Patch removes invaild return value.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
+#### UsbConfigDxe:
+
+- Reason: Is Important to get USB working in Windows / Linux.
+- Patch: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
 ## Galaxy Z Fold 3 5G
 
 #### ButtonsDxe:
