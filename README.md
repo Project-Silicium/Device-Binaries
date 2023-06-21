@@ -1,4 +1,4 @@
-# MU-Qcom Binaries from Qualcomm Snapdragon Devices
+# UEFI Binaries
 
 ## Patches
 
