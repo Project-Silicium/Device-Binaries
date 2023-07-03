@@ -33,10 +33,10 @@
 - Patch: DTB Protocol check has be patched to always return Success.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-#### SdccDxe:
+#### SdccDxe **(NOT FINISCHED!)**:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains, another Patch removes an ASSERT Function.
+- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 #### UFSDxe:
@@ -150,8 +150,8 @@
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
 - Patch: MMU domain have been fixed. [At the moment, the patch is unstable and needs to be improved.]
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)                                                    
- 
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
 ## Redmi Note 8/8T
 
 #### ButtonsDxe:
