@@ -146,11 +146,11 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-#### DisplayDxe:
+#### ClockDxe:
 
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU domain have been fixed. [At the moment, the patch is unstable and needs to be improved.]
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+- Reason: A feature that uses the NPA protocol has been removed to avoid causing a crash
+- Patch: Npa Protocol Check has ben removed to not cause a crash
+- Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
 
 ## Redmi Note 8/8T
 
