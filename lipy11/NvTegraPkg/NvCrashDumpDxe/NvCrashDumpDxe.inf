@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvCrashDumpDxe
+  FILE_GUID      = 96A27F3A-57F0-17AD-AA4C-FEAAC0571123
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvCrashDumpDxe.depex|*
+   PE32|NvCrashDumpDxe.efi|*
+
+[Depex]
+  TRUE

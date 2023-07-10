@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvSataInitDxe
+  FILE_GUID      = D4B53A5F-62DE-4410-B1EA-DFF9FBB9C6C3
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvSataInitDxe.depex|*
+   PE32|NvSataInitDxe.efi|*
+
+[Depex]
+  TRUE

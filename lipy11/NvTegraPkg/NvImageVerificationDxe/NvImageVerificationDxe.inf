@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvImageVerificationDxe
+  FILE_GUID      = F6B52AC6-E03D-49DD-B976-E83DD00CA20F
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvImageVerificationDxe.depex|*
+   PE32|NvImageVerificationDxe.efi|*
+
+[Depex]
+  TRUE

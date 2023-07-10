@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvEsrt
+  FILE_GUID      = 5D19AA28-B2F4-1AFE-1C85-28A9381D8DEE
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvESRTDxe.depex|*
+   PE32|NvESRTDxe.efi|*
+
+[Depex]
+  TRUE

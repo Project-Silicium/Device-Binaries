@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvPllDxe
+  FILE_GUID      = 9D99B685-AC9C-4921-A660-8AF52DDEB268
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvPllDxe.depex|*
+   PE32|NvPllDxe.efi|*
+
+[Depex]
+  TRUE

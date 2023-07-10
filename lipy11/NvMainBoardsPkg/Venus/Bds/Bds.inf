@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = CardhuBds
+  FILE_GUID      = 20748823-FFCE-4618-8FFF-88EB7A595A06
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|Bds.depex|*
+   PE32|Bds.efi|*
+
+[Depex]
+  TRUE

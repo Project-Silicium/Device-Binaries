@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = VenusNWSec
+  FILE_GUID      = 6D98FDC6-F52F-4ABD-87A3-6300A8CE0968
+  MODULE_TYPE    = SEC
+  VERSION_STRING = 1.0
+
+[Binaries.Arm]
+   TE|Pei.te|*

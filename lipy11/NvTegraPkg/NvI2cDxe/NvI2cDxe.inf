@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvI2cDxe
+  FILE_GUID      = E66FF6A6-F86D-43E8-A286-CC7413697DBD
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvI2cDxe.depex|*
+   PE32|NvI2cDxe.efi|*
+
+[Depex]
+  TRUE

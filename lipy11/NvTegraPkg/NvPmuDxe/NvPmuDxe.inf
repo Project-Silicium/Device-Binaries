@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = Pmu65911
+  FILE_GUID      = 09D7291E-C157-4D8A-AFD6-989468E9313B
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvPmuDxe.depex|*
+   PE32|NvPmuDxe.efi|*
+
+[Depex]
+  TRUE

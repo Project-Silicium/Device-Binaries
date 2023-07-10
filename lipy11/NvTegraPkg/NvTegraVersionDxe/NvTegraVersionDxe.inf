@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvTegraVersionDxe
+  FILE_GUID      = EC181BA2-7439-41DF-9AF0-9F824565AAA4
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvTegraVersionDxe.depex|*
+   PE32|NvTegraVersionDxe.efi|*
+
+[Depex]
+  TRUE

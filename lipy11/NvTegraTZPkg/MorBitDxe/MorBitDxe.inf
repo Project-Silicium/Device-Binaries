@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = MorBitDxe
+  FILE_GUID      = 5BB8D03B-45F0-4C73-8E84-F95449373544
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|MorBitDxe.depex|*
+   PE32|MorBitDxe.efi|*
+
+[Depex]
+  TRUE

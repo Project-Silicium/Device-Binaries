@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvTrustZoneDxe
+  FILE_GUID      = C9DE6259-CFCB-46E4-B0D2-8FA8B66F72D5
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvTrustZoneDxe.depex|*
+   PE32|NvTrustZoneDxe.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvHDMIAudioDxe
+  FILE_GUID      = F2DB9E70-8355-4A88-A43E-A66F47965988
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvHDMIAudioDxe.depex|*
+   PE32|NvHDMIAudioDxe.efi|*
+
+[Depex]
+  TRUE

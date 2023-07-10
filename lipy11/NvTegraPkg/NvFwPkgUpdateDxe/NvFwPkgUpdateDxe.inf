@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvFwPkgUpdateDxe
+  FILE_GUID      = E1383243-D31E-43FE-15DF-D84B136DF3CD
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvFwPkgUpdateDxe.depex|*
+   PE32|NvFwPkgUpdateDxe.efi|*
+
+[Depex]
+  TRUE

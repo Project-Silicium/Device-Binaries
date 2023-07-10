@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = fTPMTZDxe
+  FILE_GUID      = 4434A62E-8F3A-4C7D-B65C-4ED8C6796917
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|fTPMTZDxe.depex|*
+   PE32|fTPMTZDxe.efi|*
+
+[Depex]
+  TRUE

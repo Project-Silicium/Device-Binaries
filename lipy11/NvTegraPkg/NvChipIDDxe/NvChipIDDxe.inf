@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvChipIDDxe
+  FILE_GUID      = 4785028C-5A61-4051-8C5C-98DD7D308FA0
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvChipIDDxe.depex|*
+   PE32|NvChipIDDxe.efi|*
+
+[Depex]
+  TRUE

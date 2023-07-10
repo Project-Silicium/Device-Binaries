@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvAudioInitDxe
+  FILE_GUID      = 2DDC9E62-086F-4E72-BFFA-DB8221D2718A
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.Arm]
+   DXE_DEPEX|NvAudioInitDxe.depex|*
+   PE32|NvAudioInitDxe.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = NvOEMTableDxe
+  FILE_GUID      = ADEC17F8-5547-421D-9834-422B1DF5DE9D
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+   DXE_DEPEX|NvOEMTableDxe.depex|*
+   PE32|NvOEMTableDxe.efi|*
+
+[Depex]
+  TRUE
