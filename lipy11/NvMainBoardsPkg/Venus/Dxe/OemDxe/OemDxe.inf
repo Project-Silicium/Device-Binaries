@@ -6,7 +6,7 @@
   VERSION_STRING = 1.0
   ENTRY_POINT    = EfiEntry
 
-[Binaries.AARCH64]
+[Binaries.Arm]
    DXE_DEPEX|OemDxe.depex|*
    PE32|OemDxe.efi|*
 

@@ -8,7 +8,7 @@
 
 [Binaries.Arm]
    DXE_DEPEX|PciEmulation.depex|*
-   PE32|PciEmulatione.efi|*
+   PE32|PciEmulation.efi|*
 
 [Depex]
   TRUE

@@ -6,5 +6,5 @@
   VERSION_STRING = 1.0
   ENTRY_POINT    = EfiEntry
 
-[Binaries.AARCH64]
+[Binaries.Arm]
    PE32|NvSecureEngineDxe.efi|*
