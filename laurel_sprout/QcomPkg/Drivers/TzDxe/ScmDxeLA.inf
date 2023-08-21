@@ -8,7 +8,7 @@
 
 [Binaries.AARCH64]
    DXE_DEPEX|ScmDxeLA.depex|*
-   PE32|ScmDxeLA.efi|*
+   PE32|ScmDxeLA.patched.efi|*
 
 [Depex]
   TRUE
