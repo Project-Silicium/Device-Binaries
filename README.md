@@ -198,6 +198,18 @@
 - Patch: Npa Protocol Check has ben removed to not cause a crash
 - Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
 
+#### HALIOMMU:
+
+- Reason: IOMMUs for USB and eMMC are already present, If reset again UEFI crashes.
+- Patch: IOMMU for USB and eMMC has been patched to always return Success.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
+
+#### ScmDxe **(TEMPORARY SOLUTION!)**:
+
+- Reason: Registering RPMB callback function causes UFSDxe to hang
+- Patch: ScmArmV8QseeSysCall() always returns 0 and this allows UFSDxe to run
+- Patch Creator: [Kernel357](https://github.com/Kernel357)
+
 ## Redmi 9T
 
 #### ButtonsDxe:
