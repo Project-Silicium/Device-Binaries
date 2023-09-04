@@ -211,3 +211,9 @@
 - Reason: A feature that uses the NPA protocol has been removed to avoid causing a crash
 - Patch: Npa Protocol Check has ben removed to not cause a crash
 - Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
+
+#### UFSDxe:
+
+- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
+- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
