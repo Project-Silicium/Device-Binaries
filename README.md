@@ -21,25 +21,25 @@
 - Patch: ParsrLck check has ben patched to not fail.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-#### PmicDxe:
+#### PmicDxe (Temporary Patch):
 
 - Reason: Tries to find SPMI handle but failes causing an crash.
 - Patch: SPMI handle checks has ben patched to always return success.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-#### HALIOMMU:
+#### HALIOMMU (Temporary Patch):
 
 - Reason: A DTB Protocol can't be found, causing the driver to crash.
 - Patch: DTB Protocol check has be patched to always return Success.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-#### SdccDxe **(NOT FINISCHED!)**:
+#### SdccDxe (Temporary Patch):
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-#### UFSDxe:
+#### UFSDxe (Temporary Patch, Patch Nr.2):
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains, another Patch removes invaild return value.
