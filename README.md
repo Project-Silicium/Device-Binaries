@@ -4,11 +4,6 @@
 
 ## Galaxy Tab S8 5G
 
-#### ButtonsDxe:
-- Reason: Helps navigating Menus (e.g. UEFI Menu)
-- Patch: Key code was patched for the power button to be mapped as ENTER instead of Vol UP.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
-
 #### ClockDxe:
 
 - Reason: MDSS reinitializes and we lose framebuffer.
