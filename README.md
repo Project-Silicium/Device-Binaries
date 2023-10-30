@@ -212,3 +212,23 @@
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+## Legion Y700
+
+#### ButtonsDxe:
+
+- Reason: Helps navigating Menus (e.g. UEFI Menu)
+- Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+#### UFSDxe:
+
+- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
+- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+#### UsbConfigDxe:
+
+- Reason: I couldn't use the mouse and keyboard because the USB was in device mode.
+- Patch: Added a patch to change USB from device mode to host mode
+- Patch Creator: [CloudSweets](https://github.com/cloudsweets)
