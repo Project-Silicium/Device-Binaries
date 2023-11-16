@@ -14,7 +14,7 @@
 
 [Binaries.AARCH64]
    DXE_DEPEX|ClockDxe.depex|*
-   PE32|ClockDxe.efi|*
+   PE32|ClockDxe.patched.efi|*
 
 [Depex]
   TRUE
