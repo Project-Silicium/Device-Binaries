@@ -8,7 +8,7 @@
 
 [Binaries.AARCH64]
   DXE_DEPEX|MinidumpSMEMTADxe.depex|*
-  PE32|MinidumpSMEMTADxe.efi|*
+  PE32|MinidumpSMEMTADxe.patched.efi|*
 
 [Depex]
   TRUE
