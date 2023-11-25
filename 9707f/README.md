@@ -17,3 +17,7 @@
 - Reason: To use USB Port in UEFI for Keyboard, Mouse, etc.
 - Patch: USB Mode has been Changed from Device Mode to Host Mode.
 - Patch Creator: [CloudSweets](https://github.com/cloudsweets)
+
+- Reason: Is Important to get USB working in Windows / Linux.
+- Patch: Exit BootServices routine was patched to not deinit USB after exit boot services.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
