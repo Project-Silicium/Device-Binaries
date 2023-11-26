@@ -20,6 +20,7 @@
 
 ### UsbConfigDxe:
 
-- Reason: To use USB Port in UEFI for Keyboard, Mouse, etc.
-- Patch: USB Mode has been Changed from Device Mode to Host Mode.
-- Patch Creator: [CloudSweets](https://github.com/cloudsweets)
+- Reason: Is Important to get USB working in Windows / Linux and UEFI.
+- Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services.
+- Patch Nr. 2: USB Mode has been Changed from Device Mode to Host Mode.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [CloudSweets](https://github.com/cloudsweets)
