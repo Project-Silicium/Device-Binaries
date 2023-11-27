@@ -7,8 +7,8 @@
   ENTRY_POINT    = EfiEntry
 
 [Binaries.AARCH64]
-  DXE_DEPEX|ScmDxeLA.depex|*
-  PE32|ScmDxeLA.efi|*
+   DXE_DEPEX|ScmDxeLA.depex|*
+   PE32|ScmDxeLA.efi|*
 
 [Depex]
   TRUE
