@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelDescription>Seeya DSI Video Mode Panel (1080x1980 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>3840</HorizontalActive>
+ <HorizontalFrontPorch>88</HorizontalFrontPorch>
+ <HorizontalBackPorch>148</HorizontalBackPorch>
+ <HorizontalSyncPulse>44</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1080</VerticalActive>
+ <VerticalFrontPorch>5</VerticalFrontPorch>
+ <VerticalBackPorch>36</VerticalBackPorch>
+ <VerticalSyncPulse>5</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>2</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+ 39 53 29
+ 39 51 FF 01
+ 39 03 00
+ 39 80 00 E0 E0 0E 00 31
+ 39 81 03 04 00 29 00 05 00
+ 39 82 03 04 00 29 00 05 01
+ 39 35 00
+ 39 26 20
+ 39 F0 AA 11
+ 39 C0 00
+ 39 C2 01 32 01 32 01 32 01 32 02 00 00
+ 39 F0 AA 12
+ 39 BF 37 A9
+ 39 FF 5A 80
+ 39 65 2F
+ 39 F2 01
+ 39 36 02
+ FD 01
+ 39 FF 5A 80
+ 39 65 2F
+ 39 F2 01
+ 39 36 01
+ 39 F0 AA 13
+ 39 65 01
+ 39 C1 A2
+ 39 C4 12 53 64 31 42 56
+ 39 F0 AA 16
+ 39 B6 12 53 64 31 42 56
+ 39 B0 00 55
+ FD 03
+ 39 FF 5A 80
+ 39 65 2F
+ 39 F2 01
+ 39 FF 5A 81
+ 39 65 05
+ 39 F2 22
+ 39 65 0A
+ 39 F2 00
+ 39 65 16
+ 39 F9 01 5F 61 64 67 6A 6D 6F 75 7B 80 86 8B 91
+ 05 11 00
+ 05 29 00
+ 39 F0 AA 11
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 10
+ 05 10
+ FF 32
+</DSITermSequence>
+<TLMMGPIODefaultHigh>46 61</TLMMGPIODefaultHigh>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>1</BacklightPmicControlType>
+ <DisplayResetInfo>0 10 1000 10000 0</DisplayResetInfo>
+</Group>
