@@ -18,6 +18,12 @@
 - Patch: DXE were patched to not start again the TZ applet.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+### UsbPwrCtrlDxe (Temporary Patch):
+
+- Reason: Pmic dosen't Init Correct, Causing this Driver to not Load Correct.
+- Patch: The Driver has been Forced to load anyway.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
 ### UFSDxe:
 
 - Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
