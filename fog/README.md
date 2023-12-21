@@ -30,12 +30,6 @@
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### SdccDxe:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
-
 ### HALIOMMUDxe:
 
 - Reason: IOMMUs for USB and eMMC are already present, If reset again UEFI crashes.
