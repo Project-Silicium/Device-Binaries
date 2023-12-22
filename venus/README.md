@@ -35,4 +35,5 @@
 - Reason: Is Important to get USB working in Windows / Linux and UEFI.
 - Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
 - Patch Nr. 2: USB Mode has been Changed from Device Mode to Host Mode.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [CloudSweets](https://github.com/cloudsweets)
+- Patch Nr. 3: USB Power has been Forced to be Enabled
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [CloudSweets](https://github.com/cloudsweets) & [N1kroks](https://github.com/N1kroks)
