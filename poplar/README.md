@@ -3,8 +3,8 @@
 ### ButtonsDxe:
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu).
-- Patch: Key Code was Patched for the Power Button to be mapped as ENTER instead of SUSPEND.
-- Patch: Key Code was Patched for the Kamera Button to be mapped as ESC instead of ENTER.
+- Patch Nr. 1: Key Code was Patched for the Power Button to be mapped as ENTER instead of SUSPEND.
+- Patch Nr. 2: Key Code was Patched for the Kamera Button to be mapped as ESC instead of ENTER.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Robotix22)
 
 ### ClockDxe:
