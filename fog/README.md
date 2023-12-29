@@ -35,3 +35,9 @@
 - Reason: IOMMUs for USB and eMMC are already present, If reset again UEFI crashes.
 - Patch: IOMMU for USB and eMMC has been patched to always return Success.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
+
+### UsbConfigDxe:
+
+- Reason: Usefull for Navigating UEFI and the OSs.
+- Patch: A Check for Platform CLS was Patched to Check for IDP instead.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
