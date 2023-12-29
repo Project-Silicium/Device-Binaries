@@ -12,3 +12,9 @@
 - Reason: Help Avoiding Being Stuck at this Driver.
 - Patch: Some Calls to Display Clocks have been Removed.
 - Patch Creator: [Sheep Sun](https://github.com/fxsheep)
+
+### UsbConfigDxe:
+
+- Reason: Usefull for Navigating UEFI and the OSs.
+- Patch: A Check for Platform CLS was Patched to Check for MTP instead.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
