@@ -16,5 +16,6 @@
 ### UsbConfigDxe:
 
 - Reason: Usefull for Navigating UEFI and the OSs.
-- Patch: A Check for Platform CLS was Patched to Check for MTP instead.
+- Patch Nr. 1: A Check for Platform CLS was Patched to Check for MTP instead.
+- Patch Nr. 2: Exit Boot Services Event has been Removed to Have working USB in the OSs
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
