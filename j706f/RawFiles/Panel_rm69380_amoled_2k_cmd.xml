@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>EDO AMOLED</PanelName>
+<PanelDescription>EDO Dual DSI 2k cmd Mode AMOLED Panel (2560x1600 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>2560</HorizontalActive>
+ <HorizontalFrontPorch>32</HorizontalFrontPorch>
+ <HorizontalBackPorch>38</HorizontalBackPorch>
+ <HorizontalSyncPulse>12</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1600</VerticalActive>
+ <VerticalFrontPorch>20</VerticalFrontPorch>
+ <VerticalBackPorch>8</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group> 
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSIDisableEoTAfterHSXfer>True</DSIDisableEoTAfterHSXfer>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>1600</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>1600</DSITEvSyncInitVal>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+ 39 FE 62
+ 39 00 D4
+ 39 FE 60
+ 39 9E 9A
+ 39 38 D4
+ 39 FE 40
+ 39 B6 02
+ 39 FE 96
+ 39 00 00
+ 39 02 4B
+
+ 39 FE D0
+ 39 76 80
+ 39 FE D4
+ 39 00 80
+
+ 39 FE 96
+ 39 03 81
+ 39 05 D0
+
+ 39 FE 96
+ 39 19 26
+
+ 39 FE A0
+ 39 4D C4
+ 39 04 80
+
+39 fe 90
+39 52 20
+39 53 60
+39 54 00
+39 56 00
+39 58 60
+39 59 20
+39 5B 00
+39 5C 60
+39 5D 20
+39 5F 20
+39 60 60
+39 61 00
+39 63 00
+39 64 60
+39 65 20
+39 67 00
+39 68 60
+39 69 20
+39 6B 00
+39 6C 60
+39 6D 20
+39 6F 20
+39 70 60
+39 71 00
+39 73 00
+39 74 60
+39 75 20
+39 77 00
+39 78 60
+39 79 20
+39 7B 20
+39 7C 60
+39 7D 00
+39 7F 00
+39 80 60
+39 81 20
+39 92 20
+39 93 60
+39 94 00
+39 96 20
+39 97 60
+39 98 00
+39 9A 00
+39 9B 60
+39 9C 20
+39 9E 00
+39 9F 60
+39 A0 20
+39 A3 00
+39 A4 60
+39 A5 20
+39 A7 00
+39 A9 60
+39 AA 20
+39 AC 20
+39 AD 60
+39 AE 00
+39 B0 20
+39 B1 60
+39 B2 00
+39 B4 00
+39 B5 60
+39 B6 20
+39 B8 00
+39 B9 60
+39 BA 20
+39 BC 00
+39 BD 60
+39 BE 20
+39 C0 00
+39 C1 60
+39 C2 20
+39 C4 20
+39 C5 60
+39 C6 00
+39 C8 20
+39 C9 60
+39 CA 00
+39 CC 00
+39 CD 60
+39 CE 20
+39 D0 00
+39 D1 60
+39 D2 20
+39 D4 00
+39 D5 60
+39 D6 20
+39 D8 00
+39 D9 60
+39 DA 20
+39 DC 20
+39 DD 60
+39 DE 00
+39 E0 20
+39 E1 60
+39 E2 00
+39 E4 00
+39 E5 60
+39 E6 20
+39 E8 00
+39 E9 60
+39 EA 20
+39 EC 00
+39 ED 60
+39 EE 20
+39 F0 00
+39 F2 60
+39 F3 20
+
+39 83 02
+39 84 0c
+39 85 02
+39 86 02
+39 87 0c
+39 88 02
+39 89 02
+39 8A 0c
+39 8B 02
+
+39 8C 0c
+39 8D 0c
+39 8E 0c
+39 8F 0c
+39 90 0c
+39 91 0c
+ 39 FE 00
+ 39 53 28
+ 39 C2 08
+ 39 35 00
+ 39 51 05 7C
+ 05 11 00
+ FF 14
+ 05 29 00
+ FF 24
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28 00
+ FF 23
+ 05 10 00
+ FF 14
+</DSITermSequence>
+<DSII2CI2CNumOfSlaves>0x1</DSII2CI2CNumOfSlaves>
+<DSII2CSlaveAddressList>0x70 </DSII2CSlaveAddressList>
+<DSII2CFrequency>0x190</DSII2CFrequency>
+<DSII2CGSBIPort>0x9</DSII2CGSBIPort>
+<DSII2COffsetLength>0x1</DSII2COffsetLength>
+<I2CInitSequence>
+70 01 5F
+70 02 04
+</I2CInitSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>11</BacklightBitWidth>
+ <DisplayResetInfo>0 10000 1000 10000 0</DisplayResetInfo>
+</Group>
