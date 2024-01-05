@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>EDO AMOLED RM692E6</PanelName>
+<PanelDescription>EDO Dual DSI 2k cmd Mode RM692E6 AMOLED Panel (2560x1600 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>2560</HorizontalActive>
+ <HorizontalFrontPorch>32</HorizontalFrontPorch>
+ <HorizontalBackPorch>38</HorizontalBackPorch>
+ <HorizontalSyncPulse>12</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1600</VerticalActive>
+ <VerticalFrontPorch>20</VerticalFrontPorch>
+ <VerticalBackPorch>8</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group> 
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSIDisableEoTAfterHSXfer>True</DSIDisableEoTAfterHSXfer>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>1600</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>1600</DSITEvSyncInitVal>
+ <DSIInitMasterTime>17</DSIInitMasterTime>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+39 FE A1
+39 B1 04
+39 CD 6B
+39 CE BB
+39 FE D1
+39 B4 01
+39 FE 00
+39 53 28
+39 C2 08
+39 35 00
+39 51 07 FF
+05 11 00
+FF 14
+05 29 00
+FF 64
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28 00
+ FF 78
+ 05 10 00
+ FF 64
+</DSITermSequence>
+<DSII2CI2CNumOfSlaves>0x1</DSII2CI2CNumOfSlaves>
+<DSII2CSlaveAddressList>0x70 </DSII2CSlaveAddressList>
+<DSII2CFrequency>0x190</DSII2CFrequency>
+<DSII2CGSBIPort>0x9</DSII2CGSBIPort>
+<DSII2COffsetLength>0x1</DSII2COffsetLength>
+<I2CInitSequence>
+70 01 5F
+70 02 04
+</I2CInitSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>11</BacklightBitWidth>
+ <DisplayResetInfo>0 10000 1000 10000 0</DisplayResetInfo>
+</Group>
