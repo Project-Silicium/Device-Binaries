@@ -14,7 +14,7 @@
 
 [Binaries.AARCH64]
    DXE_DEPEX|UsbConfigDxe.depex|*
-   PE32|UsbConfigDxe.efi|*
+   PE32|UsbConfigDxe.patched.efi|*
 
 [Depex]
   TRUE

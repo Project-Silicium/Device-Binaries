@@ -14,7 +14,7 @@
 
 [Binaries.AARCH64]
    DXE_DEPEX|ButtonsDxe.depex|*
-   PE32|ButtonsDxe.efi|*
+   PE32|ButtonsDxe.patched.efi|*
 
 [Depex]
   TRUE
