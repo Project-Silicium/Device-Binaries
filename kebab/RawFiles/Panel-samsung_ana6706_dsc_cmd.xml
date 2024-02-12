@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>SAMSUNG ANA6706</PanelName>
+<PanelDescription>Samsung Ana6706 Command Mode DSC Panel(1080*2376 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>64</HorizontalFrontPorch>
+ <HorizontalBackPorch>48</HorizontalBackPorch>
+ <HorizontalSyncPulse>8</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2376</VerticalActive>
+ <VerticalFrontPorch>1100</VerticalFrontPorch>
+ <VerticalBackPorch>1100</VerticalBackPorch>
+ <VerticalSyncPulse>200</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2376</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2376</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>7</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>72</DSIDSCSliceHeight>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+ <DSILP11AtInit>True</DSILP11AtInit>
+</Group>
+<DSIInitSequence>
+ 05 11
+ FF 0B
+
+ 39 F0 5A 5A
+ 15 B0 09
+ 15 B5 08
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 15 B0 22
+ 15 F5 65
+ 15 B0 38
+ 15 F5 0F
+ 15 B0 56
+ 15 F5 C4
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 15 B0 03
+ 39 CB FF FF
+ 15 F7 0F
+ 39 F0 A5 A5
+ FF 0B
+
+ 39 F0 5A 5A
+ 07 01
+ 15 BA 02
+ 39 9E 11 00 00 89 30 80 09 48 04 38 00 48 02 1C 02 1C 02 00 02 52 00 20 06 3B 00 07 00 0F 01 B1 01 6A 18 00 10 F0 03 0C 20 00 06 0B 0B 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 01 02 01 00 09 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A B6 2A F4 2A F4 4B 34 63 74
+ 15 F7 0F
+ 39 F0 A5 A5
+
+ 15 35 00
+ 39 2A 00 00 04 37
+ 39 2B 00 00 09 47
+ 39 F0 5A 5A
+ 15 B0 05
+ 39 B9 07 02 40 23
+ 39 F0 A5 A5
+ 39 F0 5A 5A
+ 15 B0 0A
+ 15 FB 00
+ 39 F0 A5 A5
+ 39 F0 5A 5A
+ 15 B0 54
+ 15 B5 48
+ 39 F0 A5 A5
+ 39 F0 5A 5A
+ 15 99 40
+ 39 F0 A5 A5
+ 39 F0 5A 5A
+ 15 B0 5C
+ 15 B1 03
+ 39 F0 A5 A5
+ FF 6F
+
+ 39 F0 5A 5A
+ 15 B0 0B
+ 15 B1 01
+ 15 B0 02
+ 15 B5 13
+ 15 53 28
+ 39 F0 A5 A5
+ 39 F0 5A 5A
+ 15 60 02
+ 15 F7 0F
+ 39 F0 A5 A5
+ 05 29
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28 00
+ FF 0A
+ 05 10 00
+ FF 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <DisplayResetInfo>0 100 10000 10000 0</DisplayResetInfo>
+</Group>
+

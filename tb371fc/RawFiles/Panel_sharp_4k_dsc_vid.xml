@@ -1,0 +1,86 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<PanelName>Lenovo Spinel NT36532 BOE DSI 3K Video Mode Panel</PanelName>
+<PanelDescription>Lenovo Spinel NT36532 BOE DSI 3K Video Mode Panel(1840 2944 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>2944</HorizontalActive>
+ <HorizontalFrontPorch>201</HorizontalFrontPorch>
+ <HorizontalBackPorch>60</HorizontalBackPorch>
+ <HorizontalSyncPulse>12</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1840</VerticalActive>
+ <VerticalFrontPorch>26</VerticalFrontPorch>
+ <VerticalBackPorch>182</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>736</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIDSCPicWidthSlice>2</DSIDSCPicWidthSlice>
+ <DSIDSCSlicePerPacket>1</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSIControllerMapping>
+  00 01
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ FD 03
+ 39 FF 20
+ 39 FB 01
+ 39 30 00
+ 39 FF 10
+ 39 FB 01
+ 39 3B 03 B8 1A 0A 0A 00
+ 39 FF 27
+ 39 FB 01
+ 39 D0 31
+ 39 D1 84
+ 39 D2 38
+ 39 FF 10
+ 39 FB 01
+ 39 35 00
+ 05 11
+ FF 78
+ 05 29
+ FF 64
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ 05 10
+ FF 3C
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>2</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <BacklightBitWidth>11</BacklightBitWidth>
+ <BacklightDefault>100</BacklightDefault>
+ <DisplayResetInfo>0 5000 10000 10000 0</DisplayResetInfo>
+</Group>

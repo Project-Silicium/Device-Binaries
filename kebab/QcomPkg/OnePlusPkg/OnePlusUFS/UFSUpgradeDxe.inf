@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION    = 0x0001001B
+  BASE_NAME      = UFSUpgradeDxe
+  FILE_GUID      = AD000A67-2C04-43A2-B058-0F19E8C9C851
+  MODULE_TYPE    = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|UFSUpgradeDxe.depex|*
+  PE32|UFSUpgradeDxe.efi|*
+
+[Depex]
+  TRUE
