@@ -1,10 +1,10 @@
 [Defines]
-  INF_VERSION    = 0x0001001B
-  BASE_NAME      = SmemDxe
-  FILE_GUID      = F541D663-4A48-40AA-AABF-FF158CCAE34C
-  MODULE_TYPE    = DXE_DRIVER
-  VERSION_STRING = 1.0
-  ENTRY_POINT    = EfiEntry
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = SmemDxe
+  FILE_GUID                      = F541D663-4A48-40AA-AABF-FF158CCAE34C
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
 
 [Binaries.AARCH64]
   DXE_DEPEX|SmemDxe.depex|*
@@ -12,4 +12,3 @@
 
 [Depex]
   TRUE
-
