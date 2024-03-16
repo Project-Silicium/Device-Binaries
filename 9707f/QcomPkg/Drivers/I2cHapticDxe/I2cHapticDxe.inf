@@ -1,14 +1,14 @@
 [Defines]
-  INF_VERSION    = 0x0001001B
-  BASE_NAME      = I2cHapticDxe
-  FILE_GUID      = EE01101E-503D-4333-B2E8-E836E2927A6E
-  MODULE_TYPE    = DXE_DRIVER
-  VERSION_STRING = 1.0
-  ENTRY_POINT    = EfiEntry
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = I2cHapticDxe
+  FILE_GUID                      = EE01101E-503D-4333-B2E8-E836E2927A6E
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
 
 [Binaries.AARCH64]
-   DXE_DEPEX|I2cHapticDxe.depex|*
-   PE32|I2cHapticDxe.efi|*
+  DXE_DEPEX|I2cHapticDxe.depex|*
+  PE32|I2cHapticDxe.efi|*
 
 [Depex]
   TRUE
