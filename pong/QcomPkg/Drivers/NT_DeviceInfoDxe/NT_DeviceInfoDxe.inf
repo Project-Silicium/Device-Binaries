@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NT_DeviceInfoDxeDriver
+  FILE_GUID                      = 3270B01D-538A-4D83-84B1-C944D24073AA
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|NT_DeviceInfoDxe.depex|*
+  PE32|NT_DeviceInfoDxe.efi|*
+
+[Depex]
+  TRUE
