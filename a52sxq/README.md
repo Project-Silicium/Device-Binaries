@@ -18,7 +18,8 @@
 - Patch Nr. 1: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Nr. 2: UFS Sleep Mode Call has been Replaced with UFS Wake Up Call.
 - Patch Nr. 3: The UFS Sleep Mode Function has been Removed.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Kancy Joe](https://github.com/sunflower2333)
+- Patch Nr. 4: Fixed an issue where UFS would not work due to Exit BootServices
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
 
 ### UsbConfigDxe:
 
