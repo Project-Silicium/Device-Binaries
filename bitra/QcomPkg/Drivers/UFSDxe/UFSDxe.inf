@@ -14,7 +14,7 @@
 
 [Binaries.AARCH64]
    DXE_DEPEX|UFSDxe.depex|*
-   PE32|UFSDxe.efi|*
+   PE32|UFSDxe.patched.efi|*
 
 [Depex]
   TRUE

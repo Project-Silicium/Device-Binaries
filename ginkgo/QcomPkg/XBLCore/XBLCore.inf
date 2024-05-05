@@ -6,5 +6,5 @@
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]
-   RAW|XBLCore.raw|*
-   TE|XBLCore.te|*
+  RAW|XBLCore.raw|*
+  TE|XBLCore.te|*
