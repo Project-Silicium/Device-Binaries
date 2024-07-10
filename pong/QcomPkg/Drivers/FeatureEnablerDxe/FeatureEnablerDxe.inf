@@ -6,4 +6,4 @@
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]
-  PE32|FeatureEnablerDxe.patched.efi|*
+  PE32|FeatureEnablerDxe.efi|*
