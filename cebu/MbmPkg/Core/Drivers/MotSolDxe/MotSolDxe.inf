@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = MotSolDxe
+  FILE_GUID                      = F1E6886B-7380-4412-9674-EC17396B9FB9
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|MotSolDxe.depex|*
+  PE32|MotSolDxe.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = AbDxe
+  FILE_GUID                      = 77A0FD3E-BDC1-4BAC-9689-B1A00B57E05B
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|AbDxe.depex|*
+  PE32|AbDxe.efi|*
+
+[Depex]
+  TRUE
