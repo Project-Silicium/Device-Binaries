@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = ExLEDDxe
+  FILE_GUID                      = 9ECB646C-E133-432E-8E11-C2FBB01D6D13
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|ExLEDDxe.depex|*
+  PE32|ExLEDDxe.efi|*
+
+[Depex]
+  TRUE
