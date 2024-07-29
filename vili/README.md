@@ -4,7 +4,7 @@
 
 - Reason: Helps navigating Menus (e.g. UEFI Menu).
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### ClockDxe:
 
@@ -12,16 +12,26 @@
 - Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### FeatureEnablerDxe & MinidumpTADxe:
+### CPRDxe:
+
+- Reason: So it dosen't Kill Framebuffer on Init.
+- Patch: Removed Clock Rail Init.
+- Patch Creator: [Robotix](https://github.com/Robotix22)
+
+### DisplayDxe: (Incomplete)
+
+> Entry Point works Fine, SetMode Event is still faulty.
+
+- Reason: To have more Control over the Display.
+- Patch Nr. 1: Removed MDP0 IOMMU Domain.
+- Patch Nr. 2: Panel GPIO Init got Removed.
+- Patch Nr. 3: Panel Reset Function got Removed.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix](https://github.com/Robotix22)
+
+### FeatureEnablerDxe:
 
 - Reason: The TZ applet it already brought up.
 - Patch: Both DXEs were patched to not start again the TZ applet.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
-
-### QcomWDogDxe:
-
-- Reason: ReturnStatusCodeHandler implementation is different.
-- Patch: Dependency check routine was patched to not fail.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### UFSDxe:
@@ -33,5 +43,6 @@
 ### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux.
-- Patch: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
+- Patch Nr. 1: USB0/1 IOMMU Domains got Removed.
+- Patch Nr. 2: Removed USB Deinit from Exit Boot Services.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
