@@ -8,9 +8,10 @@
 
 ### ClockDxe:
 
-- Reason: MDSS reinitializes and we lose framebuffer.
-- Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+- Reason: MDSS reinitializes and we lose framebuffer, Makes Windows Boot work on Debug Builds.
+- Patch Nr. 1: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+- Patch Nr. 2: LPM Call Backs Function has been Removed.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
 
 ### CPRDxe:
 
@@ -26,6 +27,7 @@
 - Patch Nr. 1: Removed MDP0 IOMMU Domain.
 - Patch Nr. 2: Panel GPIO Init got Removed.
 - Patch Nr. 3: Panel Reset Function got Removed.
+- Patch Nr. 4: Exit Boot Services Function does not Deinit Display anymore.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix](https://github.com/Robotix22)
 
 ### FeatureEnablerDxe:
