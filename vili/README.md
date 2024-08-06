@@ -48,3 +48,9 @@
 - Patch Nr. 1: USB0/1 IOMMU Domains got Removed.
 - Patch Nr. 2: Removed USB Deinit from Exit Boot Services.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+### UsbMsdDxe:
+
+- Reason: To Make Device Non-Removeable in Mass Storage.
+- Patch: Changed Removable State to Non-Removable.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
