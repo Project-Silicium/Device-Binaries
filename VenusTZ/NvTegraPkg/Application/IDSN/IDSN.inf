@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = IDSN
+  FILE_GUID                      = C73C83A9-459D-40AC-BF35-C62D6710E702
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|IDSN.efi|*

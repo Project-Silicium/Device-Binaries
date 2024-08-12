@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvAcpiFpdt
+  FILE_GUID                      = 57E9F578-2AF2-11E1-9804-2C4138AD84E1
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvAcpiFpdt.depex|*
+  PE32|NvAcpiFpdt.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvACPIView
+  FILE_GUID                      = 3E9BEB59-F37B-4533-BA0D-0AB89A39A5E6
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|NvACPIView.efi|*

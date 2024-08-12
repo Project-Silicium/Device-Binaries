@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OemDxe
+  FILE_GUID                      = 6DB4E07D-426D-4B8D-A9B6-2420B171238D
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|OemDxe.depex|*
+  PE32|OemDxe.efi|*
+
+[Depex]
+  TRUE

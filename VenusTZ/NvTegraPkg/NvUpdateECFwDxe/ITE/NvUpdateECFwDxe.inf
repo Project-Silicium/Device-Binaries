@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvUpdateECFwDxe
+  FILE_GUID                      = 014D9A06-7DDE-476A-9AA5-4901D89751E5
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvUpdateECFwDxe.depex|*
+  PE32|NvUpdateECFwDxe.efi|*
+
+[Depex]
+  TRUE

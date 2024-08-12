@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = DeviceInfo
+  FILE_GUID                      = 4F2D66B7-98E1-45BA-9FF2-CF73F870186B
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|DeviceInfo.efi|*

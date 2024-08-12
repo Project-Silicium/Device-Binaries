@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvTegraDispDxe
+  FILE_GUID                      = 963B45BE-9D5C-42BA-8918-4A0BCB709C38
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvTegraDispDxe.depex|*
+  PE32|NvTegraDispDxe.efi|*
+
+[Depex]
+  TRUE

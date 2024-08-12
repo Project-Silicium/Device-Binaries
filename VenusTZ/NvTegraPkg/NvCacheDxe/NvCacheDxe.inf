@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvCacheDxe
+  FILE_GUID                      = 56223165-0EED-4F0C-9FCD-A8F19DE2FF60
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvCacheDxe.depex|*
+  PE32|NvCacheDxe.efi|*
+
+[Depex]
+  TRUE

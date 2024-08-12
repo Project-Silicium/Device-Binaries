@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = AtaBusDxe
+  FILE_GUID                      = 19DF145A-B1D4-453F-8507-38816676D7F6
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  PE32|AtaBusDxe.efi|*

@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = SemihostFs
+  FILE_GUID                      = C5B9C74A-6D72-4719-99AB-C59F199091EB
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  PE32|SemihostFs.efi|*

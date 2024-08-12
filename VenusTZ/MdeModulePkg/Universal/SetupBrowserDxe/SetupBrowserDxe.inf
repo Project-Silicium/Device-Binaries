@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = SetupBrowser
+  FILE_GUID                      = EBF342FE-B1D3-4EF8-957C-8048606FF671
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|SetupBrowserDxe.depex|*
+  PE32|SetupBrowserDxe.efi|*
+
+[Depex]
+  TRUE

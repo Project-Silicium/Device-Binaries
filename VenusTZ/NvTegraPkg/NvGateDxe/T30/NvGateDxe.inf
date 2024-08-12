@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvGateDxe
+  FILE_GUID                      = 4FC06DE0-FA52-4C6E-7AED-88602BC8344B
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvGateDxe.depex|*
+  PE32|NvGateDxe.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = Gpio
+  FILE_GUID                      = DAF83EBE-2CF1-470D-9A38-71DD1EA51019
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|Gpio.efi|*

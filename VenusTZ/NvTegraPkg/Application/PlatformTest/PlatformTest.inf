@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = PlatformTest
+  FILE_GUID                      = 4E1C98FC-4B65-4D5A-B341-F05BEA242A28
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|PlatformTest.efi|*

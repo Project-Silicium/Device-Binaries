@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = MMMCFwUpdateDxe
+  FILE_GUID                      = 22D1AB90-35B0-4623-8D99-511AA6629B80
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvEMMCFwUpdateDxe.depex|*
+  PE32|NvEMMCFwUpdateDxe.efi|*
+
+[Depex]
+  TRUE

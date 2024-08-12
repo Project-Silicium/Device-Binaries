@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = RngTest
+  FILE_GUID                      = 52F730CC-8C0D-4CAB-B4B9-314076DFFF20
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|RngTest.efi|*

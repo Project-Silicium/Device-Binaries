@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvBdsMenuDxe
+  FILE_GUID                      = 4F153D32-FBC6-413D-A6BE-38ADDEFED690
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvBdsMenuDxe.depex|*
+  PE32|NvBdsMenuDxe.efi|*
+
+[Depex]
+  TRUE

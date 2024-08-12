@@ -1,0 +1,10 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = TerminalDxe
+  FILE_GUID                      = 9E863906-A40F-4875-977F-5B93FF237FC6
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  PE32|TerminalDxe.efi|*

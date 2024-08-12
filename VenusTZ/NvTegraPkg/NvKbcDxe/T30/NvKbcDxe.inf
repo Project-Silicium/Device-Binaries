@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvKbcDxe
+  FILE_GUID                      = 2061955D-D448-44B5-A9B1-0E4639D9BFBB
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvKbcDxe.depex|*
+  PE32|NvKbcDxe.efi|*
+
+[Depex]
+  TRUE

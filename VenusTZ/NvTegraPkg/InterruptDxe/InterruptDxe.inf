@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvTegraInterruptDxe
+  FILE_GUID                      = 65A27191-EAD7-4799-AEE8-E166A8461F4F
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|InterruptDxe.depex|*
+  PE32|InterruptDxe.efi|*
+
+[Depex]
+  TRUE

@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvOAKeyDxe
+  FILE_GUID                      = 0C9C6CF9-4A79-4B41-A08B-93D11997D986
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvOAKey.depex|*
+  PE32|NvOAKey.efi|*
+
+[Depex]
+  TRUE

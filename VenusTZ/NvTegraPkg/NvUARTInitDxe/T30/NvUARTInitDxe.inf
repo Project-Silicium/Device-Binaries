@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvUARTInitDxe
+  FILE_GUID                      = E233FB33-1340-4C53-BC9B-7A5C4141D88B
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvUARTInitDxe.depex|*
+  PE32|NvUARTInitDxe.efi|*
+
+[Depex]
+  TRUE

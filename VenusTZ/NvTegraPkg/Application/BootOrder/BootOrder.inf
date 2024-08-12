@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = BootOrder
+  FILE_GUID                      = E36A044C-0C42-4CB6-AE74-16A65094F62D
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+
+[Binaries.ARM]
+  PE32|BootOrder.efi|*

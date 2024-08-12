@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = NvSDMMCDxe
+  FILE_GUID                      = 100C2CFA-B586-4198-9B4C-1683D195B1DA
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.ARM]
+  DXE_DEPEX|NvSDMMCDxe.depex|*
+  PE32|NvSDMMCDxe.efi|*
+
+[Depex]
+  TRUE
