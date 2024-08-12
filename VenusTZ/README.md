@@ -49,7 +49,7 @@ It Tests the Emmc Performance and someother Things.
 > Flashing Wrong UEFI Firmware can break your Device! <br>
 > Only Recoverable thru APX Boot.
 
-Can Dump or Write UEFI Firmware to the SPI Chip.
+Can Dump UEFI Firmware or Write UEFI Firmware to the SPI Chip.
 
 ## Gpio:
 
@@ -131,7 +131,7 @@ It Tests the RNG Driver.
 
 > [!NOTE]
 > This App can't Change Secure Boot Settings when not Executed wihin the BDS Phase. <br>
-> Deub Policy might Break Windows Boot, So be carefull.
+> Debug Policy might Break Windows Boot, So be carefull.
 
 This is a Scraped UEFI Menu wich has Settings for Secure Boot, RPMB, etc.
 
