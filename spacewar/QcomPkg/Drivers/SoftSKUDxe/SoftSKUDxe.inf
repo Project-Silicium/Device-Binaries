@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = SoftSKUDxe
+  FILE_GUID                      = 24EC41CC-E513-4F8D-B993-431A7EFD3E3A
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.AARCH64]
+  PE32|SoftSKUDxe.efi|*
