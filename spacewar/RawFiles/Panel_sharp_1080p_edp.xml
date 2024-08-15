@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>LQ140M1JW48</PanelName>
+<PanelDescription>Sharp 1080p eDP Video Mode Panel 120Hz (1920x1080 24bpp)</PanelDescription>
+<Group id="Display Interface">
+ <InterfaceType>18</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>

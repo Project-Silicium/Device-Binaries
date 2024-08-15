@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>RM692E5 Visionox</PanelName>
+<PanelDescription>RM692E5 Visionox Single DSI DSC Command Mode Amoled Panel (1080x2400 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>26</HorizontalFrontPorch>
+ <HorizontalBackPorch>36</HorizontalBackPorch>
+ <HorizontalSyncPulse>39</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2400</VerticalActive>
+ <VerticalFrontPorch>16</VerticalFrontPorch>
+ <VerticalBackPorch>16</VerticalBackPorch>
+ <VerticalSyncPulse>21</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2400</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2400</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>8</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+   <DSIDisableEoTAfterHSXfer>True</DSIDisableEoTAfterHSXfer>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSIEnterULPSPowerDown>True</DSIEnterULPSPowerDown>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ 15 FE 40
+ 15 BD 00
+ 15 FE D2
+ 15 50 11
+ 15 51 AB
+ 15 52 30
+ 15 53 09
+ 15 54 60
+ 15 55 04
+ 15 56 38
+ 15 58 00
+ 15 59 14
+ 15 5A 02
+ 15 5B 1C
+ 15 5C 02
+ 15 5D 00
+ 15 5E 20
+ 15 5F 01
+ 15 60 e8
+ 15 61 00
+ 15 62 07
+ 15 63 0C
+ 15 64 05
+ 15 65 0E
+ 15 66 05
+ 15 67 16
+ 15 68 18
+ 15 69 00
+ 15 6A 10
+ 15 6B F0
+ 15 6C 07
+ 15 6D 10
+ 15 6E 20
+ 15 6F 00
+ 15 70 06
+ 15 71 0F
+ 15 72 0F
+ 15 73 33
+ 15 74 0E
+ 15 75 1C
+ 15 76 2A
+ 15 77 38
+ 15 78 46
+ 15 79 54
+ 15 7A 62
+ 15 7B 69
+ 15 7C 70
+ 15 7D 77
+ 15 7E 79
+ 15 7F 7B
+ 15 80 7D
+ 15 81 7E
+ 15 82 01
+ 15 83 02
+ 15 84 22
+ 15 85 00
+ 15 86 2A
+ 15 87 40
+ 15 88 2A
+ 15 89 BE
+ 15 8A 3A
+ 15 8B FC
+ 15 8C 3A
+ 15 8D FA
+ 15 8E 3A
+ 15 8F F8
+ 15 90 3B
+ 15 91 38
+ 15 92 3B
+ 15 93 78
+ 15 94 3B
+ 15 95 B6
+ 15 96 4B
+ 15 97 F6
+ 15 98 4C
+ 15 99 34
+ 15 9A 4C
+ 15 9B 74
+ 15 9C 5C
+ 15 9D 74
+ 15 9E 8C
+ 15 9F F4
+ 15 A2 02
+ 15 A3 1C
+ 15 A4 00
+ 15 A5 00
+ 15 A6 00
+ 15 A7 00
+ 15 A9 00
+ 15 AA 00
+ 15 A0 80
+ 15 FE A1
+ 15 CD 6B
+ 15 CE BB
+ 15 FE D1
+ 15 B4 01
+ 15 FE 38
+ 15 17 0F
+ 15 18 0F
+ 15 FE 00
+ 15 FA 01
+ 15 C2 08
+ 15 35 00
+ 15 51 0D BB
+ 05 11
+ ff 32
+ 05 29
+ ff 01
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 01
+ 05 10
+ ff 01
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 2000 2000 32000 0</DisplayResetInfo>
+</Group>
