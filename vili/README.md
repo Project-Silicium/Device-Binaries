@@ -21,13 +21,12 @@
 
 ### DisplayDxe: (Incomplete)
 
-> Entry Point works Fine, SetMode Event is still faulty.
+> SetMode Event Crashes in `UEFI Stack` for somereason.
 
 - Reason: To have more Control over the Display.
 - Patch Nr. 1: Removed MDP0 IOMMU Domain.
-- Patch Nr. 2: Panel GPIO Init got Removed.
-- Patch Nr. 3: Panel Reset Function got Removed.
-- Patch Nr. 4: Exit Boot Services Function does not Deinit Display anymore.
+- Patch Nr. 2: Panel Reset Function has been Removed.
+- Patch Nr. 3: Removed DSI Setup Function in SetMode Event.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix](https://github.com/Robotix22)
 
 ### FeatureEnablerDxe:
