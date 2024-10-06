@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OGaugeAuthDxe
+  FILE_GUID                      = 3AEC2036-C55A-569F-9BD6-B144A55DF39F
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.AARCH64]
+  PE32|OGaugeAuth.efi|*

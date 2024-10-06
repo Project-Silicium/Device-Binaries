@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>SAMSUNG AMOLED</PanelName>
+<PanelDescription>Samsung Single DSI Cmd Mode AMOLED Panel (1080x2400 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>8</HorizontalFrontPorch>
+ <HorizontalBackPorch>8</HorizontalBackPorch>
+ <HorizontalSyncPulse>24</HorizontalSyncPulse>
+ <VerticalActive>2400</VerticalActive>
+ <VerticalFrontPorch>8</VerticalFrontPorch>
+ <VerticalBackPorch>6</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>2</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIEscapeClockFrequency>9600000</DSIEscapeClockFrequency>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSIInitMasterTime units='integer'>32</DSIInitMasterTime>
+ <DSILP11AtInit units='Bool'>0</DSILP11AtInit>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2400</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2400</DSITEvSyncInitVal>
+ <DSIBitClockFrequency>1101000000</DSIBitClockFrequency>
+ <DSITimingHSRequestOverride>True</DSITimingHSRequestOverride>
+ <DSITimingHSRequestValue>7</DSITimingHSRequestValue>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>30</DSIDSCSliceHeight>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+ <DSIInitSequence>
+ 39 9E 11 00 00 89 30 80 09 60 04 38 00 1E 02 1C 02 1C 02 00 02 0E 00 20 02 E3 00 07 00 0C 03 50 03 64 18 00 10 F0 03 0C 20 00 06 0B 0B 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 01 02 01 00 09 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A F6 2B 34 2B 74 3B 74 6B F4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 15 C2 14
+ 15 9D 01
+
+ 05 11
+ FF 78
+
+ 15 35 00
+
+ 39 2A 00 00 04 37
+ 39 2B 00 00 09 5F
+
+ 39 F0 5A 5A
+ 39 B0 27 F2
+ 15 F2 00
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 60 00 00
+ 15 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 FC 5A 5A
+ 39 B0 66 C5
+ 39 C5 00 8C
+ 39 B0 2A C5
+ 39 C5 0D 10 80 45
+ 39 B0 3E C5
+ 39 C5 4D A6
+ 39 F0 A5 A5
+ 39 FC A5 A5
+
+ 15 53 20
+ 05 29
+ </DSIInitSequence>
+ <DSITermSequence>
+ 05 28
+ FF 0A
+ 05 10
+ FF 78
+ </DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault units='Percentage'>39</BacklightDefault>
+ <BacklightPmicControlType>0</BacklightPmicControlType>
+ <DisplayResetInfo>0 10000 5000 5000 0</DisplayResetInfo>
+</Group>
