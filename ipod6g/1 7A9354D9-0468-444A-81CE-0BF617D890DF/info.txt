@@ -1,0 +1,19 @@
+Type: Volume
+Subtype: FFSv2
+Fixed: No
+Base: 21EDCh
+Header address: FFFE0900h
+Data address: FFFE0948h
+Offset: 21EDCh
+ZeroVector:
+EA D0 FF 00 F0 00 00 00
+00 00 00 00 00 00 27 2D
+Signature: _FVH
+FileSystem GUID: 7A9354D9-0468-444A-81CE-0BF617D890DF
+Full size: 1F700h (128768)
+Header size: 48h (72)
+Body size: 1F6B8h (128696)
+Revision: 1
+Attributes: FFFF8EFFh
+Erase polarity: 1
+Checksum: 52BCh, valid

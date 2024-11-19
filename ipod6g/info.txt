@@ -1,0 +1,7 @@
+Type: Image
+Subtype: UEFI
+Fixed: Yes
+Base: 0h
+Address: FFFBEA24h
+Offset: 0h
+Full size: 119E10h (1154576)

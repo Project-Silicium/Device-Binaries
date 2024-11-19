@@ -1,0 +1,24 @@
+Type: File
+Subtype: SEC core
+Text: Volume Top File
+Fixed: No
+Base: 412CCh
+Header address: FFFFFCF0h
+Data address: FFFFFD08h
+Offset: 1F3F0h
+File GUID: 1BA0062E-C779-4582-8566-336AE8F78F09
+Type: 03h
+Attributes: 00h
+Full size: 310h (784)
+Header size: 18h (24)
+Body size: 2F8h (760)
+Tail size: 0h (0)
+State: F8h
+Header checksum: F5h, valid
+Data checksum: 5Ah, valid
+AP entry vector: 8F FF FF EA F8 FF FF EA
+Reset vector: 00 00 00 00 00 00 00 00
+PEI core entry point: EAFFFFF2h
+AP startup segment: 00000000h
+BootFV base address: 22000100h
+

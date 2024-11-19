@@ -1,0 +1,7 @@
+Type: Padding
+Subtype: Non-empty
+Fixed: Yes
+Base: 0h
+Address: FFFBEA24h
+Offset: 0h
+Full size: 21EDCh (138972)
