@@ -1,0 +1,17 @@
+Type: File
+Subtype: PEI core
+Fixed: No
+Base: 30004h
+Header address: FFFEEA28h
+Data address: FFFEEA40h
+Offset: E128h
+File GUID: EB956406-45F2-4B96-8442-3565DAA862F9
+Type: 04h
+Attributes: 40h
+Full size: 275Ch (10076)
+Header size: 18h (24)
+Body size: 2744h (10052)
+Tail size: 0h (0)
+State: F8h
+Header checksum: FAh, valid
+Data checksum: 9Ch, valid

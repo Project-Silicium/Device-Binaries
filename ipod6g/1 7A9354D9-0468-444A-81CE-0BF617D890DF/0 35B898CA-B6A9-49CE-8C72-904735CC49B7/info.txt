@@ -1,0 +1,17 @@
+Type: File
+Subtype: DXE core
+Fixed: No
+Base: 21F24h
+Header address: FFFE0948h
+Data address: FFFE0960h
+Offset: 48h
+File GUID: 35B898CA-B6A9-49CE-8C72-904735CC49B7
+Type: 05h
+Attributes: 40h
+Full size: 5C1Ah (23578)
+Header size: 18h (24)
+Body size: 5C02h (23554)
+Tail size: 0h (0)
+State: F8h
+Header checksum: AAh, valid
+Data checksum: C6h, valid

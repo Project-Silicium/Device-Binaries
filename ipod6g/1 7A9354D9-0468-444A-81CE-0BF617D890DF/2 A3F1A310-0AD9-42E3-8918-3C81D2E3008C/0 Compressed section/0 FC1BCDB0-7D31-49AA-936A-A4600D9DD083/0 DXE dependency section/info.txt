@@ -1,0 +1,13 @@
+Type: Section
+Subtype: DXE dependency
+Fixed: No
+Offset: 1Ch
+Type: 13h
+Full size: 28h (40)
+Header size: 4h (4)
+Body size: 24h (36)
+Parsed expression:
+PUSH 216690C8-6FCF-4DAE-B750-128E4DE659DA
+PUSH F364BEF0-C87F-4CC0-A38D-1FDEEF1F3168
+AND
+END

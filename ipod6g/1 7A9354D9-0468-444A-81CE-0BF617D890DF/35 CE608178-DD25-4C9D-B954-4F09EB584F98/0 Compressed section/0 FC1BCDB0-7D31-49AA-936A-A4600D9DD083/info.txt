@@ -1,0 +1,12 @@
+Type: Section
+Subtype: GUID defined
+Fixed: No
+Offset: 9h
+Section GUID: FC1BCDB0-7D31-49AA-936A-A4600D9DD083
+Type: 02h
+Full size: 7C8h (1992)
+Header size: 1Ch (28)
+Body size: 7ACh (1964)
+Attributes: 0002h
+Checksum type: CRC32
+Checksum: 4BD60661h, valid

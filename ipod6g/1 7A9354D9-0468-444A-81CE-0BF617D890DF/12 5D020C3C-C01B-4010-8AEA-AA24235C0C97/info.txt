@@ -1,0 +1,17 @@
+Type: File
+Subtype: DXE driver
+Fixed: No
+Base: 2E48Ch
+Header address: FFFECEB0h
+Data address: FFFECEC8h
+Offset: C5B0h
+File GUID: 5D020C3C-C01B-4010-8AEA-AA24235C0C97
+Type: 07h
+Attributes: 40h
+Full size: 63Bh (1595)
+Header size: 18h (24)
+Body size: 623h (1571)
+Tail size: 0h (0)
+State: F8h
+Header checksum: 42h, valid
+Data checksum: 6Ah, valid

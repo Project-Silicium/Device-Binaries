@@ -1,0 +1,14 @@
+Type: Section
+Subtype: Compressed
+Fixed: No
+Base: 33E44h
+Header address: FFFF2868h
+Data address: FFFF2871h
+Offset: 18h
+Type: 01h
+Full size: 4C5h (1221)
+Header size: 9h (9)
+Body size: 4BCh (1212)
+Compression type: 01h
+Decompressed size: 7A0h (1952)
+Compression algorithm: Tiano
