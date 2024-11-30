@@ -8,7 +8,7 @@
 
 [Binaries.AARCH64]
   DXE_DEPEX|CPRDxe.depex|*
-  PE32|CPRDxe.patched.efi|*
+  PE32|CPRDxe.efi|*
 
 [Depex]
   TRUE

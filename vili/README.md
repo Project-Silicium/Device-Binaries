@@ -13,22 +13,6 @@
 - Patch Nr. 2: LPM Call Backs Function has been Removed.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
 
-### CPRDxe:
-
-- Reason: So it dosen't Kill Framebuffer on Init.
-- Patch: Removed Clock Rail Init.
-- Patch Creator: [Robotix](https://github.com/Robotix22)
-
-### DisplayDxe: (Incomplete)
-
-> SetMode Event Crashes in `UEFI Stack` for somereason.
-
-- Reason: To have more Control over the Display.
-- Patch Nr. 1: Removed MDP0 IOMMU Domain.
-- Patch Nr. 2: Panel Reset Function has been Removed.
-- Patch Nr. 3: Removed DSI Setup Function in SetMode Event.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix](https://github.com/Robotix22)
-
 ### FeatureEnablerDxe:
 
 - Reason: The TZ applet it already brought up.
