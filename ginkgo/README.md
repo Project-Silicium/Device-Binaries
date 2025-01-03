@@ -6,11 +6,12 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe (Temporary Patch):
+### ClockDxe:
 
-- Reason: A Npa Node gets Registert wich kills Display.
-- Patch: That Node Register has been removed to avoid killing Display.
-- Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
+- Reason: To keep Display Alive during Boot & Making Windows Boot on Debug Builds.
+- Patch Nr. 1: a NPA Function has been Removed.
+- Patch Nr. 2: LPM Call Backs Function has been Removed.
+- Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22) & [N1kroks](https://github.com/N1kroks)
 
 ### HALIOMMU:
 
