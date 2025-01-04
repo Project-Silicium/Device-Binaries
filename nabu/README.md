@@ -18,6 +18,12 @@
 - Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
+### UsbConfigDxe:
+
+- Reason: To Make USB Usable in the OS.
+- Patch: Removed USB Deinit from Exit Boot Serives.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
 ### UsbMsdDxe:
 
 - Reason: To Make Device Non-Removeable in Mass Storage.
