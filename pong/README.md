@@ -22,7 +22,7 @@
 
 - Reason: To clean up Mass Storage Mode (MSM) output by removing unnecessary spamming
 - Patch: Replaced the ```BL``` instruction calling ```EFI_PmicUsbGetChargerPresence``` with a NOP to skip the function entirely.
-- Patch Creator: [index986](https://github.com/index986)
+- Patch Creator: [Index986](https://github.com/index986)
 
 ### UFSDxe:
 
