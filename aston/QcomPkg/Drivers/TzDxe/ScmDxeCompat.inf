@@ -1,9 +1,9 @@
 [Defines]
   INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = ScmDxeLA_Kailua
-  FILE_GUID                      = 16E48F1F-7944-4BAA-BCA5-2D0CB788A904
+  BASE_NAME                      = ScmDxeCompat
+  FILE_GUID                      = D8F91DDC-87C8-42A2-963E-8DD24A9F1FB5
   MODULE_TYPE                    = UEFI_DRIVER
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]
-  PE32|ScmDxeLA_Kailua.efi|*
+  PE32|ScmDxeCompat.efi|*
