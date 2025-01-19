@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = BbryCryptoDxe
+  FILE_GUID                      = D422491C-B542-48C3-9BCA-3C777BD53C7D
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|BbryCryptoDxe.depex|*
+  PE32|BbryCryptoDxe.efi|*
+
+[Depex]
+  TRUE
