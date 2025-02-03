@@ -1,5 +1,6 @@
 <?xml version=\"1.0\" encoding=\"utf-8\"?>
 <PanelDescription>K82 36 02 0b Dual DSI CPHY Vid Mode LCD Panel (1600x2560 24bpp)</PanelDescription>
+<PanelId>0x26</PanelId>
 <Group id=\"Active Timing\">
  <HorizontalActive>1600</HorizontalActive>
  <HorizontalFrontPorch>44</HorizontalFrontPorch>
