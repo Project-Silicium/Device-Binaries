@@ -1,15 +1,16 @@
-### What Changed
+### Changes
 
-<!-- Describe what you changed. (Write below this Commend) -->
+<!-- Describe what you Changed. (Write below this Comment) -->
 
 ### Reason
 
-<!-- The Reason why you did these Changes. (Write below this Commend) -->
+<!-- Explain why you made these Changes. (Write below this Comment) -->
 
 ### Checklist
 
-<!-- Place a 'x' inside the '[}' to Check the Box. -->
+<!-- Replace the Space with an 'x' inside the '[ ]' to Check the Box. -->
 
-* [ ] Is what you changed Tested?
-* [ ] Are the Patched Files Compiled?
-* [ ] Did you Clean Up the Files?
+* [ ] Have the Changes been Tested?
+* [ ] Were the Patched Files taken from a different Device?
+* [ ] Were the Patched Files Compiled by someone else other than the Manufacturer?
+* [ ] Have the Files been Cleaned Up?
