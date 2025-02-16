@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>hx83102e_txd_auo_al_video</PanelName>
+<PanelDescription>hx83102e txd auo al video panel</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1200</HorizontalActive>
+ <HorizontalFrontPorch>20</HorizontalFrontPorch>
+ <HorizontalBackPorch>20</HorizontalBackPorch>
+ <HorizontalSyncPulse>15</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2000</VerticalActive>
+ <VerticalFrontPorch>64</VerticalFrontPorch>
+ <VerticalBackPorch>38</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSIEscapeClockFrequency>12800000</DSIEscapeClockFrequency>
+ <DSILanes>4</DSILanes>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <PanelOrientation>2</PanelOrientation>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 B9 83 10 2E
+39 E9 CD
+39 BB 01
+39 E9 00
+39 D1 67 2C FF 05
+39 B1 10 FA AF AF 27 27 A1 1B 0C 36 36 36 36 22 21 15 00
+39 B2 00 B0 47 D0 00 2C 40 2C 13 00 00 00 15 20 57 00
+39 B4 40 40 01 01 8E 78 68 50 01 9E 01 58 00 FF 00 FF
+39 BF FC 85 80
+39 D2 27 27
+39 D3 00 00 00 00 01 04 00 08 08 13 23 22 2F 24 24 04 04 32 10 25 00 25 32 17 FB 07 FB 32 17 FD 00 10 00 00 20 30 01 55 21 2E 01 55 0F
+39 E0 00 08 14 1D 25 44 5C 62 67 61 76 77 78 82 7C 81 89 9B 9C 4E 56 63 70 00 08 14 1D 25 44 5C 62 67 61 76 77 78 82 7C 81 89 9B 9C 4E 56 63 70
+39 BD 01
+39 B1 01 9B 01 31
+39 CB 80 36 12 16 C0 28 40 84 22
+39 D3 01 00 BC 00 00 11 10 00 0A 00 01
+39 BD 02
+39 B4 4E 00 33 11 33 88
+39 BF F2 00 02
+39 BD 00
+39 C0 23 23 22 11 A2 17 00 80 00 00 08 00 63 63
+39 C6 F9
+39 C7 30
+39 C8 00 04 04 00 00 82 13 01
+39 D0 07 04 05
+39 D5 18 18 3B 3B 03 03 03 03 02 02 02 02 01 01 01 01 00 00 00 00 18 18 18 18 3A 3A 19 19 39 39 39 39 3A 3A 3A 3A 19 19 19 19 24 24 20 20
+39 D6 18 18 3B 3B 00 00 00 00 01 01 01 01 02 02 02 02 03 03 03 03 18 18 18 18 3A 3A 19 19 39 39 39 39 3B 3B 3B 3B 18 18 18 18 20 20 24 24
+39 E7 12 13 02 02 4D 00 0E 0E 00 24 29 74 22 73 01 07 00 00 00 00 17 00 68
+39 BD 01
+39 E7 02 44 01 92 0D B9 0E
+39 BD 02
+39 E7 00 02 FD 01 01 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 81 00 02 40
+39 BA 70 03 A8 85 F2 00 C0
+39 D8 BA AA AA B0 AA A0 BA AA AA B0 AA A0
+39 BD 01
+39 D8 80 00 0A 30 0F 00 80 00 0A 30 0F 00
+39 BD 02
+39 D8 BF FF FF FF FF F0 BF FF FF FF FF F0
+39 BD 03
+39 D8 AA AA AA FA AA A0 AA AA AA FA AA A0 AF FF FF FF FF F0 AF FF FF FF FF F0
+39 BD 00
+39 CC 02
+39 BD 03
+39 B2 80
+39 BD 00
+39 51 07 FF
+39 53 2C
+39 C9 00 0E 10
+39 BD 01
+39 CB 80 36 12 16 C0 28 54 84 02 34
+39 BD 00
+05 11 00
+FF 78
+05 29 00
+FF 14
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 14
+ 05 10
+ FF 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 2000 5000 60000 0</DisplayResetInfo>
+</Group>

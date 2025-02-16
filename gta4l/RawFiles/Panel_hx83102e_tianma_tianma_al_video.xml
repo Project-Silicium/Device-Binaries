@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>hx83102e_tianma_tianma_al_video</PanelName>
+<PanelDescription>hx83102e tianma tianma al video panel</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1200</HorizontalActive>
+ <HorizontalFrontPorch>40</HorizontalFrontPorch>
+ <HorizontalBackPorch>28</HorizontalBackPorch>
+ <HorizontalSyncPulse>8</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2000</VerticalActive>
+ <VerticalFrontPorch>64</VerticalFrontPorch>
+ <VerticalBackPorch>38</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSIEscapeClockFrequency>12800000</DSIEscapeClockFrequency>
+ <DSILanes>4</DSILanes>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <PanelOrientation>2</PanelOrientation>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 B9 83 10 2E
+39 D1 67 2C FF 05
+39 B1 10 FA AF AF 27 27 A1 1B 11 36 36 36 36 22 21 15 00
+39 B2 00 B0 47 D0 00 2C 40 2C 01 01 01 00 15 20 D7 00
+39 B4 70 90 01 01 90 70 68 50 01 92 01 58 00 FF 00 FF
+39 BF FC 85 80
+39 D2 27 27
+39 D3 08 08 08 08 01 04 00 08 08 13 23 12 2F 24 24 04 04 32 10 24 00 24 32 17 FB 07 FB 32 17 FD 00 10 00 00 20 30 01 55 21 2E 01 55 0F
+39 E0 00 07 10 18 20 39 52 5A 63 5F 79 7F 84 94 92 9A A3 B4 B2 57 5E 67 70 00 07 10 18 20 39 52 5A 63 5F 79 7F 84 94 92 9A A3 B4 B2 57 5E 67 70
+39 BD 00
+39 C1 00
+39 BD 01
+39 C1 00 03 08 0B 10 14 18 1C 20 24 28 2C 30 34 39 3D 41 44 48 4C 54 5C 64 6C 74 7B 83 8B 93 9C A3 AB B3 BB C3 CC D3 DB E4 EC F4 F8 FA FC FE FF 33 54 51 A1 34 A0 3A C9 C0 F0 00 00
+39 BD 02
+39 C1 00 03 08 0B 10 14 18 1C 20 24 28 2C 30 34 39 3D 41 44 48 4C 54 5C 64 6C 74 7B 83 8B 93 9C A3 AB B3 BB C3 CC D3 DB E4 EC F4 F8 FA FC FE FF 33 54 51 A1 34 A0 3A C9 C0 F0 00 00
+39 BD 03
+39 C1 00 03 08 0B 10 14 18 1C 20 24 28 2C 30 34 39 3D 41 44 48 4C 54 5C 64 6C 74 7B 83 8B 93 9C A3 AB B3 BB C3 CC D3 DB E4 EC F4 F8 FA FC FE FF 33 54 51 A1 34 A0 3A C9 C0 F0 00 00
+39 BD 01
+39 B1 01 9B 01 31
+39 CB 80 36 12 16 C0 28 54 84 22
+39 D3 01 40 3C 00 00 11 10 00 0A 00 01
+39 BD 02
+39 B4 4E 00 33 11 33 88
+39 BF F2 00 02
+39 BD 00
+39 C0 23 23 22 11 A2 1E 00 80 00 00 08 00 63 63
+39 C6 F9
+39 C7 30
+39 C8 00 04 04 00 00 82 13 01
+39 D0 07 04 05
+39 D5 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 3A 3A 3B 3B 18 18 01 01 00 00 03 03 02 02 18 18 18 18 21 21 20 20 18 18 18 18
+39 D6 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 3A 3A 18 18 3B 3B 02 02 03 03 00 00 01 01 18 18 18 18 20 20 21 21 18 18 18 18
+39 E7 12 13 02 02 51 00 0E 0E 00 28 27 75 29 75 01 07 00 00 00 00 17 00 68
+39 BD 01
+39 E7 02 28 01 92 0D D6 0E
+39 BD 02
+39 E7 00 02 FD 01 01 00 12 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 81 00 02 40
+39 BD 00
+39 C2 43 FF 10
+39 BD 00
+39 BA 70 03 A8 85 F2 00 C0 19 00
+39 D8 55 55 55 55 55 55 55 55 55 55 55 55 AA AA AE FF AA AA AA AA AE FF AA AA
+39 BD 01
+39 D8 AA AA 00 FF 00 AA AA AA 00 FF 00 AA AA AA 00 FF 00 AA AA AA 00 FF 00 AA
+39 BD 02
+39 D8 AA AA EF AA AA AA AA AA EF AA AA AA
+39 BD 03
+39 D8 AA AA BF AA AA AA AA AA BF AA AA AA AA AA EF AA FA AA AA AA EF AA FA AA
+39 BD 00
+39 CC 02
+39 BD 03
+39 B2 80
+39 BD 00
+39 51 07 FF
+39 53 2C
+39 C9 00 0E 00
+05 11 00
+FF 46
+05 29 00
+FF 14
+39 CB 00 13 08 02 37
+39 B9 00 00 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 14
+ 05 10
+ FF 46
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 2000 5000 60000 0</DisplayResetInfo>
+</Group>
