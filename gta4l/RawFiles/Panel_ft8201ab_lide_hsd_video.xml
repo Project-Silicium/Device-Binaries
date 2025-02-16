@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>ft8201ab_lide_hsd_video</PanelName>
+<PanelDescription>ft8201ab lide hsd video panel</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1200</HorizontalActive>
+ <HorizontalFrontPorch>6</HorizontalFrontPorch>
+ <HorizontalBackPorch>32</HorizontalBackPorch>
+ <HorizontalSyncPulse>5</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2000</VerticalActive>
+ <VerticalFrontPorch>255</VerticalFrontPorch>
+ <VerticalBackPorch>34</VerticalBackPorch>
+ <VerticalSyncPulse>6</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSIEscapeClockFrequency>12800000</DSIEscapeClockFrequency>
+ <DSILanes>4</DSILanes>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <PanelOrientation>2</PanelOrientation>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 00 00
+39 FF 82 01 01
+39 00 80
+39 FF 82 01
+39 00 93
+39 C5 7A
+39 00 97
+39 C5 7A
+39 00 9E
+39 C5 0A
+39 00 9A
+39 C5 39
+39 00 9C
+39 C5 39
+39 00 B6
+39 C5 6B 6B
+39 00 B8
+39 C5 2F 2F
+39 00 00
+39 D8 C8 C8
+39 00 82
+39 C5 95
+39 00 83
+39 C5 07
+39 00 94
+39 C5 46
+39 00 9B
+39 C5 65
+39 00 9D
+39 C5 65
+39 00 00
+39 E1 05 0F 26 3A 45 51 62 71 71 7E 7E 90 76 65 66 5B
+39 00 10
+39 E1 53 47 38 2F 27 18 05 00
+39 00 00
+39 E2 05 0F 26 3A 45 51 62 71 71 7E 7E 90 76 65 66 5B
+39 00 10
+39 E2 53 47 38 2F 27 18 05 00
+39 00 84
+39 C5 88 88
+39 00 80
+39 A4 0C
+39 00 A0
+39 F3 10
+39 00 A1
+39 B3 04 B0
+39 00 A3
+39 B3 07 D0
+39 00 A5
+39 B3 80 13
+39 00 D0
+39 C1 B0
+39 00 80
+39 CB 33 33 30 33 30 33 30
+39 00 87
+39 CB 33
+39 00 88
+39 CB 33 33 33 33 33 30 33 33
+39 00 90
+39 CB 30 33 33 33 30 30 33
+39 00 97
+39 CB 33
+39 00 98
+39 CB 04 04 04 04 04 04 04 04
+39 00 A0
+39 CB 04 04 04 04 04 04 04 04
+39 00 A8
+39 CB 04 04 04 04 04 04 04 04
+39 00 B0
+39 CB 00 00 00 00 00 00 00
+39 00 B7
+39 CB 00
+39 00 B8
+39 CB 00 00 00 00 00 00 00 00
+39 00 C0
+39 CB 00 00 00 00 00 00 00
+39 00 C7
+39 CB 00
+39 00 80
+39 CC 00 00 00 38 38 29 2A 34
+39 00 88
+39 CC 35 13 14 15 16 07 1F 00
+39 00 90
+39 CC 00 00 00 38 38 38
+39 00 80
+39 CD 00 00 00 38 38 29 2A 34
+39 00 88
+39 CD 35 17 18 19 1A 08 20 00
+39 00 90
+39 CD 00 00 00 38 38 38
+39 00 A0
+39 CC 00 00 00 38 38 29 2A 34
+39 00 A8
+39 CC 35 1A 19 18 17 20 08 00
+39 00 B0
+39 CC 00 00 00 38 38 38
+39 00 A0
+39 CD 00 00 00 38 38 29 2A 34
+39 00 A8
+39 CD 35 16 15 14 13 1F 07 00
+39 00 B0
+39 CD 00 00 00 38 38 38
+39 00 81
+39 C2 40
+39 00 90
+39 C2 85 03 78 9D
+39 00 94
+39 C2 84 03 78 9D
+39 00 B0
+39 C2 01 43 78 9D
+39 00 B4
+39 C2 00 03 78 9D
+39 00 80
+39 C3 83 86 13 75 9D 00 02 07
+39 00 88
+39 C3 81 84 13 75 9D 00 02 07
+39 00 90
+39 C3 01 82 13 75 9D 00 02 07
+39 00 98
+39 C3 03 00 13 75 9D 00 02 07
+39 00 C0
+39 CD 82 85 13 75 9D 00 02 07
+39 00 C8
+39 CD 00 83 13 75 9D 00 02 07
+39 00 D0
+39 CD 02 81 13 75 9D 00 02 07
+39 00 D8
+39 CD 04 01 13 75 9D 00 02 07
+39 00 E2
+39 CC 08 7C 00 08
+39 00 F0
+39 CC 3D 88 88 D0 65
+39 00 FD
+39 CB 82
+39 00 80
+39 C0 00 91 01 17 00 10
+39 00 90
+39 C0 00 91 01 17 00 10
+39 00 A0
+39 C0 01 30 01 17 00 10
+39 00 B0
+39 C0 00 91 01 17 10
+39 00 A3
+39 C1 28 28 04
+39 00 80
+39 CE 00
+39 00 D0
+39 CE 01 00 0A 01 01 00 F7 00
+39 00 E0
+39 CE 00
+39 00 F0
+39 CE 00
+39 00 B0
+39 CF 06 06 BA BE
+39 00 B5
+39 CF 04 04 40 44
+39 00 C0
+39 CF 07 07 B4 B8
+39 00 C5
+39 CF 00 07 08 D0
+39 00 90
+39 C4 88
+39 00 92
+39 C4 C0
+39 00 C8
+39 C3 EE E0 00
+39 00 C9
+39 CE 00
+39 1C 00
+39 00 D6
+39 C1 00
+39 00 D5
+39 C0 F0
+39 00 A0
+39 C1 E0
+39 00 9F
+39 C5 00
+39 00 91
+39 C5 4C
+39 00 D7
+39 CE 01
+39 00 98
+39 C5 67
+39 00 82
+39 A5 01
+39 00 8C
+39 CF 40 40
+39 00 9A
+39 F5 35
+39 00 A2
+39 F5 1F
+39 00 A4
+39 F3 0B
+39 00 00
+39 FA 02
+39 00 A8
+39 C5 09
+39 00 CB
+39 C5 01
+39 00 B6
+39 C5 6B 6B
+39 00 B8
+39 C5 2F 2F
+39 00 91
+39 A5 00
+39 00 A4
+39 F3 0B
+39 00 00
+39 FA 5A
+39 00 A4
+39 F3 0B
+39 00 00
+39 FA 01
+39 00 A8
+39 C5 09
+39 00 CB
+39 C5 09
+39 00 B6
+39 C5 69 69
+39 00 B8
+39 C5 2D 2D
+39 00 91
+39 A5 40
+39 00 A4
+39 F3 0B
+39 00 00
+39 FA 5A
+39 00 B0
+39 CA 00 00 04 00 05
+39 51 FF 0F
+39 53 2C
+05 11 00
+FF 78
+05 29 00
+FF 14
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 14
+ 05 10
+ FF 78
+ 39 00 00
+ 39 F7 5A A5 95 27
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 2000 5000 60000 0</DisplayResetInfo>
+</Group>
