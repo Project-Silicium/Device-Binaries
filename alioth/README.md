@@ -15,12 +15,11 @@
 ### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux and UEFI.
-- Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services.
-- Patch Nr. 2: USB Mode has been Changed from Device Mode to Dual Role Mode.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
+- Patch: Exit BootServices routine was patched to not deinit USB after exit boot services.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### ClockDxe:
 
 - Reason: To be able to boot Windows with debug build.
-- Patch: LowPowerMode routine was patched to not register handler.
+- Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
