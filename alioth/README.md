@@ -29,3 +29,9 @@
 - Reason: The Common and Keymaster TZ Applets are already loaded, Also we don't have to notify TZ a second time where TZ applets will be loaded to
 - Patch: The global variable has been changed to 0x1 so function that notifies tz and loads applets is not called
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### FeatureEnablerDxe:
+
+- Reason: The clock is already turned on, turning it on again will cause framebuffer lose
+- Patch: The function that enables clocks has been patched to always return Success.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
