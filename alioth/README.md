@@ -23,3 +23,9 @@
 - Reason: To be able to boot Windows with debug build.
 - Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### TzDxeLA:
+
+- Reason: The Common and Keymaster TZ Applets are already loaded, Also we don't have to notify TZ a second time where TZ applets will be loaded to
+- Patch: The global variable has been changed to 0x1 so function that notifies tz and loads applets is not called
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
