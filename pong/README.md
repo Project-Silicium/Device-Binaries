@@ -14,8 +14,8 @@
 
 ### FeatureEnablerDxe:
 
-- Reason: The TZ applet it already brought up.
-- Patch: Both DXEs were patched to not start again the TZ applet.
+- Reason: The TZ applet was already brought up.
+- Patch: DXE was patched to not start again the TZ applet.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### PmicDxe:
