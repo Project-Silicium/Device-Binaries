@@ -25,6 +25,7 @@
 - Patch Nr. 4: Qcom's DSI Panel Init Function has been Modded to not turn off Display.
 - Üatch Nr. 5: Samsung's Panel Reset Function has been Removed to avoid turning off Display.
 - Patch Nr. 6: A DSI Close Function call has been Removed to avoid turning off Display.
+- Patch Nr. 7: Panel Configuration has been Changed to Enable 120 Hz Display.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Eobotix22)
 
 ### FeatureEnablerDxe:
