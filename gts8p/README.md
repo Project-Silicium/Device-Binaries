@@ -5,7 +5,7 @@
 - Reason: To make the Power Button usable in UEFI.
 - Patch Nr. 1: The Special Samsung Key Code (`0x80`) has been Changed to the Key Code Enter (`0xD`).
 - Patch Nr. 2: The Button Handlening has been Modded to allow Unichar Key Codes.
-- Patch Creator: [Robotix22](https://github.com/Eobotix22)
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ### ClockDxe:
 
@@ -26,7 +26,7 @@
 - Patch Nr. 5: Samsung's Panel Reset Function has been Removed to avoid turning off Display.
 - Patch Nr. 6: A DSI Close Function call has been Removed to avoid turning off Display.
 - Patch Nr. 7: Panel Configuration has been Changed to Enable 120 Hz Display.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Eobotix22)
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Robotix22)
 
 ### FeatureEnablerDxe:
 
@@ -42,13 +42,13 @@
 - Reason: To make UEFI not Crash during UEFI Boot.
 - Patch Nr. 1: Minimal PMIC Init has been Removed to avoid a Crash.
 - Patch Nr. 2: The Invalid Power Button Press Check has been to Remove to avoid a sudden Shutdown.
-- Patch Creator: [Kancy Joe](https://github.com/sunflower2333) & [Robotix22](https://github.com/Eobotix22)
+- Patch Creator: [Kancy Joe](https://github.com/sunflower2333) & [Robotix22](https://github.com/Robotix22)
 
 ### SdccDxe:
 
 - Reason: To make SD Card "work" in UEFI and to Allow SMMU in the OS.
 - Patch: The IOMMU Domains have been Removed.
-- Patch Creator: [Robotix22](https://github.com/Eobotix22)
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ### SPMIDxe:
 
