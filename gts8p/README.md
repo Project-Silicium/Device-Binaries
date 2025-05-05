@@ -1,4 +1,10 @@
-## Patches/Fixes
+## Firmware Infos
+
+- Device: Samsung Galaxy Tab S8+ 5G
+- Region: EUX (Europe)
+- Version: `X806BOXM9DYDC` / `BOOT.MXF.2.0-00805-WAIPIO-1`
+
+## Patches / Fixes
 
 ### ButtonsDxe:
 
