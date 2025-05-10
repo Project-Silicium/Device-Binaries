@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = TimeStampApp
-  FILE_GUID                      = 54F30EFA-2F1E-40F8-9B0E-1335368B8A49
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|TimeStampApp.efi|*

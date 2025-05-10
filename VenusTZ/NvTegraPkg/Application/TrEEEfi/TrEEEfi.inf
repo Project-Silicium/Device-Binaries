@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = TrEEEfi
-  FILE_GUID                      = D9BEC9CD-D932-43E8-8334-EF769AAA6156
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|TrEEEfi.efi|*

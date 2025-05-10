@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = I2cScan
-  FILE_GUID                      = 7FF9E178-6B7D-41CF-B14A-BCB797941CA0
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|I2cScan.efi|*

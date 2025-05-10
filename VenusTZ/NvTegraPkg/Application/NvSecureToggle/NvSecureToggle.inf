@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = NvSecureToggle
-  FILE_GUID                      = A6E2F25E-40E1-49C0-AE82-F0FAA7AFE093
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|NvSecureToggle.efi|*

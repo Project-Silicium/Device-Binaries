@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = InitEmmc
-  FILE_GUID                      = BFC44C16-8DFF-4AE9-BC8C-7C87FFEBEB45
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|InitEmmc.efi|*

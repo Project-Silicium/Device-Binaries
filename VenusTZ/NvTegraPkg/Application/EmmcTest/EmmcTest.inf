@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = EmmcTest
-  FILE_GUID                      = AAF26163-C06D-442E-8BF9-285C1EB7D990
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|EmmcTest.efi|*

@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = NvSmbiosView
-  FILE_GUID                      = 975508F4-6643-4360-97CE-54FDE3C26AC1
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|NvSmbiosView.efi|*

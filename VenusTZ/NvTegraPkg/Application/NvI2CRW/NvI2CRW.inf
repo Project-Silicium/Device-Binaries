@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = NvI2CRW
-  FILE_GUID                      = 566661D2-C9B9-46B8-92ED-AD21C411D03E
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|NvI2CRW.efi|*

@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = VenusTZSecSvcs
-  FILE_GUID                      = 6D98FDC6-F52F-4ABD-87A3-6300A8CE0969
-  MODULE_TYPE                    = PEI_CORE
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  TE|PeiSecureCore.efi|*

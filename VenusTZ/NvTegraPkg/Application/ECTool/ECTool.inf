@@ -1,9 +1,0 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = ECTool
-  FILE_GUID                      = 61E03EA9-860B-4160-8D03-D3C0E6D7F514
-  MODULE_TYPE                    = UEFI_APPLICATION
-  VERSION_STRING                 = 1.0
-
-[Binaries.ARM]
-  PE32|ECTool.efi|*
