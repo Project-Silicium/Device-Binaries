@@ -35,3 +35,9 @@
 - Reason: The clock is already turned on, turning it on again will cause framebuffer lose
 - Patch: The function that enables clocks has been patched to always return Success.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### UsbMsdDxe:
+
+- Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- Patch: Changed Removable State to Non-Removable.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
