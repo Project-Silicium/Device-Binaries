@@ -1,3 +1,9 @@
+## Firmware Info
+
+- Device: Xiaomi POCO F3
+- Region: Global
+- Version: `OS1.0.3.0.TKHMIXM` / `BOOT.XF.3.2-00304-SM8250-2`
+
 ## Patches/Fixes
 
 ### ButtonsDxe:
