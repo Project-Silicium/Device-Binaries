@@ -1,3 +1,9 @@
+## Firmware Info
+
+- Device: Xiaomi Pad 5
+- Region: Global
+- Version: `OS1.0.6.0.TKXMIXM` / `BOOT.XF.3.0-00571-SM8150LZB-4.402715.1`
+
 ## Patches/Fixes
 
 ### ButtonsDxe:
