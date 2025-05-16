@@ -1,3 +1,9 @@
+## Firmware Info
+
+- Device: Nothing Phone (2)
+- Region: Global/EEA
+- Version: `Pong_V3.0-250506-1805`
+
 ## Patches/Fixes
 
 ### ButtonsDxe:
