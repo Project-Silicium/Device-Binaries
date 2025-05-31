@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = VerifiedBootDxe
+  FILE_GUID                      = FD975FB5-92C3-40B3-B05C-9C434326AB64
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.AARCH64]
+  PE32|VerifiedBootDxe.efi|*
