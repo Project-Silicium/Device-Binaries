@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OplusFpga
+  FILE_GUID                      = C75258B5-B612-47A7-8BA1-C63F6B3A5136
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|OplusFpga.depex|*
+  PE32|OplusFpga.efi|*
+
+[Depex]
+  TRUE
