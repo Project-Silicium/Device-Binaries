@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NUBIA_rm692h0_dsi_1116_2480_amoled_cmd_dphy_panel</PanelName>
+<PanelDescription>Nubia DSI Command Mode Panel (1116x2480 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1116</HorizontalActive>
+ <HorizontalFrontPorch>248</HorizontalFrontPorch>
+ <HorizontalBackPorch>336</HorizontalBackPorch>
+ <HorizontalSyncPulse>8</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2480</VerticalActive>
+ <VerticalFrontPorch>56</VerticalFrontPorch>
+ <VerticalBackPorch>8</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+ <BacklightDefault>25</BacklightDefault>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2480</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2480</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>7</DSIDSCProfileID>
+ <DSIDSCSliceWidth>558</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+  <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 FE 40
+39 BD 00
+15 FE 00
+15 FA 01
+39 FE 57
+39 C2 48
+39 FE 5A
+39 00 80
+39 FE 1A
+39 0D 64
+39 FE 40
+39 DC B8
+39 FE 42
+39 DA 82
+39 FE 20
+39 81 80
+15 FE 00
+15 C2 08
+15 36 00
+15 35 00
+39 51 0D BB
+05 11 00
+FF 96
+05 29 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 14
+ 05 10
+ ff 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault>30</BacklightDefault>
+ <DisplayResetInfo>0 10 1000 10000 0</DisplayResetInfo>
+</Group>
