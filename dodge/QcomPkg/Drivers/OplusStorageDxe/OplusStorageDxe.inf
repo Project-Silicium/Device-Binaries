@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OplusStorageDxe
+  FILE_GUID                      = 454BF7E3-2A68-4732-B41D-7EF50A592C93
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|OplusStorageDxe.depex|*
+  PE32|OplusStorageDxe.efi|*
+
+[Depex]
+  TRUE

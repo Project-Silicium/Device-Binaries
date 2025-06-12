@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = RmVmDxe
+  FILE_GUID                      = 1D9CC582-7A90-4109-835B-0CB05B6762E1
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|RmVmDxe.depex|*
+  PE32|RmVmDxe.efi|*
+
+[Depex]
+  TRUE

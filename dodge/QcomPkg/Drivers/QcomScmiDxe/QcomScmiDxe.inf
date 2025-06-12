@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = QcomScmiDxe
+  FILE_GUID                      = 9585984C-F027-45E9-AFDF-ADAA6DFAAAC7
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|QcomScmiDxe.depex|*
+  PE32|QcomScmiDxe.efi|*
+
+[Depex]
+  TRUE
