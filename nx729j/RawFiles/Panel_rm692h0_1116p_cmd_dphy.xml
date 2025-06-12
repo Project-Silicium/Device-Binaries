@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>NUBIA_rm692h0_dsi_1116_2480_amoled_cmd_dphy_panel</PanelName>
+<PanelDescription>Nubia DSI Command Mode Panel (1116x2480 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1116</HorizontalActive>
+ <HorizontalFrontPorch>248</HorizontalFrontPorch>
+ <HorizontalBackPorch>336</HorizontalBackPorch>
+ <HorizontalSyncPulse>8</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2480</VerticalActive>
+ <VerticalFrontPorch>56</VerticalFrontPorch>
+ <VerticalBackPorch>8</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+ <BacklightDefault>25</BacklightDefault>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2480</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2480</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0xF</DSIDSCProfileID>
+ <DSIDSCSliceWidth>558</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+  <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x5A0000</DSIRefreshRate>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+15 FE 40
+15 BD 06
+15 FE 00
+15 FA 01
+15 FE 57
+15 C2 48
+15 FE 5A
+15 00 80
+15 FE 1A
+15 0D 64
+15 FE 40
+15 DC B8
+15 FE 42
+15 DA 82
+15 FE 20
+15 81 80
+15 FE 34
+15 47 03
+15 48 00
+15 00 00
+15 9F 5C
+15 A0 C4
+15 1C 00
+15 1D 10
+15 49 55
+15 FE 34
+15 1E 00
+15 1F 00
+15 20 00
+15 22 00
+15 21 70
+15 23 F8
+15 24 77
+15 25 F8
+15 26 F8
+15 2F 00
+15 30 00
+15 31 00
+15 32 00
+15 33 00
+15 34 00
+15 35 00
+15 36 40
+15 37 00
+15 38 7F
+15 39 00
+15 3A B6
+15 3B 00
+15 3D 00
+15 3F 00
+15 40 00
+15 41 00
+15 42 00
+15 FE D4
+15 40 03
+15 FE FD
+15 80 06
+15 83 00
+15 FE A0
+15 06 32
+15 FE D0
+15 11 75
+15 92 03
+15 FE A1
+15 C3 87
+15 C4 FF
+15 C5 7F
+15 FE 00
+15 FA 01
+15 FE D2
+15 4F 08
+15 50 11
+15 51 ab
+15 52 30
+15 53 09
+15 54 b0
+15 55 04
+15 56 5c
+15 58 00
+15 59 14
+15 5a 02
+15 5b 2e
+15 5c 01
+15 5d 9a
+15 5e 19
+15 5f 01
+15 60 be
+15 61 00
+15 62 0a
+15 63 0c
+15 64 05
+15 65 0e
+15 66 05
+15 67 fd
+15 68 16
+15 69 00
+15 6a 10
+15 6b dc
+15 6c 07
+15 6d 10
+15 6e 20
+15 6f 00
+15 70 06
+15 71 0f
+15 72 0f
+15 73 33
+15 74 0e
+15 75 1c
+15 76 2a
+15 77 38
+15 78 46
+15 79 54
+15 7a 62
+15 7b 69
+15 7c 70
+15 7d 77
+15 7e 79
+15 7f 7b
+15 80 7d
+15 81 7e
+15 82 01
+15 83 c2
+15 84 22
+15 85 00
+15 86 2a
+15 87 40
+15 88 32
+15 89 be
+15 8a 3a
+15 8b fc
+15 8c 3a
+15 8d fa
+15 8e 3a
+15 8f f8
+15 90 3b
+15 91 38
+15 92 3b
+15 93 78
+15 94 3b
+15 95 76
+15 96 4b
+15 97 b6
+15 98 4b
+15 99 f6
+15 9a 4c
+15 9b 34
+15 9c 5c
+15 9d 74
+15 9e 8c
+15 9f f4
+15 a2 02
+15 a3 ba
+15 a4 00
+15 a5 00
+15 a6 00
+15 a7 00
+15 a9 00
+15 aa 00
+15 a0 a0
+15 FE 00
+15 C2 08
+15 36 00
+15 35 00
+39 51 0D BB
+05 11 00
+FF 06
+05 29 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 00
+ 05 10
+ ff 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault>30</BacklightDefault>
+ <DisplayResetInfo>0 1000 1000 10000 0</DisplayResetInfo>
+</Group>
