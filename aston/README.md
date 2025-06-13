@@ -1,3 +1,9 @@
+## Firmware Infos
+
+- Device: OnePlus Ace 3
+- Region: CN
+- Version: `PJE110_15.0.0.820` / `BOOT.MXF.2.1.1`
+
 ## Patches/Fixes
 
 ### ButtonsDxe:
@@ -24,12 +30,6 @@
 - Patch Nr. 5: DSI SetMode Function has been modded to not change Clock Frequency
 - Patch Nr. 6: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Shandorman](https://github.com/jiganomegsdfdf)
-
-### FeatureEnablerDxe:
-
-- Reason: To not reinit the TZ Appleet which was init by the Bootloader before.
-- Patch: The TZ Applet Register Function has been Removed.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### PmicDxe:
 
