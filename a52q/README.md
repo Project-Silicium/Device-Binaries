@@ -1,0 +1,49 @@
+## Firmware Info
+
+- Device: Samsung Galaxy A52
+- Region: EUX (Europe)
+- Version: `A525FXXSCFYF1` / `BOOT.XF.3.1-00589-SM6150LZB-2`
+
+## Patches / Fixes
+
+### ButtonsDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### DisplayDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### EnvDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### QcomWDogDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### UsbConfigDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### TzDxeLA:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
+
+### UFSDxe:
+
+- Reason:
+- Patch Nr. 1:
+- Patch Creator:
