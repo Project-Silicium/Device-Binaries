@@ -18,25 +18,13 @@
 - Patch Nr. 1:
 - Patch Creator:
 
-### EnvDxe:
-
-- Reason:
-- Patch Nr. 1:
-- Patch Creator:
-
-### QcomWDogDxe:
+### HALIOMMUDxe:
 
 - Reason:
 - Patch Nr. 1:
 - Patch Creator:
 
 ### UsbConfigDxe:
-
-- Reason:
-- Patch Nr. 1:
-- Patch Creator:
-
-### TzDxeLA:
 
 - Reason:
 - Patch Nr. 1:
