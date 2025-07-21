@@ -19,22 +19,20 @@
 - Patch: The DCD Dependency Enablement Path has been patched to not reinitialize MDSS.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### DisplayDxe (INCOMPLETE!):
-
-> [!NOTE]
-> Currently the Display Init Seq kills the Display.
+### DisplayDxe:
 
 > [!NOTE]
 > This Patch requires `EnableDisplayThread` to be Disabled in the Configuration Map.
 
 - Reason: To get more Control over the Display in UEFI.
 - Patch Nr. 1: The IOMMU Domains have been Removed to avoid a Crash.
-- Patch Nr. 2: Samsung's Panel Powerup Function has been Removed to avoid Turning off Display.
-- Patch Nr. 3: Qcom's Panel Reset Function has been removed to avoid turning off the Display.
-- Patch Nr. 4: Qcom's DSI Panel Init Function has been Modded to not turn off Display.
-- Patch Nr. 5: Samsung's Panel Reset Function has been Removed to avoid turning off Display.
-- Patch Nr. 6: A DSI Close Function call has been Removed to avoid turning off Display.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Robotix22)
+- Patch Nr. 2: Samsung's Panel Powerup Function has been Removed to avoid Turning off the Displays.
+- Patch Nr. 3: Qcom's Panel Reset Function has been removed to avoid turning off the Main Display.
+- Patch Nr. 4: Qcom's DSI Panel Init Function has been Modded to not turn off the Displays.
+- Patch Nr. 5: Samsung's Panel Reset Function has been Removed to avoid turning off the Displays.
+- Patch Nr. 6: A DSI Close Function call has been Removed to avoid turning off the Main Display.
+- Patch Nr. 7: Replaced a DSI Paint Command with Delay to give DSC Time to Init Properly on the Main Display.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Robotix22) & [Aistop](https://github.com/AistopGit)
 
 ### FeatureEnablerDxe:
 
