@@ -2,7 +2,7 @@
 
 - Device: Samsung Galaxy Z Flip 4
 - Region: EUX (Europe)
-- Version: `F721BXXSAHYE2` / `BOOT.MXF.2.0-00805-WAIPIO-1`
+- Version: `F721BXXSAHYFD` / `BOOT.MXF.2.0-00805-WAIPIO-1`
 
 ## Patches / Fixes
 
