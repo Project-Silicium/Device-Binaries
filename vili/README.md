@@ -2,7 +2,7 @@
 
 - Device: Xiaomi 11T Pro
 - Region: EEA (Europe)
-- Version: `OS1.0.16.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
+- Version: `OS1.0.20.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
 
 ## Patches / Fixes
 
@@ -22,7 +22,7 @@
 ### CPRDxe:
 
 > [!NOTE]
-> DisplayDxe requires this Driver (It just needs the Memory Region that gets Registerd here).
+> DisplayDxe requires this Driver.
 
 - Reason: To make it map the Memory Map `MMCX_CPR3` properly.
 - Patch: The CPR Cllock Rail Disable Function has been Removed to avoid a Crash.
@@ -47,7 +47,7 @@
 
 ### SdccDxe:
 
-- Reason: To avoid a Crash in the Windows SMMU Driver.
+- Reason: To allow the usage of SMMU in the OS.
 - Patch: The IOMMU Domains have been Removed.
 - Patch Creator: [Robotix22](https://github.com/Eobotix22)
 
