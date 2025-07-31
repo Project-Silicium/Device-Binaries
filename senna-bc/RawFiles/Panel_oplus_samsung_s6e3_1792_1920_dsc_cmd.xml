@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>SAMSUNG S6E3</PanelName>
+<PanelDescription>samsung cmd mode dsi panel(1792*1920 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1792</HorizontalActive>
+ <HorizontalFrontPorch>48</HorizontalFrontPorch>
+ <HorizontalBackPorch>48</HorizontalBackPorch>
+ <HorizontalSyncPulse>24</HorizontalSyncPulse>
+ <VerticalActive>1920</VerticalActive>
+ <VerticalFrontPorch>16</VerticalFrontPorch>
+ <VerticalBackPorch>20</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSIBitClockFrequency>1002000000</DSIBitClockFrequency>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSIInitMasterTime units='integer'>32</DSIInitMasterTime>
+ <DSILP11AtInit units='Bool'>0</DSILP11AtInit>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>1920</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>1920</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCProfileID>7</DSIDSCProfileID>
+ <DSIDSCSliceWidth>896</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>40</DSIDSCSliceHeight>
+ <!--DisplayPrimaryFlags>0x01000000</DisplayPrimaryFlags-->
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+
+ 39 9D 01
+ 39 9E 11 00 00 89 30 80 07 80 07 00 00 28 03 80 03 80 02 00 03 0C 00 20 04 61 00 0C 00 0E 02 E0 01 83 18 00 10 D0 03 0C 20 00 06 0B 0B 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 01 02 01 00 09 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A B6 2A F4 2A F4 4B 34 63 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+ 05 11
+ FF 78
+
+ 15 35 00
+
+ 39 2A 00 00 06 FF
+ 39 2B 00 00 07 7F
+
+ 39 F0 5A 5A
+ 15 B9 00
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 ED 05 51 60
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 15 53 20
+ 15 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 B0 03 F2
+ 39 F2 30 01 00 08
+ 39 60 08
+ 39 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 B0 0A CB
+ 39 CB 0F
+ 39 F7 0F
+ 39 F0 A5 A5
+
+ 05 29
+</DSIInitSequence>
+<DSITermSequence>
+ 39 F0 5A 5A
+ 39 B0 39 F4
+ 39 F4 80 80 80 80 80 80 80
+ 39 B0 47 F4
+ 39 F4 80 80 80 80 80 80 80
+ 39 F7 0F
+ 39 F0 A5 A5
+
+ 05 28
+ 05 10
+ FF 0B
+
+ 39 F0 5A 5A
+ 39 B0 0A CB
+ 39 CB 4F
+ 39 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 B0 04 F2
+ 39 F2 02
+ 39 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 B0 07 EF
+ 39 EF 55
+ 39 F7 0F
+ 39 F0 A5 A5
+ FF 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>10</BacklightBitWidth>
+ <BacklightDefault units='Percentage'>39</BacklightDefault>
+ <BacklightPmicControlType>0</BacklightPmicControlType>
+ <DisplayResetInfo>0 2000 5000 5000 0</DisplayResetInfo>
+</Group>
+

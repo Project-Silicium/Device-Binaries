@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>BOE NT37701B UDC</PanelName>
+<PanelDescription>BF088 cmd mode dsi panel(1080*2412 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>52</HorizontalFrontPorch>
+ <HorizontalBackPorch>22</HorizontalBackPorch>
+ <HorizontalSyncPulse>14</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2412</VerticalActive>
+ <VerticalFrontPorch>21</VerticalFrontPorch>
+ <VerticalBackPorch>9</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2412</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2412</DSITEvSyncInitVal>
+ <DSIBitClockFrequency>830000000</DSIBitClockFrequency>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0xC</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>12</DSIDSCSliceHeight>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+ <DSILP11AtInit>True</DSILP11AtInit>
+</Group>
+<DSIInitSequence>
+ 39 f0 55 aa 52 08 04
+ 39 35 00
+ 39 53 20
+ 39 2a 00 00 04 37
+ 39 2b 00 00 09 6b
+ 39 99 60
+ 39 ff aa 55 a5 80
+ 39 6f 1d
+ 39 f2 05
+ 39 6f 20
+ 39 f7 32
+ 39 ff aa 55 a5 81
+ 39 6f 0f
+ 39 fd 01
+ 39 6f 10
+ 39 fd 80
+ 39 82 ae
+ 39 03 01
+ 39 90 11
+ 39 91 ab 2a 00 0c c2 00 01 d8 01 5a 00 0a 08 bb 0a 5f 0c f0
+ 39 f0 55 aa 52 08 09
+ 39 d5 80
+ 39 f0 55 aa 52 08 02
+ 39 cc 30
+ 39 6f 03
+ 39 bf 02
+ 39 ce 01
+ 39 cc 00
+ ff 1e
+ 39 2f 01
+ 39 f0 55 aa 52 08 09
+ 39 6f 6b
+ 39 e0 00
+ 05 11
+ ff 20
+ 05 29
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 14
+ 05 10
+ ff 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightDefault units='Percentage'>40</BacklightDefault>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <DisplayResetInfo>0 100 10000 10000 0</DisplayResetInfo>
+</Group>
+

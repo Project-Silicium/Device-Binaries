@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>tianma ili7838a</PanelName>
+<PanelDescription>tiama cmd mode dsi panel(1080*2412 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>172</HorizontalFrontPorch>
+ <HorizontalBackPorch>186</HorizontalBackPorch>
+ <HorizontalSyncPulse>162</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2412</VerticalActive>
+ <VerticalFrontPorch>190</VerticalFrontPorch>
+ <VerticalBackPorch>260</VerticalBackPorch>
+ <VerticalSyncPulse>200</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2412</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2412</DSITEvSyncInitVal>
+ <DSIBitClockFrequency>961000000</DSIBitClockFrequency>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0x4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>12</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>1</DSIDSCSlicePerPacket>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+ <DSILP11AtInit>True</DSILP11AtInit>
+</Group>
+<DSIInitSequence>
+39 FF 78 38 0B
+39 17 F3
+39 18 F3
+39 19 F3
+39 1A F3
+39 1B F3
+39 1C F3
+39 1D F3
+39 FF 78 38 0A
+39 37 4F
+39 38 70
+39 FF 78 38 00
+39 55 03
+
+39 FF 78 38 17
+39 20 00
+
+39 FF 78 38 08
+39 45 4C
+
+39 FF 78 38 14
+39 12 00 00 40 40 00 00 00 00
+39 16 00 00 80 00 00 00 00 00
+39 20 40 80 00 00 80 40 00 00 00 00 80 40 40 80 00 00 00 00
+39 22 00 00 00 04 04 00 60 80
+39 FF 78 38 15
+
+39 00 00 00 02 00 02 10 03 00 04 00 05 00 05 10 06 00 06 10 07 02 08 0d 09 1a 0b 0b 0e 19 12 19 17 09 1c 0c 21 1e 28 02 2e 17 35 1e 3d 1c 46 09 4f 06 58 18 6d 16 79 07 85 0d 9f 01 bb 0e da 0c fb 1d 00 0a
+
+39 50 00 00 04 00 08 00 0c 00 10 00 14 00 18 00 1c 00 24 00 2c 00 30 02 31 00 34 03 39 0f 3f 01 43 0c 48 01 4f 0e 56 0d 5d 03 68 09 72 0a 7b 0b 84 01 93 02 a0 08 ac 0a b7 0e cc 02 de 04 ee 0b fd 0f ff 0c
+
+39 FF 78 38 0E
+39 38 40 80 00 00 80 40 00 00 00 00 80 40 40 80 00 00 00 00
+
+39 FF 78 38 0C
+39 BD C4
+
+39 FF 78 38 02
+39 38 11
+
+39 FF 78 38 07
+39 29 01
+
+39 20 00 00 00 00 00 11 00 00 89 30 80 09 6c 04 38 00 0c 02 1c 02 1c 02 00 02 0e 00 20 01 1f 00 07 00 0c 08 bb 08 7a 18 00 10 f0 03 0c 20 00 06 0b 0b 33 0e 1c 2a 38 46 54 62 69 70 77 79 7b 7d 7e 01 02 01 00 09 40 09 be 19 fc 19 fa 19 f8 1a 38 1a 78 1a b6 2a f6 2b 34 2b 74 3b 74 6b f4 00 00 00 00 00 00
+
+39 FF 78 38 19
+39 E0 88
+39 FF 78 38 02
+39 32 79
+39 34 79
+39 36 79
+39 FF 78 38 08
+39 96 3F
+39 B0 81
+39 FF 78 38 06
+39 C9 A0
+
+39 FF 78 38 00
+39 95 10
+
+39 FF 78 38 00
+39 35 00
+
+39 53 20
+
+05 11
+FF 79
+05 29
+FF 1E
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28 00
+ FF 10
+ 05 10 00
+ FF 80
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault units='Percentage'>50</BacklightDefault>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <DisplayResetInfo>0 100 10000 30000 0</DisplayResetInfo>
+</Group>
+
