@@ -10,7 +10,7 @@
 
 <!-- Replace the Space with an 'x' inside the '[ ]' to Check the Box. -->
 
-* [ ] Have the Changes been Tested?
+* [ ] Have the Changes been Tested?                                                  <!-- Required -->
 * [ ] Were the Patched Files taken from a different Device?
 * [ ] Were the Patched Files Compiled by someone else other than the Manufacturer?
-* [ ] Have the Files been Cleaned Up?
+* [ ] Are the Infos inside README.md Accurate and Correct?                           <!-- Required -->
