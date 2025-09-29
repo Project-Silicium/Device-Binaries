@@ -2,7 +2,7 @@
 
 - Device: Xiaomi 11T Pro
 - Region: EEA (Europe)
-- Version: `OS1.0.20.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
+- Version: `OS1.0.24.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
 
 ## Patches / Fixes
 
