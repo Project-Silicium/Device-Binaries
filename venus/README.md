@@ -8,9 +8,10 @@
 
 ### ClockDxe:
 
-- Reason: MDSS reinitializes and we lose framebuffer.
-- Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+- Reason: To keep Display turned on while UEFI Boot.
+- Patch Nr. 1: The DCD Dependency Enablement Path has been patched to avoid reinitialize MDSS.
+- Patch Nr. 2: The LPM Call Backs Function has been Removed to allow Windows Boot on Debug Builds.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
 
 ### FeatureEnablerDxe & MinidumpTADxe:
 
@@ -21,8 +22,14 @@
 ### QcomWDogDxe:
 
 - Reason: ReturnStatusCodeHandler implementation is different.
-- Patch: Dependency check routine was patched to not fail.
+- Patch: Dependency check routine was patched to not fail.s
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+### SdccDxe:
+
+- Reason: To allow the usage of SMMU in the OS.
+- Patch: The IOMMU Domains have been Removed.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ### UFSDxe:
 
@@ -32,8 +39,14 @@
 
 ### UsbConfigDxe:
 
-- Reason: Is Important to get USB working in Windows / Linux and UEFI.
-- Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services. Another patch disables recreating IOMMU domains.
-- Patch Nr. 2: USB Mode has been Changed from Device Mode to Host Mode.
-- Patch Nr. 3: USB Power has been Forced to be Enabled
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [CloudSweets](https://github.com/cloudsweets) & [N1kroks](https://github.com/N1kroks)
+- Reason: To make USB work in UEFI and the OS.
+- Patch Nr. 1: The IOMMU Domains have been removed to avoid a Crash.
+- Patch Nr. 2: The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+
+### UsbMsdDxe:
+
+- Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- Patch: Changed Removable State to Non-Removable.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
