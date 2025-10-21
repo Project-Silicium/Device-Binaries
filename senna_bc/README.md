@@ -1,7 +1,7 @@
 ## Firmware Infos
 
 - Device: realme GT Neo5
-- Region: GN
+- Region: CN
 - Version: `RMX3706_15.0.0.500` / `BOOT.MXF.2.0-00925.2-WAIPIO-1.22250.6.39858.1`
 
 ## Patches/Fixes
