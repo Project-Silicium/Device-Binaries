@@ -23,6 +23,7 @@
 - Reason: To make UEFI not Crash during UEFI Boot.
 - Patch Nr. 1: Make failing SPMI Function call always return EFI_SUCCESS.
 - Patch Nr. 2: Make some failing functions return 0 (patched on this device only).
+- Patch Nr. 3: Do not call some functions (at 0x3eb0), taken from sunflower2333's patch for sheng
 - Patch Creator: [Kancy Joe](https://github.com/sunflower2333) & [Shandorman](https://github.com/jiganomegsdfdf) & [artempeshkov](https://github.com/artempeshkov) 
 
 ### UFSDxe:
