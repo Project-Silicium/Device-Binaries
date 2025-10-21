@@ -14,9 +14,9 @@
 
 ### ClockDxe:
 
-- Reason: To keep some important clocks on.
-- Patch: Removed "Clock_CESTADisableDependencies" function call.
-- Patch Creator: [Robotix](https://github.com/Robotix22)
+- Reason: MDSS reinitializes and we lose framebuffer.
+- Patch: DCD Dependency enablement path was patched to not cause MDSS to reinitialize.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### PmicDxe:
 
@@ -31,7 +31,8 @@
 - Reason: To make UEFI be able to use the Internal Storage.
 - Patch Nr. 1: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Nr. 2: The UFS Sleep call has been Replaced with the UFS Wakeup Call.
-- Patch Nr. 3: Added UFS Gear Wake Up call.
+- Patch Nr. 3: The UFS Sleep Mode Function has been Removed.
+- Patch Nr. 4: Fixed an issue where UFS would not work due to Exit BootServices
 - Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
 
 ### UsbConfigDxe:
