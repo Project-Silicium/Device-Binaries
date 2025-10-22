@@ -9,8 +9,9 @@
 ### ButtonsDxe:
 
 - Reason: To make the Power Button usable in UEFI.
-- Patch: Map power button Key Code as ENTER instead of SUSPEND.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+- Patch Nr. 1: Map power button Key Code as ENTER instead of SUSPEND.
+- Patch Nr. 2: Swap volume buttons.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Rostislav Lastochkin](https://github.com/remtrik)
 
 ### ClockDxe:
 
