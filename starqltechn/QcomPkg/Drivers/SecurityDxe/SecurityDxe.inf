@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = SecurityDxe
+  FILE_GUID                      = 5E0EAE60-EAED-4D75-B8BF-EDBBAABC3F09
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.AARCH64]
+  PE32|SecurityDxe.efi|*
