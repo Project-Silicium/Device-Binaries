@@ -2,7 +2,7 @@
 
 - Device: Samsung Galaxy Tab S8+ 5G
 - Region: EUX (Europe)
-- Version: `X806BXXS9DYF4` / `BOOT.MXF.2.0-00805-WAIPIO-1`
+- Version: `X806BXXU9EYJ4` / `BOOT.MXF.2.0-00805-WAIPIO-1`
 
 ## Patches / Fixes
 
