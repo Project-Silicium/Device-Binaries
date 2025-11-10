@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = CalibrationDxe
+  FILE_GUID                      = 32F19685-046B-4F36-A328-7A87DED96FD9
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|CalibrationDxe.depex|*
+  PE32|CalibrationDxe.patched.efi|*
+
+[Depex]
+  TRUE

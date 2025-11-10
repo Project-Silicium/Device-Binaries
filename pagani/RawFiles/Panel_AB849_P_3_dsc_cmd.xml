@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PanelName>P 3 AB849</PanelName>
+<PanelDescription>P 3 AB849 dsc cmd(1264*2780 30bpp)</PanelDescription>
+<Group id='Active Timing'>
+ <HorizontalActive>1264</HorizontalActive>
+ <HorizontalFrontPorch>26</HorizontalFrontPorch>
+ <HorizontalBackPorch>26</HorizontalBackPorch>
+ <HorizontalSyncPulse>2</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2780</VerticalActive>
+ <VerticalFrontPorch>42</VerticalFrontPorch>
+ <VerticalBackPorch>58</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id='Display Interface'>
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id='DSI Interface'>
+ <DSIBitClockFrequency>1113600000</DSIBitClockFrequency>
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSISSCConfig>0</DSISSCConfig>
+ <DSITimingHSRequestOverride>True</DSITimingHSRequestOverride>
+ <DSITimingHSRequestValue>6</DSITimingHSRequestValue>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2780</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2780</DSITEvSyncInitVal>
+ <DSITEvSyncSelect>0</DSITEvSyncSelect>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>2</DSIDSCMinor>
+ <DSIDSCProfileID>0xB</DSIDSCProfileID>
+ <DSIDSCSliceWidth>632</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIControllerMapping>
+ 00
+ </DSIControllerMapping>
+ <DSILP11AtInit>True</DSILP11AtInit>
+</Group>
+<DSIInitSequence>
+39 FF 5A A5 08
+15 C8 62
+39 FF 5A A5 07
+15 8A 01
+39 8B 11 E0
+39 81 00 00 00 00 00 12 00 00 AB 30 80 0A DC 04 F0 00 14 02 78 02 78 02 00 02 57 00 20 01 F8 00 08 00 0D 05 7A 04 4F 18 00 10 E0 07 10 20 00 06 0F 0F 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 02 02 22 00 2A 40 2A BE 3A FC 3A FA 3A F8 3B 38 3B 78 3B B6 4B B6 4B F4 4B F4 6C 34 84 74 00 00 00 00 00 00
+39 FF 5A A5 21
+15 A4 18
+39 FF 5A A5 13
+39 FB 18 27
+39 FF 5A A5 01
+15 D4 1A
+39 FF 5A A5 2D
+15 DA 06
+39 FF 5A A5 0B
+15 D1 88
+15 D2 04
+15 D3 8B
+15 D4 03
+15 D6 01
+15 DC 17
+15 E4 17
+39 FF 5A A5 0C
+39 80 00 00 40 04 10 0D 00 25 00 10 00 55 3E FC
+39 FF 5A A5 2D
+15 F2 00
+39 83 00 00
+39 84 00 00
+39 85 00 00
+39 86 00 00
+39 FF 5A A5 00
+15 5A 01
+15 5B 80
+39 FF 5A A5 02
+15 C0 03
+39 FF 5A A5 2D
+39 EC 01 AF 00
+39 93 A0 00
+39 94 C4 00
+39 95 00 00
+39 96 00 00
+39 ED D5 00
+39 EE 00 00 00
+15 97 02
+15 B1 03
+39 98 05 00
+39 99 0B 00
+39 9A 17 00
+39 9B 77 00
+39 A0 01 01 00 00
+39 A1 02 00 00 00
+15 B2 02
+15 B3 05
+15 B4 08
+15 B5 11
+39 BA 00 00
+39 BB 01 02
+39 FF 5A A5 02
+39 B0 00 80 00 10 00 00 00 00
+39 FF 5A A5 01
+15 BC 01
+15 FB 08
+39 FF 5A A5 0C
+39 83 00 00 80 1A 00 11 10 10 00 0F 00 00 3E FC
+39 FF 5A A5 0B
+39 ED 80 00 08
+15 EE 03
+15 EF 7A
+39 F0 03 7A 00 00 00 00 00 00
+39 F1 00 64 00 00 00 00 00 00
+39 F6 00 00 00
+15 F7 0F
+15 F8 FF
+39 F9 33 C0 C0 33 C0 C0 33 C0
+39 FA 00 64 64 00 64 64 00 64
+39 A1 00 03
+39 FF 5A A5 0A
+39 D8 00 00 00 80
+39 D9 19 4F
+39 FF 5A A5 0B
+39 F9 00 00 00 00 00 D3
+39 FF 5A A5 31
+15 A0 A1
+39 FF 5A A5 49
+15 E0 01
+39 FF 5A A5 53
+39 80 0F 40
+39 85 CC E1
+39 FF 5A A5 00
+15 5E 01
+15 60 00
+15 61 07
+15 35 00
+15 53 20
+39 FF 5A A5 10
+39 8F C8 7C 00 42 00 80 10 00 5A 00 59 58 00 40 1F 00 0D 08 00 05 03 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 FF 5A A5 24
+39 A5 0F FF 0F FE 0D BB 0B 1A
+39 A6 07 52 04 8B 04 8A 04 76
+39 A7 03 E6 02 CB 01 E1 01 7D
+39 A8 01 19 00 B5 00 01 00 00
+39 A9 00 00 00 00 00 00 00 00
+39 AA 00 00 00 00 00 00 00 00
+39 AB 00 00
+39 FF 5A A5 29
+39 93 0F FF 0F FE 0D BB 0B 1A
+39 94 07 52 04 8B 04 8A 04 76
+39 95 03 E6 02 CB 01 E1 01 7D
+39 96 01 19 00 B5 00 01 00 00
+39 97 00 00 00 00 00 00 00 00
+39 98 00 00 00 00 00 00 00 00
+39 99 00 00 00 00 00 00 00 00
+39 9A 00 00 00 00
+39 FF 5A A5 00
+15 4F 31
+39 FF 5A A5 1E
+15 80 89
+15 85 10
+15 9A 3F
+15 9B 01
+39 94 00 00 23 00 68 CF 12 58 03 23 D0 BF 46 D0 03 78 58 CF AC 68 23 0E 00
+39 95 00 00 12 00 46 9C 11 14 AE 23 6A 48 45 48 6A 68 AE 14 9B 9C 46 DF 12 00
+39 96 FD F3 E6 CD B3 9A 80 66 4D 33 1A 00
+39 97 00 29 CC 13 98 30 46 C8 60 79 F8 90 BC 28 C0 EF 58 F0
+39 FF 5A A5 1F
+15 C0 08
+39 FF 5A A5 00
+15 6E 00
+39 FF 5A A5 1E
+15 C0 10
+39 C1 70 9C C1
+39 C2 FF FF FF 61 36 63 46 00
+39 C5 44 00 00 44 00 00 44 00 00 33 FE F7 32 72 77 11 A7 6C 11 3B 08 00 C1 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 C6 44 00 00 21 00 00 00 80
+39 C7 44 00 00 33 8B 17 21 19 58 11 55 50 10 22 D8 00 99 59 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 C8 44 00 00 32 00 00 01 00
+15 C9 30
+39 FF 5A A5 1F
+15 C0 08
+39 C2 FF FF FF AB EA FF FF FF FC FC FF FC FC FC FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+39 FF 5A A5 24
+15 80 04
+15 81 8B
+15 82 0F
+15 83 FE
+15 84 00
+39 FF 5A A5 00
+15 95 FF
+15 96 09
+15 97 D3
+15 98 02
+15 99 78
+39 FF 5A A5 1E
+15 C0 10
+39 C1 70 9C C1
+39 C2 FF FF FF 61 36 63 46 00
+39 FF 5A A5 12
+15 81 33
+39 FF 5A A5 00
+15 60 00
+39 FF 5A A5 53
+39 85 CC E1
+39 FF 5A A5 2D
+39 83 00 00
+15 F2 00
+39 FF 5A A5 00
+15 11 00
+FF 78
+15 29 00
+FF 14
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 14
+ 05 10
+ FF 64
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>0</BacklightPmicControlType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault units='Percentage'>35</BacklightDefault>
+ <DisplayResetInfo>0 2000 10000 25000 0</DisplayResetInfo>
+</Group>
+
+
