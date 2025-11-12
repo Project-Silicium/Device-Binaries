@@ -1,0 +1,133 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<PanelDescription>n16t 36 0f 0b Single DSI Vid Mode AMOLED Panel with DSC (1220x2712 30bpp)</PanelDescription>
+<Group id=\"Active Timing\">
+ <HorizontalActive>1220</HorizontalActive>
+ <HorizontalFrontPorch>46</HorizontalFrontPorch>
+ <HorizontalBackPorch>28</HorizontalBackPorch>
+ <HorizontalSyncPulse>20</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2712</VerticalActive>
+ <VerticalFrontPorch>2872</VerticalFrontPorch>
+ <VerticalBackPorch>44</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>27</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>42</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>2</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>8</DSIDSCProfileID>
+ <DSIDSCSliceWidth>610</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>12</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+ <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+ <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+ <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIControllerMapping>
+ 00
+</DSIControllerMapping>
+</Group>
+<DSIInitRCOnSequence>
+ 39 9C A5 A5
+ 39 FD 5A 5A
+ 15 9F 0B
+ 15 B2 01
+ 39 9C 5A 5A
+ 39 FD A5 A5
+</DSIInitRCOnSequence>
+<DSIInitRCOffSequence>
+ 39 9C A5 A5
+ 39 FD 5A 5A
+ 15 9F 0B
+ 15 B2 00
+ 39 9C 5A 5A
+ 39 FD A5 A5
+</DSIInitRCOffSequence>
+<DSIInitSequence>
+ 15 48 23
+ 39 51 00 00
+ 15 53 E0
+ 15 35 00
+ 39 9C A5 A5
+ 39 FD 5A 5A
+ 15 9F 0F
+ 15 D7 33
+ 39 B3 02 00 00 00 00 00 00 FF EB
+ 15 9F 02
+ 39 B2 00 C9 32 90 10 11 18 12 10 10 78 26 11 14 13 11 11 11 11 11 11 11 21 21 11 0B
+ 39 B6 05 40 00 11 11 11 1C 22 22 22 22 22 22 22 22 22 22 22 22
+ 39 B7 00 00 00 00 00 15 70 03 03 03 03 03 03 03 03 03
+ 39 C6 00 00 2B 00 00 11 FF 00 04 90 00 00 00 00 2B 00 11 00 00 00 00 00 55 01 01 00
+ 15 9F 04
+ 39 C5 00 20 88 41 B2 32 32 00 4E 57 35 3A 3A 2A 0A 2F 00 20 0F
+ 39 C6 4B 00 10 00 02 D5 00 02 CB 01 10 43 01 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 C8 2D 2D 00 00
+ 39 BE 00 00 2A 2F 06 A7 15 9A 7C EA 04 00 D2 00
+ 05 11
+ FF 78
+ 39 9F 01
+ 39 CA 05 01 00 02 02 03 D2 02 02 03 D2 02 02 03 D2 02 02 88 AA
+ 39 CB 01 02 02 03 D2 02 02 03 D2 02 02 03 D2 02 02
+ 39 D3 A0 00
+ 15 9F 02
+ 39 ED 00 01 80
+ 39 EE 05 00 00 00 00 88 00 00 00 30 88 88 29 00 00 00 00
+ 15 9F 01
+ 39 B4 10 00 00 03
+ 39 E2 46 20
+ 39 E4 00 00 80 0C FF 0F 08 00
+ 15 9F 09
+ 15 EE E0
+ 15 9F 0B
+ 39 BE 32 00 00 00 00 00 26 26 20 62 3B 00 00 00 00 26 26
+ 15 9F 05
+ 15 B3 20
+ 15 9F 03
+ 39 B2 12 00 00 AB 30 80 0A 98 04 C4 00 0C 02 62 02 62 02 00 02 32 00 20 01 31 00 08 00 0C 08 BB 07 7B
+ 39 B3 18 00 10 F0 07 10 20 00 06 0F 0F 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 02 02 22 00 2A 40
+ 39 B4 2A BE 3A FC 3A FA 3A F8 3B 38 3B 78 3B B6 4B B6 4B F4 4B F4 6C 34 84 74 00 00 00 00 00 00
+ 39 9C 5A 5A
+ 39 FD A5 A5
+ 05 29
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ 05 10
+ FF 78
+</DSITermSequence>
+<DSITimingCLKZeroOverride>True</DSITimingCLKZeroOverride>
+<DSITimingCLKZeroValue>34</DSITimingCLKZeroValue>
+<DSITimingHSExitOverride>True</DSITimingHSExitOverride>
+<DSITimingHSExitValue>25</DSITimingHSExitValue>
+<DSITimingHSZeroOverride>True</DSITimingHSZeroOverride>
+<DSITimingHSZeroValue>23</DSITimingHSZeroValue>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault>15</BacklightDefault>
+ <DisplayResetInfo>1 5000 5000 45000 0</DisplayResetInfo>
+</Group>
