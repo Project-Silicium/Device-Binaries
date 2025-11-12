@@ -1,14 +1,6 @@
-[Defines]
-  INF_VERSION                    = 0x0001001B
-  BASE_NAME                      = SSRDxe
-  FILE_GUID                      = 6B593A13-4E39-4CF5-B4E2-50B9540A324A
-  MODULE_TYPE                    = DXE_DRIVER
-  VERSION_STRING                 = 1.0
   ENTRY_POINT                    = EfiEntry
 
 [Binaries.AARCH64]
   DXE_DEPEX|SSRDxe.depex|*
   PE32|SSRDxe.efi|*
 
-[Depex]
-  TRUE
