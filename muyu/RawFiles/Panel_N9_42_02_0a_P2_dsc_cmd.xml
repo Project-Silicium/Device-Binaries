@@ -1,0 +1,232 @@
+
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<PanelDescription>42 02 0a p2 Single DSI Cmd Mode Panel with DSC (1236x2750 30bpp)</PanelDescription>
+<Group id=\"Active Timing\">
+ <HorizontalActive>1236</HorizontalActive>
+ <HorizontalFrontPorch>42</HorizontalFrontPorch>
+ <HorizontalBackPorch>16</HorizontalBackPorch>
+ <HorizontalSyncPulse>16</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2750</VerticalActive>
+ <VerticalFrontPorch>28</VerticalFrontPorch>
+ <VerticalBackPorch>30</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIFlags>0x8</DSIFlags>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSIBitClockFrequency>1100000000</DSIBitClockFrequency>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>2</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0xB</DSIDSCProfileID>
+ <DSIDSCSliceWidth>618</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>50</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2750</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2750</DSITEvSyncInitVal>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <!-- <DisplayPrimaryFlags>0x01000000</DisplayPrimaryFlags> -->
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+ 39 F0 55 AA 52 08 08
+ 39 C2 22 80
+ 39 C7 13
+ 39 CB 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 CE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 D3 80 01
+ 39 6F 02
+ 39 D3 10 00 9A 00 57
+ 39 67 80 40 80 80
+ 39 F0 55 AA 52 08 00
+ 39 BE 47 45
+ 39 6F 05
+ 39 BE 28
+ 39 6F 19
+ 39 BE 10 91 00 AB
+ 39 6F 0D
+ 39 D8 42
+ 39 FF AA 55 A5 82
+ 39 6F 09
+ 39 F2 FF
+ 39 F0 55 AA 52 08 01
+ 39 E5 00
+ 39 C3 DD 06 20 11 FF 00 06 20 11 FF 00 06 2D 1F 06 51 19 06 2D 1F 06 51 19 06 2D 1F 06 51 19 06 2D 1F 06 51 19 06 2D 1F 06 51 19
+ 39 6F 1F
+ 39 D8 21 31 20 30
+ 39 6F 26
+ 39 D8 50 50 50 50
+ 39 F0 55 AA 52 08 03
+ 39 6F 04
+ 39 C7 FD
+ 39 FF AA 55 A5 80
+ 39 6F 32
+ 39 F9 00
+ 39 FF AA 55 A5 81
+ 39 6F 02
+ 39 F9 84
+ 39 FF AA 55 A5 81
+ 39 6F 0C
+ 39 FD 08
+ 39 FF AA 55 A5 81
+ 39 6F 10
+ 39 FB 40
+ 39 FF AA 55 A5 80
+ 39 6F 42
+ 39 F4 00
+ 39 6F 49
+ 39 F2 10
+ 39 F0 55 AA 52 08 01
+ 39 6F 05
+ 39 C5 00 0A 0A
+ 39 FF AA 55 A5 80
+ 39 6F 31
+ 39 F8 01 8E
+ 39 FF AA 55 A5 80
+ 39 6F 15
+ 39 F8 01 8D
+ 39 6F 16
+ 39 F4 02 74
+ 39 FF AA 55 A5 81
+ 39 6F 05
+ 39 FE 3C 3C
+ 39 6F 0D
+ 39 FB 80
+ 39 FF AA 55 A5 80
+ 39 6F 0A
+ 39 F6 70 70 70 70 70
+ 39 17 30
+ 39 2A 00 00 04 D3
+ 39 2B 00 00 0A BD
+ 39 90 03
+ 39 6F 01
+ 39 90 43
+ 39 91 AB A8 00 32 C2 00 02 35 05 2D 00 08 01 F6 01 C7 10 F0
+ 39 6F 06
+ 39 6d 04
+ 39 2F 00
+ 39 5F 00
+ 39 35 00
+ 39 6F 04
+ 39 51 3F FF
+ 39 53 20
+ 39 26 00
+ 39 F0 55 AA 52 08 07
+ 39 C0 07 01 F8
+ 39 6F 03
+ 39 C0 00 F0 00 00
+ 39 C1 38 0F 03 84 00 E1 FC 7C 3F FD D4 88 3F FF 53 44 00 00 21 98 91
+ 39 6F 15
+ 39 C1 5A 00 00 11 00 45 A0 43 F0 A6 EF 05 FA C0 00 FF
+ 39 6F 25
+ 39 C1 00 3B 44 00 08 10 00
+ 39 C2 30 0F 01 00 00 E1 FE 20 3F FE D2 44 3F FE DC 60 00 00 32 B1 59
+ 39 6F 15
+ 39 C2 14 00 11 43 00 11 44 44 F0 CE CF 09 92 F0 FF FF
+ 39 6F 25
+ 39 C2 00 08 10 00 3D 45 00
+ 39 C3 30 0F 00 E1 05 59 FB AA 3F FF 48 F6 3F FD 78 D2 00 00 25 A8 80
+ 39 6F 15
+ 39 C3 11 00 44 A4 00 00 11 35 F0 EF A1 06 4F 30 FF 00
+ 39 6F 25
+ 39 C3 44 C3 CB 00 3B 44 00
+ 39 C4 3C 00 02 A4 01 00 03 40 3F FC 1F C0 00 00 00 00 00 00 00 00 00
+ 39 6F 15
+ 39 C4 64 00 00 10 AA 12 77 43 C0 9C 10 00 00 00 00 00
+ 39 6F 25
+ 39 C4 44 98 A0 00 0C 15 00
+ 39 C5 3C 00 01 44 01 00 02 40 3F FE 3C 70 00 00 E1 C8 00 00 01 C4 D4
+ 39 6F 15
+ 39 C5 1D 00 10 43 AA 78 AB 44 C0 CE 32 00 00 30 FF 00
+ 39 6F 25
+ 39 C5 22 0B C8 00 7D 80 00
+ 39 C6 34 00 01 44 05 10 05 10 3F FE A7 C0 00 02 64 00 00 00 01 59 84
+ 39 6F 15
+ 39 C6 12 00 44 A9 AA AB BD 35 C0 EE 64 00 00 30 FF 00
+ 39 6F 25
+ 39 C6 22 0C C7 00 2C 2F 00
+ 39 C7 31 00 06 91 06 E4 00 00 3F FD D8 6C 3F FD CA F8 00 00 2F 6D 49
+ 39 6F 15
+ 39 C7 04 12 E0 0B 00 2C 55 36 F0 D7 D6 06 BA 30 FF 00
+ 39 6F 25
+ 39 C7 00 07 0F AA 77 80 00
+ 39 C8 3D 00 06 E4 06 E4 00 00 3F FD BD 30 00 00 00 00 00 00 02 49 B4
+ 39 6F 15
+ 39 C8 25 12 E0 0B 00 56 80 36 C0 D6 2A 00 00 30 FF 00
+ 39 6F 25
+ 39 C8 00 36 43 AA AC B9 00
+ 39 C9 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 15
+ 39 C9 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 25
+ 39 C9 44 90 9A AA AC B2 00
+ 39 CA 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 15
+ 39 CA 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 25
+ 39 CA 44 C3 CC AA 78 81 00
+ 39 CB 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 15
+ 39 CB 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 25
+ 39 CB 00 00 00 00 00 00 00
+ 39 CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 15
+ 39 CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 39 6F 25
+ 39 CC 00 00 00 00 00 00 00
+ 39 D1 80 00 00 E9 61 04 D3 80 00 01 80 61 04 D3
+ 39 6F 0E
+ 39 D1 80 00 00 00 00 04 D3 FF FF C4 A0 00 04 D3
+ 39 6F 1C
+ 39 D1 FF FF B4 29 F0 04 D3 FF FF AA F7 40 04 D3
+ 39 6F 2A
+ 39 D1 80 00 00 00 00 04 D3 FF FF D0 84
+ 39 D2 F0 04 D3 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 05 11
+ FF 78
+ 05 29
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 14
+ 05 10
+ FF 64
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <BacklightBitWidth>13</BacklightBitWidth>
+ <BacklightDefault>15</BacklightDefault>
+ <SetAfterRenderLogo>True</SetAfterRenderLogo>
+ <DisplayResetInfo>0 1000 1000 15000 0</DisplayResetInfo>
+</Group>
