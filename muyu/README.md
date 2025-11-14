@@ -55,6 +55,6 @@
 ### UsbMsdDxe:
 
 - Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
-- Patch: Changed Removable State to Non-Removable.
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
+- Patch Nr. 1: Changed Removable State to Non-Removable.
+- Patch Nr. 2: Changed the USB PID to avoid MTP problems.
+- Patch Creator: [N1kroks](https://github.com/N1kroks) & [Sinetek](https://github.com/philmb3487)
