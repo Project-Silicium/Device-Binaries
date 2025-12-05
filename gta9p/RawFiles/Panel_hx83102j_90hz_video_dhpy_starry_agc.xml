@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>HX83102J Visionox</PanelName>
+<PanelDescription>HX83102J Visionox (1920x1200 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1200</HorizontalActive>
+ <HorizontalFrontPorch>60</HorizontalFrontPorch>
+ <HorizontalBackPorch>40</HorizontalBackPorch>
+ <HorizontalSyncPulse>20</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1920</VerticalActive>
+ <VerticalFrontPorch>1636</VerticalFrontPorch>
+ <VerticalBackPorch>12</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>2</DSITrafficMode>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>600</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>40</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>1</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+ <DSILP11AtInit>True<DSILP11AtInit>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSICmdSwapInterface>False</DSICmdSwapInterface>
+   <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+   <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 B9 83 10 21 55 00
+39 B1 2C AB AB 27 E7 32 CD 43 36 36 36 36 32 8B 11 65 00 88 FA FF FF 8F FF 08 9A 33
+39 B2 00 47 B0 80 01 12 CA 3C 4C 20 20 00 00 88 01 20
+39 B4 20 20 20 20 20 20 1A 58 1A 58 01 76 01 00 03 05 00
+39 B8 40
+39 E9 CD
+39 BA 84
+39 E9 3F
+39 BC 1B 00
+39 BE 20
+39 BF FC C4 80 9C 36 00 0D 04
+39 C0 34 34 22 11 22 A0 31 08 F5 03
+39 C2 43 FF 00
+39 C7 0D 83 14 AF 24 89 00 00 BE 00 60 80 03 B2 04 60 10 80 22
+39 E9 C6
+39 C8 97
+39 E9 3F
+39 C9 00 1E 13 88 01
+39 CB 08 13 07 00 08 AE
+39 CC 02 03 4C
+39 E9 C4
+39 D0 03
+39 E9 3F
+39 D1 37 06 00 02 04 2C FF
+39 D2 01
+39 D3 06 00 00 00 00 08 08 08 08 37 07 74 37 10 10 03 03 32 10 0C 00 0C 32 17 9B 07 9B 32 10 08 00 08 00 00
+39 D5 25 25 24 24 19 19 18 18 18 18 1E 1E 1F 1F 18 18 00 00 01 01 02 02 03 03 04 04 05 05 06 06 07 07 21 21 20 20 18 18 18 18 18 18 18 18
+39 D6 20 20 21 21 18 18 19 19 18 18 1E 1E 1F 1F 40 40 07 07 06 06 05 05 04 04 03 03 02 02 01 01 00 00 24 24 25 25 40 40 18 18 18 18 18 18
+39 D8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 E0 00 02 0B 13 1A 2A 43 47 4C 48 5F 64 69 76 74 7C 85 98 99 4C 55 61 73 00 02 0B 13 1A 2A 43 47 4C 48 5F 64 69 76 74 7C 85 98 99 4C 55 61 73
+39 E1 11 00 00 89 10 80 07 80 02 58 00 28 02 58 02 58 02 00 02 2C 00 20 04 12 00 08 00 0C 02 77 02 4A 18 00 10 F0 03 0C 20 00 06 0B 0B 33 0E
+39 E7 26 0A 0A 39 33 5D 01 35 5D 14 14 00 00 00 00 FA 0C 01 02 00 33 02 04 1A 01
+39 BD 01
+39 B1 01 BF 11
+39 CB 80
+39 E9 C5
+39 D3 20 00 00 80 84 0C 81
+39 E9 3F
+39 E1 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A F6 2B 34 2B 74 3B 74 6B F4
+39 E7 01 00 B4 01 C8 09 B4 0A A0 00 04
+39 D8 FF FE FF FF FA A0 FF FE FF FF FA A0 FF FE FF FF FA A0 FF FE FF FF FA A0
+39 BD 02
+39 BF F2
+39 D8 FF FE FF FF FA A0 FF FE FF FF FA A0
+39 E7 FD 03 FD 03 FD 03 02 02 02 06 00 06 81 02 40 00 20 76 01 00
+39 BD 03
+39 D8 AA AA AA AA AA A0 AA AA AA AA AA A0 FF FE FF FF FA A0 FF FE FF FF FA A0 55 56 55 55 5A A0 55 56 55 55 5A A0 AA AA AA AA AA A0 AA AA AA AA AA A0
+39 E1 01
+39 BD 00
+39 E9 C4
+39 BA 96
+39 E9 3F
+39 BD 01
+39 E9 C5
+39 BA 4F
+39 E9 3F
+39 BD 00
+39 B9 00 00 00
+05 11
+FF 50
+05 29
+FF 14
+39 35 00
+39 53 2C
+39 51 00 00
+</DSIInitSequence>
+<DSITermSequence>
+05 28
+FF 14
+05 10
+FF 78
+39 B9 83 10 21 55 00
+39 BD 00
+39 B1 2D
+FF 14
+</DSITermSequence>
+<PMICGPIODefaultHigh>0x03</PMICGPIODefaultHigh>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightDefault>100</BacklightDefault> <!--P86801AA1 wanwen2.wt, add, 20230808, add brightness setting-->
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 10000 5000 16000 0</DisplayResetInfo>
+</Group>
