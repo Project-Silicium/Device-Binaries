@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>JD9366TS CSOT</PanelName>
+<PanelDescription>JD9366TS CSOT (1920x1200 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1200</HorizontalActive>
+ <HorizontalFrontPorch>50</HorizontalFrontPorch>
+ <HorizontalBackPorch>36</HorizontalBackPorch>
+ <HorizontalSyncPulse>20</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>1920</VerticalActive>
+ <VerticalFrontPorch>1583</VerticalFrontPorch>
+ <VerticalBackPorch>10</VerticalBackPorch>
+ <VerticalSyncPulse>6</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>2</DSITrafficMode>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>4</DSIDSCProfileID>
+ <DSIDSCSliceWidth>600</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>40</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>1</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+ <DSILP11AtInit>True<DSILP11AtInit>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSICmdSwapInterface>False</DSICmdSwapInterface>
+   <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+   <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 df 93 86 19
+39 de 00
+39 cb 10
+39 b2 01 23 60 55 88 db
+39 b6 08 00 00 00 ff ff
+39 bb 00 42 00 7f 56 33 33 33 00 5a
+39 bd 00 39
+39 bf 63 e3 30 00 c3 03 90 10
+39 c0 11 40 00 40 00
+39 c3 03 01 42 07 00 00 00 10 01 01 01 01 01 01 02 02 01 01 01 08 72 71 71 71 71 01 6e 71 71 71 01 6e 71 00 01 06 01 06 01 06 02 1c 0a 10 0a 10 00 57
+39 c4 01 02 00 00 10 01 01 01 02 02 01 01 01 08 72 71 01 6e 01 6e 01 06 01 06 01 06 02 1c 01 06 01 06 00 57
+39 c6 00 f0 01 9a 00 0f 16 82 01 00 00 01 00 01 00 00 00 00 00 10 00 00 01
+39 c8 3b 80 87 00 00 00 00 3a 00 22 08
+39 c9 0b 00
+39 cb 00
+39 ce 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 11 11 11 11 11 11 11 00 11 11 11 11 11 11 11 11 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05
+39 cf 00 00 00 30 30 00 30 30 30 30 30 30 30 30 00 30 30 30 30 30 30 30 30 aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa aa
+39 d0 00 2b 2b 2b 2b 2b 8b 8b 89 89 87 87 85 85 2b 81 81 9f 9f 9e 9e 94 94
+39 d1 00 2b 2b 2b 2b 2b 8a 8a 88 88 86 86 84 84 2b 80 80 9f 9f 9e 9e 94 94
+39 d4 10 00 00 00 0b 05 00 00 00 00 24 00 80 00 00 07 00 00 01 04
+39 d5 02 18 30 00 00 00 01 00 00 00 e0 00 00 00 07 32 5a 10 0e 63 00 02 00 01 73 00 0e 04 00 00 00 00 71 00 04 10 00 00 00 00 00 00 00 05 08 02 02 00 1b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 d7 00 3b 3b 3b 3b 3b 3b 3b 3b 3b 3b 3b 3b 3b 53 3b 3b 3b
+39 de 01
+39 b5 64 00 01 02 20
+39 c8 04 01 04
+39 b9 01
+39 c2 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c3 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c4 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c5 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c6 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c7 00 00 05 55 55 56 aa ab ff f0 30 33 44 61 8b ac c8 df f4 06 17 35 4e 65 78 89 98 a7 b4 cc e4 ff 20 40 65 7a 92 ad ce f6 2b 4d 78 93 b4 df fc
+39 c9 05 7f 00 55 55 55 99 99 99 00 00 40 00
+39 d1 11 4f 0c 1c 1c 00 00 00 03 10 02 a4 03 10 01 a4 bd 03 10 02 a4 03 10 01 a4 bd 00 00 00 00 00 00 00 00 6f 12 f7 55 a1 ca 65 30 21 2e 69 2e 69 10 95
+39 de 02
+39 b4 02 06 4e a0
+39 bf 00 1c 1c
+39 c1 00 10 48 00 40 40 00 03 01
+39 c2 02 42 d0 02 00 c4 61 73 fb
+39 c4 02 11 07 00 1a
+39 c5 07 ff ff 07 ff ff
+39 c6 43 05 04
+39 d6 03 40 01 01 0d 40 10 64 70
+39 e6 14 0c 40
+39 ee 10 01 10
+39 de 03
+39 d1 05 10
+39 de 04
+39 c0 01
+39 c1 00 11 00 00 8b 30 80 07 80 04 b0 00 28 02 58 02 58 02 00 02 5e 00 20 03 bf 00 08 00 0e 02 e0 02 4a 18 00 10 f0 03 0c 20 00 06 0b 0b 33 0e 1c 2a 38 46 54 62 69 70 77 79 7b 7d 7e 01 02 01 00 09 40 09 be 19 fc 19 fa 19 f8 1a 38 1a 78 1a b6 2a b6 2a f4 2a f4 4b 34 63 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 c4 32 20 c8 00 14
+39 de 07
+39 de 00
+39 b3 01 00 00 88
+39 35 00
+39 51 00 00 
+39 53 2C
+05 11
+FF 78
+05 29
+FF 32
+</DSIInitSequence>
+<DSITermSequence>
+05 28
+FF 0A
+05 10
+FF 78
+</DSITermSequence>
+<PMICGPIODefaultHigh>0x03</PMICGPIODefaultHigh>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightDefault>100</BacklightDefault> <!--P86801AA1 tongyuran.wt, add, 20231011, add brightness setting-->
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 2000 1000 31000 0</DisplayResetInfo>
+</Group>
