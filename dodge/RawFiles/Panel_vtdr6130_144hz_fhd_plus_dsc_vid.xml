@@ -48,9 +48,6 @@
    <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
    <DSIRefreshRate>0x900000</DSIRefreshRate>
    <DSIDynamicRefreshRates>0x8F0000 0x8F8000 0x900000</DSIDynamicRefreshRates>
- <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
- <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
- <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
  <DSIControllerMapping>
   00
  </DSIControllerMapping>

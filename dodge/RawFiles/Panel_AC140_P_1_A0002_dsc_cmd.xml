@@ -30,7 +30,7 @@
  <DSIBitClockFrequency>1506000000</DSIBitClockFrequency>
  <DSIChannelId>2</DSIChannelId>
  <DSIVirtualId>0</DSIVirtualId>
- <DSIColorFormat>36</DSIColorFormat>
+ <DSIColorFormat>42</DSIColorFormat>
  <DSITrafficMode>1</DSITrafficMode>
  <DSILanes>4</DSILanes>
  <DSIRefreshRate>0x780000</DSIRefreshRate>
@@ -115,6 +115,16 @@
  39 B0 00 01 B9
  15 B9 11
  15 F7 0F
+ 39 F0 A5 A5
+
+ 39 F0 5A 5A
+ 39 F1 5A 5A
+ 39 FC 5A 5A
+ 39 B0 00 FE 97
+ 15 97 DA
+ 15 F7 0F
+ 39 FC A5 A5
+ 39 F1 A5 A5
  39 F0 A5 A5
 
  05 29

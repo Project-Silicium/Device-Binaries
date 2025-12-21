@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Group id='SPR Configuration'>
+ <AdaptiveMode>YYGM</AdaptiveMode>
+ <FilterType>2DAvgPhase0</FilterType>
+ <FilterCoeffs>0 256 256 0 0 256 256 0 0 256 256 0 0 256 256 0</FilterCoeffs>
+ <PhaseInc>8</PhaseInc>
+ <PhaseRepeat>2</PhaseRepeat>
+ <ColorPhaseOffsetsRed>-2 2 0 0 0 0</ColorPhaseOffsetsRed>
+ <ColorPhaseOffsetsGreen>0 0 0 0 0 0</ColorPhaseOffsetsGreen>
+ <ColorPhaseOffsetsBlue>2 -2 0 0 0 0</ColorPhaseOffsetsBlue>
+ <ColorPhaseOffsetsWhite>0 0 0 0 0 0</ColorPhaseOffsetsWhite>
+ <AdaptiveFilterCoeffs>16 16 16 16 16</AdaptiveFilterCoeffs>
+</Group>

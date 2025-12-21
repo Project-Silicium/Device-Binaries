@@ -51,6 +51,7 @@
    <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
    <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
    <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+   <DSIDynamicRefreshRates>0x3B8000 0x3BC000 0x3C0000</DSIDynamicRefreshRates>
  <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
  <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
  <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
