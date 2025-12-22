@@ -35,6 +35,7 @@
  <DSIDSCMajor>1</DSIDSCMajor>
  <DSIDSCMinor>2</DSIDSCMinor>
  <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCChromaFormat>1</DSIDSCChromaFormat>
  <DSIDSCProfileID>7</DSIDSCProfileID>
  <DSIDSCSliceWidth>720</DSIDSCSliceWidth>
  <DSIDSCSliceHeight>40</DSIDSCSliceHeight>
@@ -106,6 +107,8 @@
  39 F0 55 AA 52 08 07
  39 B0 24
  39 03 10
+ 39 F0 55 AA 52 08 01
+ 39 B2 55 01 FF 03
  05 11 00
  FF 78
  05 29 00

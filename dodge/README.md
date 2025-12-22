@@ -2,7 +2,7 @@
 
 - Device: OnePlus 13
 - Region: EEA
-- Version: `CPH2653_15.0.0.821` / `BOOT.MXF.2.5.1`
+- Version: `CPH2653_16.0.1.304` / `BOOT.MXF.2.5.1`
 
 ## Patches / Fixes
 
