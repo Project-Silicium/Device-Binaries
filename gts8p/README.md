@@ -52,8 +52,9 @@
 
 ### SdccDxe:
 
-- Reason: To make SD Card "work" in UEFI and to Allow SMMU in the OS.
-- Patch: The IOMMU Domains have been Removed.
+- Reason: To make SD Card work in UEFI and to Allow SMMU in the OS.
+- Patch Nr. 1: The IOMMU Domains have been Removed.
+- Patch Nr. 2: Added Power On Code for LDO6 and LDO9 Regulator.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ### SPMIDxe:
