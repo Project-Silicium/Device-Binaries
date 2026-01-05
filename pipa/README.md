@@ -1,3 +1,9 @@
+## Firmware Info
+
+- Device: Xiaomi Pad 6
+- Region: Global
+- Version: `OS2.0.12.0.UMZMIXM` / `BOOT.XF.3.2-00304-SM8250-2`
+
 ## Patches/Fixes
 
 ### ButtonsDxe:
@@ -6,21 +12,38 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### UFSDxe:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
-
 ### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux and UEFI.
-- Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services.
-- Patch Nr. 2: USB Mode has been Changed from Device Mode to Dual Role Mode.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
+- Patch: Exit BootServices routine was patched to not deinit USB after exit boot services.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### ClockDxe:
 
 - Reason: To be able to boot Windows with debug build.
-- Patch: LowPowerMode routine was patched to not register handler.
+- Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### TzDxeLA:
+
+- Reason: The Common and Keymaster TZ Applets are already loaded, Also we don't have to notify TZ a second time where TZ applets will be loaded to
+- Patch: The global variable has been changed to 0x1 so function that notifies tz and loads applets is not called
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### FeatureEnablerDxe:
+
+- Reason: The clock is already turned on, turning it on again will cause framebuffer lose
+- Patch: The function that enables clocks has been patched to always return Success.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### UsbMsdDxe:
+
+- Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- Patch: Changed Removable State to Non-Removable.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### DALSYSDxe:
+
+- Reason: To make the Internal Storage work with сache сoherency.
+- Patch: Changed CacheCoherency in \\_SB_.UFS0 Node to 1.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
