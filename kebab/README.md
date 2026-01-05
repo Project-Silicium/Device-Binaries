@@ -12,12 +12,6 @@
 - Patch: Both DXEs were patched to not start again the TZ applet.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### UFSDxe:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing the driver to crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
-
 ### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux and UEFI.

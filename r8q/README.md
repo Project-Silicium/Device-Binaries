@@ -42,12 +42,6 @@
 - Patch: The global variable has been changed to 0x1 so function that notifies tz and loads applets is not called.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
 
-### UFSDxe:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
-
 ### UsbConfigDxe:
 
 - Reason: Is important to get USB working in Windows / Linux and UEFI.
