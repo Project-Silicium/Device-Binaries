@@ -12,12 +12,6 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### UFSDxe:
-
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
-
 ### UsbConfigDxe:
 
 - Reason: Is Important to get USB working in Windows / Linux and UEFI.
@@ -46,4 +40,10 @@
 
 - Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
 - Patch: Changed Removable State to Non-Removable.
+- Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### DALSYSDxe:
+
+- Reason: To make the Internal Storage work with сache сoherency.
+- Patch: Changed CacheCoherency in \\_SB_.UFS0 Node to 1.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
