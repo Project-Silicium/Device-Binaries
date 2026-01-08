@@ -1,19 +1,19 @@
+## Firmware Infos
+
+- **Device:** Samsung Galaxy Tab A7 LTE
+- **Region:** ?
+- **Version:** ?
+
 ## Patches/Fixes
 
-### ClockDxe (Temporary Patch):
+### ClockDxe:
 
-- Reason: A Npa Node gets Registert wich kills Display.
-- Patch: That Node Register has been removed to avoid killing Display.
-- Patch Creator: [Kernel357](https://github.com/Kernel357) & [Robotix22](https://github.com/Robotix22)
-
-### HALIOMMU:
-
-- Reason: IOMMUs for USB, eMMC and SD Card are already present, If reset again UEFI crashes.
-- Patch: IOMMU for USB, eMMC and SD Card has been patched to always return Success.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
+- **Reason:** To keep Display turned on while UEFI Boot.
+- **Patch:** a Call to a NPA Function has been Removed.
+- **Patch Creator:** [Kernel357](https://github.com/Kernel357)
 
 ### UsbConfigDxe:
 
-- Reason: Usefull for Navigating UEFI and the OSs.
-- Patch: A Check for Platform CLS was Patched to Check for every other Platform instead.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
+- **Reason:** Usefull for Navigating UEFI and the OSs.
+- **Patch:** A Check for Platform CLS was Patched to Check for every other Platform instead.
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
