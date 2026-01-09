@@ -19,12 +19,6 @@
 - **Patch Nr. 2:** The LPM Call Backs Function has been Removed.
 - **Patch Creator:** [Kernel357](https://github.com/Kernel357) & [N1kroks](https://github.com/N1kroks)
 
-### DALSYSDxe:
-
-- **Reason:** To avoid Mismatched Cached Copies.
-- **Patch:** Enabled Cache Coherence for UFS.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
-
 ### UsbMsdDxe:
 
 - **Reason:** To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
