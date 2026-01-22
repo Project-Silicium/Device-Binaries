@@ -42,7 +42,7 @@
 
 ### PmicDxe:
 
-> [!NOTE]
+> [!IMPORTANT]
 > Must be paired with the SPMIDxe Patch.
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
@@ -52,14 +52,17 @@
 
 ### SdccDxe:
 
-- **Reason:** To make SD Card work in UEFI and to Allow SMMU in the OS.
-- **Patch Nr. 1:** The IOMMU Domains have been Removed.
-- **Patch Nr. 2:** Added Power On Code for PM8350C LDO6 and LDO9 Regulator.
+> [!IMPORTANT]
+> Platform Type must be `WP` for Patch Nr. 2 to Work.
+
+- **Reason:** To allow the Usage of a SD Card.
+- **Patch Nr. 1:** Added Power On Code for PM8350C LDO6 and LDO9 Regulator.
+- **Patch Nr. 2:** Forced SDHCi Mode to Enable on Exit Boot Services Event.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
 ### SPMIDxe:
 
-> [!NOTE]
+> [!IMPORTANT]
 > Must be paired with the PmicDxe Patch.
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
@@ -69,15 +72,13 @@
 ### UFSDxe:
 
 - **Reason:** To make UEFI be able to use the Internal Storage.
-- **Patch Nr. 1:** The IOMMU Domains have been removed to avoid a Crash.
-- **Patch Nr. 2:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
-- **Patch Creators:** [Gustave Monce](https://github.com/gus33000), [Kancy Joe](https://github.com/sunflower2333)
+- **Patch:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
+- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333)
 
 ### UsbConfigDxe:
 
 - **Reason:** To make USB work in UEFI and the OS.
-- **Patch Nr. 1:** The IOMMU Domains have been removed to avoid a Crash.
-- **Patch Nr. 2:** The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
+- **Patch:** The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
 ### UsbMsdDxe:
