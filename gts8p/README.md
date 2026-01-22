@@ -21,7 +21,7 @@
 
 ### DisplayDxe:
 
-> [!NOTE]
+> [!IMPORTANT]
 > This Patch requires `EnableDisplayThread` to be Disabled in the Configuration Map.
 
 - **Reason:** To get more Control over the Display in UEFI.
@@ -47,7 +47,7 @@
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
 - **Patch Nr. 1:** Minimal PMIC Init has been Removed to avoid a Crash.
-- **Patch Nr. 2:** The Invalid Power Button Press Check has been to Remove to avoid a sudden Shutdown.
+- **Patch Nr. 2:** The Invalid Power Button Press Check has been Removed to avoid a sudden Shutdown.
 - **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333), [Robotix22](https://github.com/Robotix22)
 
 ### SdccDxe:
