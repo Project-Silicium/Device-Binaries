@@ -2,19 +2,30 @@
 
 ### ButtonsDxe:
 
-- Reason: Helps navigating Menus (e.g. UEFI Menu).
-- Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
+- **Reason:** To make the Power Button usable in UEFI.
+- **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
-### FeatureEnablerDxe & MinidumpTADxe:
+### DALSYSDxe:
 
-- Reason: The TZ applet it already brought up.
-- Patch: Both DXEs were patched to not start again the TZ applet.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000)
+- **Reason:** To avoid Mismatched Cached Copies.
+- **Patch:** Enabled Cache Coherence for UFS.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### FeatureEnablerDxe:
+
+- **Reason:** To not reinit the TZ Appleet which was init by the Bootloader before.
+- **Patch:** The TZ Applet Register Function has been Removed.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
 ### UsbConfigDxe:
 
-- Reason: Is Important to get USB working in Windows / Linux and UEFI.
-- Patch Nr. 1: Exit BootServices routine was patched to not deinit USB after exit boot services.
-- Patch Nr. 2: USB Mode has been Changed from Device Mode to Host Mode (use host patch dxe).
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [CloudSweets](https://github.com/cloudsweets)
+- **Reason:** To make USB work in the OS.
+- **Patch:** The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### UsbMsdDxe:
+
+- **Reason:** To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- **Patch:** Changed Removable State to Non-Removable.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks)
