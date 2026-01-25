@@ -1,6 +1,6 @@
 ## Firmware Infos
 
-- **Device:** Xiaomi 11 Lite 5G NE
+- **Device:** Samsung Galaxy A52s 5G
 - **Region:** DBT (Germany)
 - **Version:** `A528BXXSBGYI3` / `BOOT.MXF.1.0-00872-LAHAINA-2`
 
