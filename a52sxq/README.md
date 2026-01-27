@@ -25,6 +25,12 @@
 - **Patch:** The TZ Applet Register Function has been Removed.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
+### UFSDxe:
+
+- **Reason:** To make UEFI be able to use the Internal Storage.
+- **Patch:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
+- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333)
+
 ### UsbConfigDxe:
 
 - **Reason:** To make USB work in the OS.
