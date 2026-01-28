@@ -55,7 +55,7 @@
 - **Patch Nr. 2:** Some Protocols Calls were Removed <!-- TODO: Get more Infos about this. -->
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
-## QcomWDogDxe:
+### QcomWDogDxe:
 
 - **Reason:** To avoid Sudden Reboots.
 - **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
