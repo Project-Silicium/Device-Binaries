@@ -87,6 +87,10 @@
  39 6F 1D
  39 C1 00 80 FF
  39 FF AA 55 A5 80
+ 39 6F 07
+ 39 F8 4D
+ 39 6F 23
+ 39 F8 4D
  39 6F 04
  39 F2 1D
  39 6F 0A
@@ -145,7 +149,11 @@
  39 F0 55 AA 52 08 07
  39 C0 06
  39 F0 55 AA 52 08 01
- 39 C3 99 29 02 87 E3 00 29 00 87 E3 00 3F 4C 4A 3F 40 DC 3F 4C 4A 3F 40 DC 3F 38 FC 3F 2C A8 3F 38 FC 3F 2C A8 3F 38 FC 3F 2C A8 11 00 00 00 00 00 77 00 AA 02 AA 02
+ 39 C3 99 29 02 87 19 00 29 00 87 19 00 3F 39 4B 3F 46 DD 3F 39 4B 3F 46 DD 3F 51 FE 3F 25 A9 3F 51 FE 3F 25 A9 3F 38 FC 3F 2C A8 11 00 00 00 00 00 77 00 AA 02 AA 02
+ 15 6F 04
+ 15 C3 19
+ 15 6F 09
+ 15 C3 19
  39 F0 55 AA 52 08 00
  39 6F 04
  39 B1 00
@@ -328,7 +336,7 @@
 </DSITermSequence>
 <Group id='Backlight Configuration'>
  <BacklightType>3</BacklightType>
- <BacklightDefault units='Percentage'>35</BacklightDefault>
+ <BacklightDefault units='Percentage'>30</BacklightDefault>
  <BacklightBitWidth>12</BacklightBitWidth>
  <BacklightPmicControlType>0</BacklightPmicControlType>
  <DisplayResetInfo>0 2000 10000 30000 0</DisplayResetInfo>

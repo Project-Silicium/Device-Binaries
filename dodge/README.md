@@ -6,6 +6,9 @@
 
 ## Patches / Fixes
 
+> [!WARNING]
+> These Patches are Outdated & Unstable!
+
 ### ButtonsDxe:
 
 - Reason: To make the Power Button usable in UEFI.
@@ -35,12 +38,6 @@
 - Patch Nr. 2: The Function `EFI_DeadBattery` OnePlus Function has been Removed.
 - Patch Creator: [Kancy Joe](https://github.com/sunflower2333) & [Robotix22](https://github.com/Robotix22)
 
-### SdccDxe:
-
-- Reason: To Allow SMMU in the OS.
-- Patch: The IOMMU Domains have been Removed.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
-
 ### SPMIDxe:
 
 > [!NOTE]
@@ -53,16 +50,14 @@
 ### UFSDxe:
 
 - Reason: To make UEFI be able to use the Internal Storage.
-- Patch Nr. 1: The IOMMU Domains have been removed to avoid a Crash.
-- Patch Nr. 2: The UFS Sleep call has been Replaced with the UFS Wakeup Call.
-- Patch Nr. 3: Force UFS Link Wake Up Function to run before Gear Check.
-- Patch Creator: [Gustave Monce](https://github.com/gus33000) & [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
+- Patch Nr. 1: The UFS Sleep call has been Replaced with the UFS Wakeup Call.
+- Patch Nr. 2: Force UFS Link Wake Up Function to run before Gear Check.
+- Patch Creator: [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
 
 ### UsbConfigDxe:
 
 - Reason: To make USB work in UEFI and the OS.
-- Patch Nr. 1: The IOMMU Domains have been removed to avoid a Crash.
-- Patch Nr. 2: The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
+- Patch: The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### UsbMsdDxe:
