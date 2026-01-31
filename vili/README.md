@@ -2,7 +2,7 @@
 
 - **Device:** Xiaomi 11T Pro
 - **Region:** EEA (Europe)
-- **Version:** `OS1.0.24.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
+- **Version:** `OS1.0.27.0.UKDEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.13`
 
 ## Patches / Fixes
 
@@ -10,49 +10,47 @@
 
 - **Reason:** To make the Power Button usable in UEFI.
 - **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### ClockDxe:
 
 - **Reason:** To keep Display turned on while UEFI Boot.
-- **Patch Nr. 1:** The DCD Dependency Enablement Path has been patched to avoid reinitialize MDSS.
-- **Patch Nr. 2:** The LPM Call Backs Function has been Removed to allow Windows Boot on Debug Builds.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
+- **Patch Nr. 1:** The DCD Disable Dependencies Function Call has been Removed.
+- **Patch Nr. 2:** The LPM Call Backs Function has been Removed.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/) & [N1kroks](https://github.com/N1kroks/)
 
 ### CPRDxe:
 
-> [!NOTE]
-> DisplayDxe requires this Driver.
-
-- **Reason:** To make it map the Memory Map `MMCX_CPR3` properly.
-- **Patch:** The CPR Cllock Rail Disable Function has been Removed to avoid a Crash.
-- **Patch Creator:** [Robotix22](https://github.com/Eobotix22)
+- **Reason:** For proper DisplayDxe usage.
+- **Patch:** The CPR Cllock Rail Disable Function has been Removed.
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
 ### DisplayDxe:
 
-> [!NOTE]
-> This Patch requires `EnableDisplayThread` to be Disabled in the Configuration Map.
+> [!IMPORTANT]
+> This Patch requires `EnableDisplayThread` to be Disabled in the Configuration Map. <br>
+> Must also Paired with the CPRDxe Patch.
 
 - **Reason:** To get more Control over the Display in UEFI.
-- **Patch Nr. 1:** The IOMMU Domains have been Removed to avoid a Crash.
-- **Patch Nr. 2:** Qcom's Panel Reset Function has been removed to avoid turning off the Display.
-- **Patch Nr. 3:** Qcom's DSI Panel Init Function has been Modded to not turn off Display.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Eobotix22)
+- **Patch Nr. 1:** The IOMMU Domains have been Removed.
+- **Patch Nr. 2:** Qcom's Panel Reset Function has been Removed.
+- **Patch Nr. 3:** Qcom's DSI Panel Init Function has been Modded.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/) & [Robotix22](https://github.com/Robotix22/)
 
 ### FeatureEnablerDxe:
 
 - **Reason:** To not reinit the TZ Appleet which was init by the Bootloader before.
 - **Patch:** The TZ Applet Register Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### UsbConfigDxe:
 
-- **Reason:** To make USB work in the OS.
-- **Patch:** The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Reason:** To allow the usage of the USB Port.
+- **Patch:** Removed IOMMU Detach from Exit Boot Services.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### UsbMsdDxe:
 
-- **Reason:** To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- **Reason:** For better Mass Storage usage.
 - **Patch:** Changed Removable State to Non-Removable.
-- **Patch Creator:** [N1kroks](https://github.com/N1kroks)
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
