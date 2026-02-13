@@ -22,12 +22,6 @@
 - **Patch Nr. 2:** The Invalid Power Button Press Check has been to Remove to avoid a sudden Shutdown.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333) & [Robotix22](https://github.com/Robotix22)
 
-### SdccDxe:
-
-- Reason: To make SD Card "work" in UEFI and to Allow SMMU in the OS.
-- Patch: The IOMMU Domains have been Removed.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
-
 ### SPMIDxe:
 
 > [!IMPORTANT]
