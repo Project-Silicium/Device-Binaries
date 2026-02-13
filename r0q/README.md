@@ -2,7 +2,7 @@
 
 - **Device:** Samsung Galaxy S22 5G
 - **Region:** International
-- **Version:** `S901EXXUCFYDA` / `BOOT.MXF.2.0-00805-WAIPIO-1`
+- **Version:** `S901EXXSCGZA2` / `BOOT.MXF.2.0-00805-WAIPIO-1`
 
 ## Patches / Fixes
 
@@ -21,6 +21,12 @@
 - **Patch Nr. 1:** Minimal PMIC Init has been Removed to avoid a Crash.
 - **Patch Nr. 2:** The Invalid Power Button Press Check has been to Remove to avoid a sudden Shutdown.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333) & [Robotix22](https://github.com/Robotix22)
+
+### SdccDxe:
+
+- Reason: To make SD Card "work" in UEFI and to Allow SMMU in the OS.
+- Patch: The IOMMU Domains have been Removed.
+- Patch Creator: [Robotix22](https://github.com/Robotix22)
 
 ### SPMIDxe:
 
