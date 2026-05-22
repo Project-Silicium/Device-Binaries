@@ -19,11 +19,11 @@
 - **Patch Nr. 2:** The LPM Call Backs Function has been Removed to allow Windows Boot on Debug Builds.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [N1kroks](https://github.com/N1kroks)
 
-### FeatureEnablerDxe:
+### TzDxeLA:
 
-- **Reason:** To not reinit the TZ Appleet which was init by the Bootloader before.
-- **Patch:** The TZ Applet Register Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
 ### UsbConfigDxe:
 

@@ -25,12 +25,6 @@
 - **Patch** The CESTA Disable Dependencies Function Call has been Removed.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
-### FeatureEnablerDxe:
-
-- **Reason:** To not reinit the TZ Applet which was init by the Bootloader before.
-- **Patch:** The TZ Applet Register Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
-
 ### PmicDxe:
 
 > [!WARNING]
@@ -69,6 +63,12 @@
 - **Reason:** To make UEFI not Crash during UEFI Boot.
 - **Patch:** Removed the SPMI PIC Init Function.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333)
+
+### TzDxeLA:
+
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
 ### UFSDxe:
 

@@ -27,6 +27,12 @@
 - **Patch Nr. 3:** Do not call some functions (at 0x3eb0), taken from sunflower2333's patch for sheng
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333) & [Shandorman](https://github.com/jiganomegsdfdf) & [artempeshkov](https://github.com/artempeshkov) 
 
+### TzDxeLA:
+
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
+
 ### UFSDxe:
 
 - **Reason:** To make UEFI be able to use the Internal Storage.

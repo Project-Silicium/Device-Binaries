@@ -12,11 +12,11 @@
 - **Patch:** Enabled Cache Coherence for UFS.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
-### FeatureEnablerDxe:
+### TzDxeLA:
 
-- **Reason:** To not reinit the TZ Appleet which was init by the Bootloader before.
-- **Patch:** The TZ Applet Register Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
 ### UsbConfigDxe:
 

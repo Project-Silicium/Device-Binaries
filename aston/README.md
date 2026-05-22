@@ -31,12 +31,6 @@
 - **Patch Nr. 6:** MMU related setup routine was patched to not recreate already existing MMU domains.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [Shandorman](https://github.com/jiganomegsdfdf)
 
-### FeatureEnablerDxe:
-
-- **Reason:** To not reinit the TZ Applet which was init by the Bootloader before.
-- **Patch:** The TZ Applet Register Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
-
 ### PmicDxe:
 
 > [!NOTE]
@@ -61,6 +55,12 @@
 - **Reason:** To make UEFI not Crash during UEFI Boot.
 - **Patch:** Removed the SPMI PIC Init Function.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333/)
+
+### TzDxeLA:
+
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
 ### UFSDxe:
 

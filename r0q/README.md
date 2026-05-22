@@ -31,6 +31,12 @@
 - **Patch:** Removed SPMI Handle Function.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333)
 
+### TzDxeLA:
+
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
+
 ### UFSDxe:
 
 - **Reason:** To make UEFI be able to use the Internal Storage.
