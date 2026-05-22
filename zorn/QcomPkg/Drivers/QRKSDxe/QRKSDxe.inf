@@ -1,0 +1,9 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = QRKSDxe
+  FILE_GUID                      = 3CF7F36E-5A97-496A-BB4B-D4F9937FA311
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.AARCH64]
+  PE32|QRKSDxe.efi|*

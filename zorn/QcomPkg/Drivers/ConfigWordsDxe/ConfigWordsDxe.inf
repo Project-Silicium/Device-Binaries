@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = ConfigWordsDxe
+  FILE_GUID                      = 95FC4DC3-47D4-44D6-8D04-CA48CDF53312
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|ConfigWordsDxe.depex|*
+  PE32|ConfigWordsDxe.efi|*
+
+[Depex]
+  TRUE
