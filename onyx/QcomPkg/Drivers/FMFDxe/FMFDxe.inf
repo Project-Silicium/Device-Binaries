@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = FMFDxe
+  FILE_GUID                      = 07E5CB1E-D96D-4037-824E-4B7C81C7EF92
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|FMFDxe.depex|*
+  PE32|FMFDxe.efi|*
+
+[Depex]
+  TRUE
