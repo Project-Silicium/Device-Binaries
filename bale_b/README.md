@@ -34,12 +34,6 @@
 - **Patch:** Disabled Watchdog Timeout.
 - **Patch Creator:** [Shandorman](https://github.com/jiganomegsdfdf)
 
-### SdccDxe:
-
-- **Reason:** To make SD Card "work" in UEFI and to Allow SMMU in the OS.
-- **Patch:** The IOMMU Domains have been Removed.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
-
 ### SPMIDxe:
 
 > [!NOTE]
@@ -58,16 +52,14 @@
 ### UFSDxe:
 
 - **Reason:** To make UEFI be able to use the Internal Storage.
-- **Patch Nr. 1:** MMU related setup routine was patched to not recreate already existing MMU domains.
-- **Patch Nr. 2:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
-- **Patch Nr. 3:** Added UFS Gear Wake Up call.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
+- **Patch Nr. 1:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
+- **Patch Nr. 2:** Added UFS Gear Wake Up call.
+- **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
 
 ### UsbConfigDxe:
 
 - **Reason:** To make USB work in UEFI and the OS.
-- **Patch Nr. 1:** ExitBootServices routine was patched to not deinit USB after exit boot services.
-- **Patch Nr. 2:** MMU related setup routine was patched to not recreate already existing MMU domains.
+- **Patch:** ExitBootServices routine was patched to not deinit USB after exit boot services.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
 ### UsbMsdDxe:
@@ -75,3 +67,4 @@
 - **Reason:** To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
 - **Patch:** Changed Removable State to Non-Removable.
 - **Patch Creator:** [N1kroks](https://github.com/N1kroks)
+
