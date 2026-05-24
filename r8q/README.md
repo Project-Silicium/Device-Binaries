@@ -30,12 +30,6 @@
 - Patch: The invalid Power Button press check has been removed.
 - Patch Creator: [Robotix22](https://github.com/Robotix22)
 
-### SdccDxe:
-
-- Reason: To make SD Card "work" in UEFI and to Allow SMMU in the OS.
-- Patch: The IOMMU Domains have been Removed.
-- Patch Creator: [Robotix22](https://github.com/Robotix22)
-
 ### TzDxeLA:
 
 - Reason: The Common and Keymaster TZ Applets are already loaded, Also we don't have to notify TZ a second time where TZ applets will be loaded to.
