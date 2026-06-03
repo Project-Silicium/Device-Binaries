@@ -1,0 +1,37 @@
+## Firmware Infos
+
+- **Device:** Xiaomi 11 Lite 5G
+- **Region:** EEA (Europe)
+- **Version:** `V14.0.9.0.TKIEUXM` / `BOOT.MXF.1.0-00852-LAHAINA-2.12801.4`
+
+## Patches/Fixes
+
+### ButtonsDxe:
+
+- **Reason:** To make the Power Button usable in UEFI.
+- **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### DALSYSDxe:
+
+- **Reason:** To avoid Mismatched Cached Copies.
+- **Patch:** Enabled Cache Coherence for UFS.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### FeatureEnablerDxe & MinidumpTADxe:
+
+- **Reason:** To not reinit the TZ Appleet which was init by the Bootloader before.
+- **Patch:** The TZ Applet Register Function has been Removed.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### UsbConfigDxe:
+
+- **Reason:** To make USB work in the OS.
+- **Patch:** The USB Deinit Code has been Removed from Exit Boot Services Event to allow the OS to continue using the USB Port.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+
+### UsbMsdDxe:
+
+- **Reason:** To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
+- **Patch:** Changed Removable State to Non-Removable.
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks)
