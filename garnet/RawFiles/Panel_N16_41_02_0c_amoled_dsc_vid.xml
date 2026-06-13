@@ -1,0 +1,135 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<PanelDescription>n16 41 02 0c Single DSI Vid Mode AMOLED Panel with DSC (1220x2712 30bpp)</PanelDescription>
+<Group id=\"Active Timing\">
+ <HorizontalActive>1220</HorizontalActive>
+ <HorizontalFrontPorch>62</HorizontalFrontPorch>
+ <HorizontalBackPorch>52</HorizontalBackPorch>
+ <HorizontalSyncPulse>20</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2712</VerticalActive>
+ <VerticalFrontPorch>2903</VerticalFrontPorch>
+ <VerticalBackPorch>15</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSIBitClockFrequency>1098000000</DSIBitClockFrequency>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>2</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>8</DSIDSCProfileID>
+ <DSIDSCSliceWidth>610</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>12</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+ <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+ <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+ <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+ <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+ <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+ <DSIControllerMapping>
+  00
+</DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+  39 F0 55 AA 52 08 00
+  39 6F 14
+  39 B4 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12 00 12
+  39 6F 37
+  39 DF 00 00 12
+  39 FF AA 55 A5 80
+  39 6F 18
+  39 F4 73
+  39 6F 2A
+  39 F4 08
+  39 6F 1A
+  39 FE 00
+  39 6F 46
+  39 F4 07 09
+  39 6F 4A
+  39 F4 08 0A
+  39 6F 56
+  39 F4 44 44
+  39 6F 0B
+  39 F5 02
+  39 F0 55 AA 52 08 08
+  39 6F CE
+  39 BC 01
+  39 6F CF
+  39 BC 01 11 00 B6 01 11 00 44
+  39 E0 F3
+  39 FF AA 55 A5 81
+  39 6F 3C
+  39 F5 87
+  39 17 03
+  39 71 00
+  39 8D 00 00 04 C3 00 00 0A 97
+  39 88 81 02 61 09 85
+  39 2A 00 00 04 c3
+  39 2B 00 00 0A 97
+  39 03 00
+  39 90 03
+  39 6F 01
+  39 90 43
+  39 91 AB 28 00 0C C2 00 02 32 01 31 00 08 08 BB 07 7B 10 F0
+  39 2F 00
+  39 26 00
+  39 5F 05 00
+  39 53 20
+  39 3B 00 11 00 57 00 11 03 C7 00 11 0B 57
+  39 6F 10
+  39 3B 00 11 00 57
+  39 35 00
+  39 51 00 00
+  39 F0 55 AA 52 08 00
+  39 6F 13
+  39 BE 45
+  39 6F 19
+  39 BE 10 91 00 AB
+  39 6F 0D
+  39 D8 02
+  39 F0 55 AA 52 08 07
+  15 C0 87
+  15 6F 03
+  39 C0 00 00 00 00 55 00 00 00 00 00 00 00 00 00
+  05 11
+  FF 28
+  05 29 00
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ FF 0A
+ 05 10
+ FF 78
+</DSITermSequence>
+<DSITimingHSZeroOverride>True</DSITimingHSZeroOverride>
+<DSITimingHSZeroValue>25</DSITimingHSZeroValue>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightPmicControlType>2</BacklightPmicControlType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <BacklightDefault>15</BacklightDefault>
+ <SetAfterRenderLogo>True</SetAfterRenderLogo>
+ <DisplayResetInfo>5 30 10000 10000 0</DisplayResetInfo>
+ <LowBatteryClearScreen>True</LowBatteryClearScreen>
+</Group>
