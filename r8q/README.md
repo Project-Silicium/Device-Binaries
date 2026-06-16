@@ -6,10 +6,18 @@
 
 ## Patches/Fixes
 
+### ButtonsDxe:
+
 - **Reason:** To make the Power Button usable in UEFI.
 - **Patch Nr. 1:** The Special Samsung Key Code (`0x80`) has been Changed to the Key Code Enter (`0xD`).
 - **Patch Nr. 2:** The Button Handlening has been Modded to allow Unichar Key Codes.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
+
+### DALSYSDxe:
+
+- **Reason:** To avoid Mismatched Cached Copies.
+- **Patch:** Enabled Cache Coherence for UFS.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### TzDxeLA:
 
