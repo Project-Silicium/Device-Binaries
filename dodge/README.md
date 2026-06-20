@@ -1,8 +1,8 @@
 ## Firmware Infos
 
 - **Device:** OnePlus 13
-- **Region:** EEA
-- **Version:** `CPH2653_16.0.1.304` / `BOOT.MXF.2.5.1`
+- **Region:** ROW
+- **Version:** `CPH2653_16.0.7.201` / `BOOT.MXF.2.5.1`
 
 ## Patches / Fixes
 
@@ -15,11 +15,11 @@
 - **Patch:** The Special Qcom Key Code (`0x120`) has been Changed to the Key Code Enter (`0xD`).
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
-### PhoenixDxe:
+### CalibrationDxe:
 
-- **Reason:** To avoid sudden Shutdownws and Crashes.
-- **Patch Nr. 1:** Removed Watchdog Related Stuff from Driver.
-- **Patch Nr. 2:** Forced a Protocol Function to always return `0` and `EFI_SUCCESS`.
+- **Reason:** To properly Configure the CPU Cores.
+- **Patch Nr. 1:** Removed FV Decompress Call.
+- **Patch Nr. 2:** Changed Early CPU Core Count from `2` to `0`.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
 ### PmicDxe:
@@ -40,6 +40,22 @@
 - **Reason:** To make UEFI not Crash during UEFI Boot.
 - **Patch:** Removed SPMI Handle Function.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333)
+
+### QcomChargerDxe:
+
+> [!WARNING]
+> Patch Nr. 1 is OnePlus only!
+
+- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Patch Nr. 1:** a PMIC Register Function Call has been Removed.
+- **Patch Nr. 2:** Some Protocols Calls were Removed <!-- TODO: Get more Infos about this. -->
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
+
+### QcomWDogDxe:
+
+- **Reason:** To avoid Sudden Reboots.
+- **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
 ### TzDxeLA:
 
