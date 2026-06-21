@@ -8,7 +8,7 @@
 
 [Binaries.AARCH64]
   DXE_DEPEX|CalibrationDxe.depex|*
-  PE32|CalibrationDxe.efi|*
+  PE32|CalibrationDxe.patched.efi|*
 
 [Depex]
   TRUE
