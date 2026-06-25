@@ -35,3 +35,9 @@
 - Reason: To Make Device Non-Removeable in Mass Storage.
 - Patch: Changed Removable State to Non-Removable.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
+
+### UsbfnDwc3Dxe:
+
+- Reason: Some of the Xiaomi changes broke device enumeration in UFP mode(affects only vayu and nabu due to shared BSP).
+- Change: Used UsbfnDwc3Dxe from LG G8X(mh2lm) due to it having no OEM changes.
+- Change Creator: [Rostislav Lastochkin](https://github.com/remtrik)
