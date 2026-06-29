@@ -18,10 +18,10 @@
 - Patch: DisplayDxe setup routine was patched to call MDP Init without initing MMU
 - Patch Creator: [Rostislav Lastochkin](https://github.com/remtrik)
 
-### UFSDxe:
+### DALSYSDxe:
 
-- Reason: An MMU Domain is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
+- Reason: To avoid Mismatched Cached Copies.
+- Patch:** Enabled Cache Coherence for UFS.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### ClockDxe:
@@ -34,11 +34,5 @@
 
 - Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.
 - Patch: Changed Removable State to Non-Removable.
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
-### HALIOMMUDxe:
-
-- Reason: MMU Domains for SDC1, SDC2, SDC4 and USB is already setup by the previous firmware and gets re-set again, causing a crash.
-- Patch: MMU related setup routine was patched to not recreate already existing MMU domains.
 - Patch Creator: [N1kroks](https://github.com/N1kroks)
 

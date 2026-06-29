@@ -20,9 +20,9 @@
 
 ### DALSYSDxe:
 
-- **Reason:** To avoid Mismatched Cached Copies.
-- **Patch:** Enabled Cache Coherence for UFS.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- Reason: To avoid Mismatched Cached Copies.
+- Patch: Enabled Cache Coherence for UFS.
+- Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
 ### UsbConfigDxe:
 
