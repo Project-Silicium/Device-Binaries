@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = Phoenix2_0Dex
+  FILE_GUID                      = 77749AFD-422F-08AE-9611-E788D3801414
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|Phoenix2_0Dxe.depex|*
+  PE32|Phoenix2_0Dxe.efi|*
+
+[Depex]
+  TRUE

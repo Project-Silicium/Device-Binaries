@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>RUMI CWB</PanelName>
+<PanelDescription>RUMI CWB Single DSI DSC Video Mode Amoled Panel (480x640 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>480</HorizontalActive>
+ <HorizontalFrontPorch>3</HorizontalFrontPorch>
+ <HorizontalBackPorch>4</HorizontalBackPorch>
+ <HorizontalSyncPulse>1</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>640</VerticalActive>
+ <VerticalFrontPorch>3</VerticalFrontPorch>
+ <VerticalBackPorch>4</VerticalBackPorch>
+ <VerticalSyncPulse>1</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x10000</DSIRefreshRate>
+  <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+</DSIInitSequence>
+<DSITermSequence>
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 10 1000 10000 0</DisplayResetInfo>
+</Group>

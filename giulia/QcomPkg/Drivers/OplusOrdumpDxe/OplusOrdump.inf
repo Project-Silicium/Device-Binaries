@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OplusOrdump
+  FILE_GUID                      = 92B26B7B-1520-42B3-82F2-6E6E1133C3AB
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|OplusOrdump.depex|*
+  PE32|OplusOrdump.efi|*
+
+[Depex]
+  TRUE

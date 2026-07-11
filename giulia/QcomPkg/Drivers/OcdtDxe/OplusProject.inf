@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = OplusProject
+  FILE_GUID                      = 68A710AB-A58D-4C0B-BE1E-5F6EE2C36AD8
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|OplusProject.depex|*
+  PE32|OplusProject.efi|*
+
+[Depex]
+  TRUE
