@@ -38,6 +38,7 @@
 - **Patch Nr. 7:** Modified Display Set Power State Protocol Function to not Deinit Clocks on Turn Off.
 - **Patch Nr. 8:** Modfifed Exit Boot Services Event to Only Turn off Cover Display instead of Both.
 - **Patch Nr. 9:** Removed a Broken Paint Command for the Main Display to Avoid Trash on the Display.
+- **Patch Nr. 10:** Removed a Debug Message Call in GOP BLT Function.
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000) & [Robotix22](https://github.com/Robotix22) & [Aistop](https://github.com/AistopGit)
 
 ### PmicDxe:
