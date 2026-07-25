@@ -50,12 +50,6 @@
 - **Patch:** Minimal PMIC Init has been Removed.
 - **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/)
 
-### QcomWDogDxe:
-
-- **Reason:** To Avoid Sudden Reboots.
-- **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
-
 ### SPMIDxe:
 
 > [!IMPORTANT]
