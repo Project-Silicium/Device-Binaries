@@ -13,7 +13,7 @@
 ### ButtonsDxe:
 
 - **Reason:** To make the Power Button usable in UEFI.
-- **Patch Nr. 1:** The Special Samsung Key Code (`0x80`) has been Changed to the Key Code Enter (`0xD`).
+- **Patch Nr. 1:** The Key Code `SCAN_VOLUME_UP` has been Changed to the `CHAR_CARRIAGE_RETURN` Key Code.
 - **Patch Nr. 2:** The Button Handlening has been Modded to allow Unichar Key Codes.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
@@ -29,7 +29,7 @@
 > This Patch requires `EnableDisplayThread` to be Disabled in the Configuration Map.
 
 - **Reason:** To get more Control over the Display in UEFI.
-- **Patch Nr. 1:** The IOMMU Domains have been Removed.
+- **Patch Nr. 1:** The IOMMU Domains Register Function has been Removed.
 - **Patch Nr. 2:** Samsung's Panel Powerup Function has been Removed.
 - **Patch Nr. 3:** Qcom's Panel Reset Function has been Removed.
 - **Patch Nr. 4:** Qcom's DSI Panel Init Function has been Modded.
@@ -40,13 +40,9 @@
 
 ### PmicDxe:
 
-> [!IMPORTANT]
-> Must be paired with the SPMIDxe Patch.
-
-- **Reason:** To make UEFI not Crash during UEFI Boot.
-- **Patch Nr. 1:** Minimal PMIC Init has been Removed.
-- **Patch Nr. 2:** The Invalid Power Button Press Check has been Removed.
-- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/), [Robotix22](https://github.com/Robotix22/)
+- **Reason:** To prevent a UEFI Crash during Boot.
+- **Patch:** Removed a Faulty PM COMM Write Call.
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
 ### SdccDxe:
 
@@ -58,15 +54,6 @@
 - **Patch Nr. 2:** Forced SDHCi Mode to Enable on Exit Boot Services Event.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
-### SPMIDxe:
-
-> [!IMPORTANT]
-> Must be paired with the PmicDxe Patch.
-
-- **Reason:** To make UEFI not Crash during UEFI Boot.
-- **Patch:** Removed the SPMI PIC Init Function.
-- **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333/)
-
 ### TzDxeLA:
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
@@ -75,9 +62,9 @@
 
 ### UFSDxe:
 
-- **Reason:** To allow the usage of UFS.
-- **Patch:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
-- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/)
+- **Reason:** To allow the usage of the UFS.
+- **Patch:** The Unit Ready SCSI Command has been Replaced with the Start/Stop Unit SCSI Command.
+- **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333/)
 
 ### UsbConfigDxe:
 
