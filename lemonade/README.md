@@ -1,8 +1,8 @@
 ## Firmware Infos
 
 - **Device:** Oneplus 9
-- **Region:** ?
-- **Version:** ?
+- **Region:** EU
+- **Version:** `LE2113_11_C.60` / `BOOT.MXF.1.0-00647-LAHAINA-1`
 
 ## Patches/Fixes
 

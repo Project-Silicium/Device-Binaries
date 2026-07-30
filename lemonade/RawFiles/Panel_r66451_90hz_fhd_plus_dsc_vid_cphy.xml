@@ -31,7 +31,6 @@
  <DSIColorFormat>36</DSIColorFormat>
  <DSITrafficMode>1</DSITrafficMode>
  <DSICPhyMode>True</DSICPhyMode>
- <DSIDynamicRefreshRates>0x5A0000 0x59A000 0x588000</DSIDynamicRefreshRates>
  <DSIDSCEnable>True</DSIDSCEnable>
  <DSIDSCMajor>1</DSIDSCMajor>
  <DSIDSCMinor>1</DSIDSCMinor>
