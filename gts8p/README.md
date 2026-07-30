@@ -41,7 +41,7 @@
 ### PmicDxe:
 
 - **Reason:** To prevent a UEFI Crash during Boot.
-- **Patch:** Removed a Faulty PM COMM Write Call.
+- **Patch:** Removed a Protected PM COMM Write Call.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
 ### SdccDxe:
@@ -56,7 +56,7 @@
 
 ### TzDxeLA:
 
-- **Reason:** To make UEFI not Crash during UEFI Boot.
+- **Reason:** To prevent the Re-creation of already Existing TZ Applets.
 - **Patch:** The Global TZ Applet Variable has been Changed to `TRUE` from `FALSE`.
 - **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
