@@ -16,14 +16,9 @@
 ### ClockDxe:
 
 - **Reason:** To keep Display turned on while UEFI Boot.
-- **Patch:** The DCD Disable Dependencies Function Call has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
-
-### QcomWDogDxe:
-
-- **Reason:** To avoid Sudden Reboots.
-- **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
+- **Patch Nr. 1:** The DCD Disable Dependencies Function Call has been Removed.
+- **Patch Nr. 2:** The LPM Call Backs Function has been Removed.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/) & [N1kroks](https://github.com/N1kroks/)
 
 ### TzDxeLA:
 
