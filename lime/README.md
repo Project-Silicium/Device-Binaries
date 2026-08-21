@@ -14,10 +14,9 @@
 
 ### ClockDxe:
 
-- **Reason:** To keep Display turned on while UEFI Boot & To Allow Windows Boot on Debug Builds.
-- **Patch Nr. 1:** a Call to a NPA Function has been Removed.
-- **Patch Nr. 2:** The LPM Call Backs Function has been Removed.
-- **Patch Creator:** [Kernel357](https://github.com/Kernel357) & [N1kroks](https://github.com/N1kroks)
+- **Reason:** To keep Display turned on while UEFI Boot.
+- **Patch:** a Call to a NPA Function has been Removed.
+- **Patch Creator:** [Kernel357](https://github.com/Kernel357)
 
 ### UsbMsdDxe:
 

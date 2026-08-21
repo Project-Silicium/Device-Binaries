@@ -12,12 +12,6 @@
 - **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
-### ClockDxe:
-
-- **Reason:** Allows OS Boot on UEFI Debug Builds.
-- **Patch:** Force LPM Register Call to Unregister instead.
-- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
-
 ### DALSYSDxe:
 
 - **Reason:** To avoid Mismatched Cached Copies.

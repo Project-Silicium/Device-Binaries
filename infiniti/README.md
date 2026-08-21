@@ -12,13 +12,6 @@
 - **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
-### CalibrationDxe:
-
-- **Reason:** To properly Configure the CPU Cores.
-- **Patch Nr. 1:** Removed FV Decompress Call.
-- **Patch Nr. 2:** Changed Early CPU Core Count from `2` to `0`.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
-
 ### PmicDxe:
 
 > [!WARNING]
@@ -39,12 +32,6 @@
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
 - **Patch:** Removed PMIC Register Writes.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
-
-### QcomWDogDxe:
-
-- **Reason:** To avoid Sudden Reboots.
-- **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
 - **Patch Creator:** [Robotix22](https://github.com/Robotix22)
 
 ### SPMIDxe:

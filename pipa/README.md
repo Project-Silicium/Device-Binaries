@@ -18,12 +18,6 @@
 - Patch: Exit BootServices routine was patched to not deinit USB after exit boot services.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe:
-
-- Reason: To be able to boot Windows with debug build.
-- Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
 ### TzDxeLA:
 
 - Reason: The Common and Keymaster TZ Applets are already loaded, Also we don't have to notify TZ a second time where TZ applets will be loaded to

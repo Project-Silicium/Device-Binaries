@@ -28,12 +28,6 @@
 - **Patch Nr. 2:** Make failing SPMI Function call always return EFI_SUCCESS.
 - **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333) & [Shandorman](https://github.com/jiganomegsdfdf)
 
-### QcomWDogDxe:
-
-- **Reason:** To avoid a sudden Reboot in UEFI.
-- **Patch:** Disabled Watchdog Timeout.
-- **Patch Creator:** [Shandorman](https://github.com/jiganomegsdfdf)
-
 ### SPMIDxe:
 
 > [!NOTE]

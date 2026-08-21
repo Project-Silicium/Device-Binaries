@@ -12,12 +12,6 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe:
-
-- Reason: To be able to boot Windows with debug build.
-- Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
 ### DisplayDxe:
 
 - Reason: MMU Domains for MDP is already setup by the previous firmware and gets re-set again, causing a crash.

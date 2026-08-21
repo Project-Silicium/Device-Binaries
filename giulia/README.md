@@ -31,12 +31,6 @@
 - **Patch Nr. 2:** Make check dead battery function immediately return success.
 - **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333), [Robotix22](https://github.com/Robotix22)
 
-### QcomWDogDxe:
-
-- **Reason:** To avoid a sudden Reboot in UEFI.
-- **Patch:** Disabled Watchdog Timeout.
-- **Patch Creator:** [Shandorman](https://github.com/jiganomegsdfdf)
-
 ### SPMIDxe:
 
 > [!IMPORTANT]

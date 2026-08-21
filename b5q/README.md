@@ -34,7 +34,6 @@
 - **Patch Nr. 4:** Qcom's DSI Panel Init Function has been Modded.
 - **Patch Nr. 5:** Samsung's Panel Reset Function has been Removed.
 - **Patch Nr. 6:** A DSI Close Function Call has been Removed.
-- **Patch Nr. 6:** Forced LPM Function Call to Unregister the Event instead of Registering it.
 - **Patch Nr. 7:** Modified Display Set Power State Protocol Function.
 - **Patch Nr. 8:** Modfifed Exit Boot Services Event.
 - **Patch Nr. 9:** Removed a Broken Paint Command for the Main Display.

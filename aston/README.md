@@ -41,12 +41,6 @@
 - **Patch Nr. 2:** Make failing SPMI Function call always return EFI_SUCCESS.
 - **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/), [Shandorman](https://github.com/jiganomegsdfdf/)
 
-### QcomWDogDxe:
-
-- **Reason:** To avoid Sudden Reboots.
-- **Patch:** Set the WatchDog PCD to `FALSE` instead of `TRUE`.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
-
 ### SPMIDxe:
 
 > [!IMPORTANT]

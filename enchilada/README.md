@@ -15,12 +15,6 @@
 - **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
 - **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe:
-
-- **Reason:** To allow Windows to boot on Debug Builds.
-- **Patch:** The LPM Call Backs Function has been Removed.
-- **Patch Creator:** [N1kroks](https://github.com/N1kroks)
-
 ### DisplayDxe:
 
 - **Reason:** To get more Control over the Display in UEFI.

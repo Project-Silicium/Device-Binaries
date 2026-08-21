@@ -12,12 +12,6 @@
 - Patch: Key code was patched for the power button to be mapped as ENTER instead of SUSPEND.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe:
-
-- Reason: Makes Windows Boot work on Debug Builds.
-- Patch: LPM Call Backs Function has been Removed.
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
 ### DALSYSDxe:
 
 - Reason: To avoid Mismatched Cached Copies.

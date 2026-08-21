@@ -24,12 +24,6 @@
 - Patch:** Enabled Cache Coherence for UFS.
 - Patch Creator: [Gustave Monce](https://github.com/gus33000)
 
-### ClockDxe:
-
-- Reason: To be able to boot Windows with debug build.
-- Patch: Low Power Mode handler registration has been patched so it does not register LPM mode
-- Patch Creator: [N1kroks](https://github.com/N1kroks)
-
 ### UsbMsdDxe:
 
 - Reason: To make the Internal Storage be recognised as Hard Drives instead of USB Drives in Mass Storage.

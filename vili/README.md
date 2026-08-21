@@ -15,9 +15,8 @@
 ### ClockDxe:
 
 - **Reason:** To keep Display turned on while UEFI Boot.
-- **Patch Nr. 1:** The DCD Disable Dependencies Function Call has been Removed.
-- **Patch Nr. 2:** The LPM Call Backs Function has been Removed.
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/) & [N1kroks](https://github.com/N1kroks/)
+- **Patch:** The DCD Disable Dependencies Function Call has been Removed.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### CPRDxe:
 
