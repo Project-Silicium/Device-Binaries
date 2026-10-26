@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Group id='SPR Configuration'>
+ <AdaptiveMode>YYGM</AdaptiveMode>
+ <FilterType>2DAvgPhase1</FilterType>
+ <AdaptiveFilterCoeffs>0 4 8 12 16</AdaptiveFilterCoeffs>
+ <FilterCoeffs>0 256 256 0 0 256 256 0 0 256 256 0 0 256 256 0</FilterCoeffs>
+</Group>

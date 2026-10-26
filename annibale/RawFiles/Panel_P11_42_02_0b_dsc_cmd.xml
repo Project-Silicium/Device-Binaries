@@ -1,0 +1,213 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<PanelDescription>42 0d 0a Single DSI Cmd Mode LTPS Panel with DSC (1156x2510 30bpp)</PanelDescription>
+<Group id=\"Active Timing\">
+ <HorizontalActive>1156</HorizontalActive>
+ <HorizontalFrontPorch>64</HorizontalFrontPorch>
+ <HorizontalBackPorch>64</HorizontalBackPorch>
+ <HorizontalSyncPulse>32</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2510</VerticalActive>
+ <VerticalFrontPorch>64</VerticalFrontPorch>
+ <VerticalBackPorch>64</VerticalBackPorch>
+ <VerticalSyncPulse>32</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIFlags>0x8</DSIFlags>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x780000</DSIRefreshRate>
+ <DSIBitClockFrequency>1205000000</DSIBitClockFrequency>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0xB</DSIDSCProfileID>
+ <DSIDSCSliceWidth>578</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>10</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>1</DSIAutoRefreshFrameNumDiv>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2510</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2510</DSITEvSyncInitVal>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+ <DSITimingCLKZeroOverride>True</DSITimingCLKZeroOverride>
+ <DSITimingCLKZeroValue>0x28</DSITimingCLKZeroValue>
+ <DSITimingCLKPrepareOverride>True</DSITimingCLKPrepareOverride>
+ <DSITimingCLKPrepareValue>0x0A</DSITimingCLKPrepareValue>
+ <DSITimingCLKTrailOverride>True</DSITimingCLKTrailOverride>
+ <DSITimingCLKTrailValue>0x0B</DSITimingCLKTrailValue>
+ <DSITimingHSExitOverride>True</DSITimingHSExitOverride>
+ <DSITimingHSExitValue>0x1B</DSITimingHSExitValue>
+ <DSITimingHSZeroOverride>True</DSITimingHSZeroOverride>
+ <DSITimingHSZeroValue>0x1A</DSITimingHSZeroValue>
+ <DSITimingHSPrepareOverride>True</DSITimingHSPrepareOverride>
+ <DSITimingHSPrepareValue>0x0A</DSITimingHSPrepareValue>
+ <DSITimingHSTrailOverride>True</DSITimingHSTrailOverride>
+ <DSITimingHSTrailValue>0x0B</DSITimingHSTrailValue>
+ <DSITimingHSRequestOverride>True</DSITimingHSRequestOverride>
+ <DSITimingHSRequestValue>0x0A</DSITimingHSRequestValue>
+ <DSITimingTAGoOverride>True</DSITimingTAGoOverride>
+ <DSITimingTAGoValue>0x02</DSITimingTAGoValue>
+ <DSITimingTAGetOverride>True</DSITimingTAGetOverride>
+ <DSITimingTAGetValue>0x04</DSITimingTAGetValue>
+ <DSITimingTASureOverride>True</DSITimingTASureOverride>
+ <DSITimingTASureValue>0x00</DSITimingTASureValue>
+ <DSITimingCLKPreOverride>True</DSITimingCLKPreOverride>
+ <DSITimingCLKPreValue>0x21</DSITimingCLKPreValue>
+ <DSITimingCLKPostOverride>True</DSITimingCLKPostOverride>
+ <DSITimingCLKPostValue>0x0F</DSITimingCLKPostValue>
+</Group>
+<DSIInitRCOnSequence>
+ 39 F0 55 AA 52 08 07
+ 15 C0 07
+</DSIInitRCOnSequence>
+<DSIInitRCOffSequence>
+ 39 F0 55 AA 52 08 07
+ 15 C0 06
+</DSIInitRCOffSequence>
+<DSIInitSequence>
+ 39 F0 55 AA 52 08 00
+ 39 BE 47 45 4B 4C
+ 39 F0 55 AA 52 08 01
+ 39 D1 07 4C
+ 15 6F 05
+ 15 D1 01
+ 39 F0 55 AA 52 08 07
+ 15 B4 C0
+ 15 6F 01
+ 39 B4 68 50 68
+ 15 6F 04
+ 39 B4 40 78 68
+ 15 6F 07
+ 39 B4 40 40 80
+ 15 6F 0A
+ 39 B4 50 90 90
+ 39 F0 55 AA 52 08 00
+ 39 6F 08
+ 39 B2 C0
+ 39 FF AA 55 A5 80
+ 39 6F 08
+ 39 F6 70 07 70 70 70 70 70
+ 39 FF AA 55 A5 80
+ 39 6F 21
+ 39 F4 08
+ 39 FF AA 55 A5 80
+ 39 6F 20
+ 39 F4 C0
+ 39 FF AA 55 A5 80
+ 39 6F 01
+ 39 F4 95
+ 39 6F 03
+ 39 F4 10
+ 39 FF AA 55 A5 80
+ 39 6F 13
+ 39 F9 FF FF
+ 39 FF AA 55 A5 80
+ 39 6F 47
+ 39 F2 25
+ 39 6F 21
+ 39 F8 04
+ 39 6F 05
+ 39 F8 04
+ 39 FF AA 55 A5 80
+ 39 6F 1A
+ 39 FE 00
+ 39 17 30
+ 39 26 00
+ 39 2F 00
+ 39 2A 00 00 04 83
+ 39 2B 00 00 09 CD
+ 39 35 00
+ 39 51 00 00
+ 39 6F 04
+ 39 51 00 00
+ 39 53 20
+ 39 5A 01 01
+ 39 90 03
+ 39 6F 01
+ 39 90 43
+ 39 91 AB 28 00 0A C2 00 02 22 00 D7 00 08 0A AB 09 8D 11 00
+ 39 F0 55 AA 52 08 01
+ 39 DD 5E
+ 39 F0 55 AA 52 08 00
+ 39 C8 0D 0D 05 0D 18 18
+ 39 F0 55 AA 52 08 00
+ 39 BE 47 45
+ 15 6F 05
+ 15 BE 00
+ 15 6F 19
+ 39 BE 10 0A 00 9C
+ 15 6F 0D
+ 15 D8 42
+ 39 11
+ FF 78
+ 39 29
+ 39 F0 55 AA 52 08 00
+ 15 6F 05
+ 15 BE A8
+</DSIInitSequence>
+<DSITermSequence>
+ 39 F0 55 AA 52 08 00
+ 15 6F 05
+ 15 BE 00
+ 05 28
+ FF 14
+ 05 10
+ FF 78
+</DSITermSequence>
+<PanelBuildIDAddr>0xDA</PanelBuildIDAddr>
+<DisplayResetGpio>98</DisplayResetGpio>
+<DisplayTEGpio>86</DisplayTEGpio>
+<DisplayTEFuncSel>1</DisplayTEFuncSel>
+<DisplayVDDDGpio>120</DisplayVDDDGpio>
+
+<!-- SQC(hex): type-high/low-delay(ms) -->
+<!-- type: 0-invalid 1-te 2-reset 3-VDDI
+           4-VDDD 5-VCI 6-OtherGpio1 7-OtherGpio2 -->
+<PowerOnSequence>
+ 1 1 0
+ 3 1 1
+ 4 1 1
+ 5 1 1
+</PowerOnSequence>
+
+<PowerOffSequence>
+ 2 0 0
+ 1 0 0
+ 5 0 0
+ 4 0 0
+ 3 0 0
+</PowerOffSequence>
+
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>13</BacklightBitWidth>
+ <BacklightDefault90NitDbv>858</BacklightDefault90NitDbv>
+ <BacklightDefault>15</BacklightDefault>
+ <BacklightSetAfterRenderLogo>True</BacklightSetAfterRenderLogo>
+ <LowBatteryClearScreen>True</LowBatteryClearScreen>
+ <DisplayResetInfo>5 1000 1000 10000 0</DisplayResetInfo>
+</Group>
