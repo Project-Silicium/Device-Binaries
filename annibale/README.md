@@ -49,7 +49,8 @@
 - **Reason:** To allow the usage of UFS.
 - **Patch Nr. 1:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
 - **Patch Nr. 2:** Added UFS Link Wake Up.
-- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
+- **Patch Nr. 3:** The Reset Notification now Returns after the UFS Cache Sync, so the UFS Power Down (START STOP UNIT) that never Completes is Skipped and Power Off no longer Hangs.
+- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks) (Nr. 1 & 2), [wljf817](https://github.com/wljf817/) (Nr. 3)
 
 ### UsbPwrCtrlDxe:
 
