@@ -50,3 +50,9 @@
 - **Patch Nr. 1:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
 - **Patch Nr. 2:** Added UFS Link Wake Up.
 - **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
+
+### UsbPwrCtrlDxe:
+
+- **Reason:** To make UEFI not Crash when starting USB Device Mode.
+- **Patch:** The Charger Port Type Detection of Port 0 has been Changed from PMIC (`2`) to fixed SDP (`6`), so that the PMIC Charger is not Accessed.
+- **Patch Creator:** [wljf817](https://github.com/wljf817/)
