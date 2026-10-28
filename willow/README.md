@@ -14,6 +14,9 @@
 
 ### ClockDxe:
 
+> [!IMPORTANT]
+> This Patch is Deprecated.
+
 - **Reason:** To keep Display turned on while UEFI Boot & To Allow Windows Boot on Debug Builds.
 - **Patch:** a Call to a NPA Function has been Removed.
 - **Patch Creator:** [Kernel357](https://github.com/Kernel357)
