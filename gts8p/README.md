@@ -41,8 +41,8 @@
 ### PmicDxe:
 
 - **Reason:** To prevent a UEFI Crash during Boot.
-- **Patch:** Removed a Protected PM COMM Write Call.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
+- **Patch:** Removed PMIC Post Init.
+- **Patch Creator:** [Kancy Joe](https://github.com/sunflower2333/)
 
 ### SdccDxe:
 
