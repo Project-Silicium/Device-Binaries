@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = MailboxDxe
+  FILE_GUID                      = E3095547-34B8-4BD4-8D8F-C3223C30318D
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|MailboxDxe.depex|*
+  PE32|MailboxDxe.efi|*
+
+[Depex]
+  TRUE

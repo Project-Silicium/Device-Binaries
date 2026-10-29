@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = BootTimeDxe
+  FILE_GUID                      = 68BFA1E6-D974-012B-84B5-4003384B78AD
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EfiEntry
+
+[Binaries.AARCH64]
+  DXE_DEPEX|BootTimeDxe.depex|*
+  PE32|BootTimeDxe.efi|*
+
+[Depex]
+  TRUE
