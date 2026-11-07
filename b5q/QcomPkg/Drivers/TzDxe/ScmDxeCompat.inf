@@ -2,7 +2,7 @@
   INF_VERSION                    = 0x0001001B
   BASE_NAME                      = ScmDxeCompat
   FILE_GUID                      = D8F91DDC-87C8-42A2-963E-8DD24A9F1FB5
-  MODULE_TYPE                    = UEFI_DRIVER
+  MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]

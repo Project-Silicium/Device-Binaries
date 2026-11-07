@@ -2,7 +2,7 @@
   INF_VERSION                    = 0x0001001B
   BASE_NAME                      = DevicePathDxe
   FILE_GUID                      = 9B680FCE-AD6B-4F3A-B60B-F59899003443
-  MODULE_TYPE                    = UEFI_DRIVER
+  MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
   ENTRY_POINT                    = EfiEntry
 

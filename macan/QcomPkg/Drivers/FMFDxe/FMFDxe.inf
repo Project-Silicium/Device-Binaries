@@ -2,7 +2,7 @@
   INF_VERSION                    = 0x0001001B
   BASE_NAME                      = FMFDxe
   FILE_GUID                      = 6B0F81CA-7C28-42FD-9132-03050EF78D63
-  MODULE_TYPE                    = UEFI_DRIVER
+  MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]

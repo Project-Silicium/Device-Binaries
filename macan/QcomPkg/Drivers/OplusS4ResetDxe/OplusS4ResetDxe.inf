@@ -2,7 +2,7 @@
   INF_VERSION                    = 0x0001001B
   BASE_NAME                      = OplusS4ResetDxe
   FILE_GUID                      = 25343F19-B04C-47E2-B776-01C834234AC0
-  MODULE_TYPE                    = UEFI_DRIVER
+  MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]

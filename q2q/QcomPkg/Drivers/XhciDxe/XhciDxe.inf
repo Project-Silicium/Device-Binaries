@@ -2,7 +2,7 @@
   INF_VERSION                    = 0x0001001B
   BASE_NAME                      = XhciDxe
   FILE_GUID                      = B7F50E91-A759-412C-ADE4-DCD03E7F7C28
-  MODULE_TYPE                    = UEFI_DRIVER
+  MODULE_TYPE                    = DXE_DRIVER
   VERSION_STRING                 = 1.0
 
 [Binaries.AARCH64]
