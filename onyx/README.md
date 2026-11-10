@@ -9,20 +9,20 @@
 ### ButtonsDxe:
 
 - **Reason:** To make the Power Button usable in UEFI.
-- **Patch:** The Special Qcom Key Code (`0x102`) has been Changed to the Key Code Enter (`0xD`).
-- **Patch Creator:** [Gustave Monce](https://github.com/gus33000)
+- **Patch:** The Key Code `SCAN_SUSPEND` has been Changed to the `CHAR_CARRIAGE_RETURN` Key Code.
+- **Patch Creator:** [Gustave Monce](https://github.com/gus33000/)
 
 ### ClockDxe:
 
 - **Reason:** To keep Display turned on while UEFI Boot.
 - **Patch** The CESTA Init Function has been Removed.
-- **Patch Creator:** [Robotix22](https://github.com/Robotix22)
+- **Patch Creator:** [Robotix22](https://github.com/Robotix22/)
 
 ### FeatureEnablerDxe:
 
 - **Reason:** To keep Display turned on while UEFI Boot.
 - **Patch:** Removed the Display Clock Init Function.
-- **Patch Creator:** [N1kroks](https://github.com/N1kroks)
+- **Patch Creator:** [N1kroks](https://github.com/N1kroks/)
 
 ### PmicDxe:
 
@@ -30,8 +30,17 @@
 > Must be paired with the SPMIDxe Patch.
 
 - **Reason:** To make UEFI not Crash during UEFI Boot.
-- **Patch:** Minimal PMIC Init has been Removed.
-- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/)
+- **Patch Nr. 1:** Removed PMIC Post Init.
+- **Patch Nr. 2:** Removed IRQ Disable Function.
+- **Patch Nr. 3:** Removed Lock Config Function.
+- **Patch Nr. 4:** Removed Protected PMIC Writes.
+- **Patch Creatorss:** [Kancy Joe](https://github.com/sunflower2333/) & [Robotix](https://github.com/Robotix22/)
+
+### RscDxe
+
+- **Reason:** To keep Display turned on while UEFI Boot.
+- **Patch:** Removed Camera & Display Clock Init Call.
+- **Patch Creator:** [Robotix](https://github.com/Robotix22/)
 
 ### SPMIDxe:
 
@@ -51,9 +60,9 @@
 ### UFSDxe:
 
 - **Reason:** To allow the usage of UFS.
-- **Patch Nr. 1:** The UFS Sleep call has been Replaced with the UFS Wakeup Call.
+- **Patch Nr. 1:** The Unit Ready SCSI Command has been Replaced with the Start/Stop Unit SCSI Command.
 - **Patch Nr. 2:** Added UFS Link Wake Up.
-- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333) & [N1kroks](https://github.com/N1kroks)
+- **Patch Creators:** [Kancy Joe](https://github.com/sunflower2333/) & [N1kroks](https://github.com/N1kroks)
 
 ### UsbConfigDxe:
 

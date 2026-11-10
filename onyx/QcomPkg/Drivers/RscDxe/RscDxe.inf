@@ -8,7 +8,7 @@
 
 [Binaries.AARCH64]
   DXE_DEPEX|RscDxe.depex|*
-  PE32|RscDxe.efi|*
+  PE32|RscDxe.patched.efi|*
 
 [Depex]
   TRUE
