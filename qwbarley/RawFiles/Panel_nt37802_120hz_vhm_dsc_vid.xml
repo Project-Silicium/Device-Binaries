@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>nt37802 vhm</PanelName>
+<PanelDescription>nt37802 VHM video mode panel with DSC(1440x3200 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1440</HorizontalActive>
+ <HorizontalFrontPorch>32</HorizontalFrontPorch>
+ <HorizontalBackPorch>32</HorizontalBackPorch>
+ <HorizontalSyncPulse>16</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>3200</VerticalActive>
+ <VerticalFrontPorch>21</VerticalFrontPorch>
+ <VerticalBackPorch>41</VerticalBackPorch>
+ <VerticalSyncPulse>2</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>27</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>42</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>3200</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>3200</DSITEvSyncInitVal>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>2</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>11</DSIDSCProfileID>
+ <DSIDSCSliceWidth>720</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>20</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x780000</DSIRefreshRate>
+   <DSIDynamicRefreshRates>0x778000 0x780000 0x788000</DSIDynamicRefreshRates>
+   <EsyncEnable>True</EsyncEnable>
+   <Avrstepfps>120</Avrstepfps>
+   <EsyncEmsyncFps>120</EsyncEmsyncFps>
+   <EsyncHsyncPulseWidth>500</EsyncHsyncPulseWidth>
+   <EsyncEmsyncPulseWidth>500</EsyncEmsyncPulseWidth>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 F0 55 AA 52 08 01
+15 6F 06
+15 C4 01
+39 F0 55 AA 52 08 04
+15 C0 20
+39 F0 55 AA 52 08 00
+15 6F 35
+15 C0 23
+39 F0 55 AA 52 08 06
+39 B2 25 24 36 37 37
+39 B8 21 20 36 37 37
+39 2A 00 00 05 9F
+39 2B 00 00 0C 7F
+39 90 03 43
+39 91 AB A8 00 14 C2 00 02 68 02 2E 00 0A 05 0E 03 D1 10 F0
+15 2F 00
+15 35 00
+39 51 0F FF
+15 6F 04
+39 51 0F FF
+15 53 20
+39 F0 55 AA 52 08 08
+39 C1 8E FF EE FF FF EE FF FF EE FF FF EE FF FF EE FF FF FF 7F FF 0E FF
+15 6F 20
+39 C1 FF FF FF
+15 6F 23
+39 C1 0E FF EE FF FF EE FF FF EE FF FF EE FF FF EE FF FF FF 7F FF
+39 F0 55 AA 52 08 00
+15 6F 10
+39 B5 00 71 71 71 71 71 00 00 18 29 00 00 00 18 29 00
+15 6F 11
+15 BE 40
+39 F0 55 AA 52 08 01
+15 6F 04
+15 B2 30
+15 6F 74
+39 BA 00 01 02 03 04 05 07 09 0B 77 EF 00 03 77 0B 00
+15 6F 84
+39 BA 00 01 02 03 04 05 07 09 0B 77 EF 00 03 77 0B 00
+15 6F 94
+39 BA 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+15 6F A4
+39 BA 01 01 01 01 00 01 01 01 00 01 01 01 00 00 00 01
+15 6F B4
+39 BA 02 55 95 3E
+15 6F B8
+39 BA 00 00 00 00 00 10 00 00
+15 6F C0
+39 BA 00 00 00 00 00 10 00 00
+15 6F 6E
+39 D1 03 48
+39 91 AB A8 00 14 C2 00 02 68 02 2E 00 0A 05 0E 03 D1 10 F0
+39 F0 55 AA 52 08 03
+15 6F 09
+39 DE 10 34 25 30 14 25
+39 F0 55 AA 52 08 07
+39 F0 55 AA 52 08 07
+39 B0 84 40 00 00 00
+39 F0 55 AA 52 08 07
+15 C0 86
+39 F0 55 AA 52 08 00
+15 6F 03
+15 BE 4F
+15 6F 0B
+15 BE 02
+15 2F 30
+15 6D 00
+15 6F 14
+15 35 66
+15 6F 04
+15 35 00
+15 5A 00
+39 8C 00 00 11
+39 F0 55 AA 52 08 00
+39 6F 1B
+39 C0 81
+39 2F 32 05 30
+39 3B 00 2B 00 15
+39 6F 04
+39 3B 00 2B 04 55
+39 F0 55 AA 52 08 00
+39 6F 24
+39 C9 0C C0 11 00 0C C0
+39 71 01
+39 F0 55 AA 52 08 00
+15 6F 0D
+15 D8 40
+39 F0 55 AA 52 08 03
+39 6F 06
+39 BA 01
+39 F0 55 AA 52 08 00
+39 BE 47 45
+15 6F 05
+15 BE 28
+15 6F 19
+39 BE 10 18 00 01
+39 F0 55 AA 52 08 00
+39 BE 5F 45
+15 6F 14
+39 35 6C 6A 7D 6C 6A 7D 6C 6A 7D 6C 6A 7D
+39 F0 55 AA 52 08 00
+15 6F 04
+15 BA 00
+39 2F 32 05 00
+15 6F 26
+39 44 00 1A 00 1A 1A 0C C0
+15 6F 02
+15 35 18
+15 6F 42
+39 44 00 1A
+15 6F 64
+39 44 00 1A
+15 6F 0C
+15 35 00
+15 6D 08
+05 11
+FF 78
+05 29
+39 F0 55 AA 52 08 00
+39 BE 5F 45
+39 6F 14
+39 35 77 77 7D 77 77 7D 77 77 7D 77 77 7D
+39 F0 55 AA 52 08 00
+39 6F 04
+39 BA 00
+39 2F 32 05 00
+39 6F 26
+39 44 00 1A 00 1A 1A 0C C0
+39 6F 02
+39 35 18
+39 6F 42
+39 44 00 1A
+39 6F 64
+39 44 00 1A
+39 6F 0C
+39 35 00
+39 6D 08
+39 2F 32 05 30
+39 F0 55 AA 52 08 00
+39 6F 35
+39 B1 10
+39 F0 55 AA 52 08 00
+39 6F 6E
+39 D1 03 C9
+39 F0 55 AA 52 08 00
+15 BE 5F
+39 F0 55 AA 52 08 00
+39 BE 47 45
+15 6F 14
+39 35 6A 77 7D 6A 77 7D 6A 77 7D 6A 77 7D
+15 6F 26
+39 44 00 22
+15 6F 28
+39 44 00 22
+15 6F 42
+39 44 00 22
+15 6F 64
+39 44 00 22
+15 6F 2A
+15 44 1A
+15 6F 2B
+39 44 0C C0
+15 6F 02
+15 35 18
+15 6F 0C
+15 35 00
+15 6D 08
+39 2F 32 05 30
+39 F0 55 AA 52 08 00
+15 6F 04
+15 BA 00
+39 F0 55 AA 52 08 00
+15 6F 35
+15 B1 10
+39 F0 55 AA 52 08 00
+15 6F DD
+15 BA 80
+39 F0 55 AA 52 08 08
+15 6F 02
+15 E0 81
+39 A9 01 00 18 00 00 01 01 00 35 0C 0C 18 02 00 D1 6E 6F 03 C8
+</DSIInitSequence>
+<DSITermSequence>
+39 F0 55 AA 52 08 01
+15 6F 09
+39 BA AA AA AA AA AA 2A A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0
+15 6F 27
+39 BA AA AA AA AA AA 2A A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0 A0
+15 53 00
+39 51 00 00
+05 28
+FF 1E
+05 10
+FF 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 1000 1000 10000 0</DisplayResetInfo>
+ <TLMMGPIODefaultHigh>0x58</TLMMGPIODefaultHigh>
+</Group>
+

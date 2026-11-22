@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>Samsung VHM Panel</PanelName>
+<PanelDescription>Samsung VHM Single DSI DUAL DSC Video Mode Amoled Panel (1440x3120 24bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1440</HorizontalActive>
+ <HorizontalFrontPorch>64</HorizontalFrontPorch>
+ <HorizontalBackPorch>32</HorizontalBackPorch>
+ <HorizontalSyncPulse>16</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>3120</VerticalActive>
+ <VerticalFrontPorch>28</VerticalFrontPorch>
+ <VerticalBackPorch>32</VerticalBackPorch>
+ <VerticalSyncPulse>4</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>8</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>1</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>7</DSIDSCProfileID>
+ <DSIDSCSliceWidth>720</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>24</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSILanes>4</DSILanes>
+   <DSIHsaHseAfterVsVe>False</DSIHsaHseAfterVsVe>
+   <DSILowPowerModeInHFP>False</DSILowPowerModeInHFP>
+   <DSILowPowerModeInHBP>False</DSILowPowerModeInHBP>
+   <DSILowPowerModeInHSA>False</DSILowPowerModeInHSA>
+   <DSILowPowerModeInBLLPEOF>True</DSILowPowerModeInBLLPEOF>
+   <DSILowPowerModeInBLLP>True</DSILowPowerModeInBLLP>
+   <DSIRefreshRate>0x780000</DSIRefreshRate>
+   <DSIDynamicRefreshRates>0x778000 0x780000 0x788000</DSIDynamicRefreshRates>
+   <EsyncEnable>True</EsyncEnable>
+   <Avrstepfps>240</Avrstepfps>
+   <EsyncEmsyncFps>240</EsyncEmsyncFps>
+   <EsyncHsyncPulseWidth>450</EsyncHsyncPulseWidth>
+   <EsyncEmsyncPulseWidth>200</EsyncEmsyncPulseWidth>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+</Group>
+<DSIInitSequence>
+39 F0 5A 5A
+39 F1 5A 5A
+39 FC 5A 5A
+39 D0 08
+39 B0 00 10 AB
+39 AB 74
+39 B0 00 74 62
+39 62 01
+39 F9 F1 00 00 00 00 02 20 00 80 3F 3A 77 77 48 00 00 00 00 00 00 00 80 01 AF 15 00 68 0A 00 00 20 3F 01 50 52 00 00 00 00 60 02 3F 1C 00 7D 0A 00 00 20 3F 01 C0 3D 00 00 00 00 30 01 67 11 00 7D 0A 00 00 20 3F 01 10 52 00 00 00 00 40 03 5F 2B 00 56 0A 00 00 20 3F 02 B0 52 00 00 00 00 20 01 8C 1B 00 17 09 00 00 17 3F 13 D0 52 00 00 00 00 00 00 0C 00 00 00 00 00 00 00 03 20 00 00 00
+39 B0 01 0D BD
+39 BD 00 00 00 00 00 00 00 00 00 00 61 00 00 00 01 60 03 00 77 00 0B 00 00 60 77 00 00 00 00 00 77 00 00 60 00 00 77 00 00 00 00 00 77 00 0B C0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 B0 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 06 01 12 01 EE 00 EE 00 00 EE 00 EE 00 EE 00 EE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 01 12 01 EE 00 EE 00 00 EE 00 EE 00 EE 00 EE 00 02 00 00 00 00 00 00 20 00 00 00 00 04 00 00 00
+39 B9 00 00 00 00 00 00 00 00 00 0B B8 00 00 C8 00 0B B8 00 00 C8 00 00 00 00 12 98 00 40 12 68 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 09 09 19 09 80 82 B0 82 00 05 00 07 02 40 02 40 02 40 02 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 02 02 02 02 02 02 02 00 FF 26 00 00 10 00 00 00 80 03 00 00 00 80 03 80 00 00 80 03 80 00 00 00 03 00 00 0C 60 05 D4 00 00 00 04 00 00 00 00 00 0C 60 05 D4 00 00 00 04 00 00 00 00 00 8C 60 80 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 35 00
+39 B0 00 C0 B9
+39 B9 0C 4A 06 16
+39 B0 00 56 EF
+39 EF F4
+39 B0 00 13 F9
+39 F9 30
+39 F2 01 04
+39 F7 0F
+39 FC A5 A5
+39 F1 A5 A5
+39 F0 A5 A5
+05 1B
+</DSIInitSequence>
+<EsyncPostOnCmd>
+39 F0 5A 5A
+39 F1 5A 5A
+39 FC 5A 5A
+39 71 01
+05 11
+FF 78
+39 2A 00 00 05 9F
+39 2B 00 00 0C 2F
+39 9D 01
+39 F2 01 04
+39 B0 00 16 69
+39 69 34 01
+39 53 20
+39 51 03 FF
+39 9E 11 00 00 89 30 80 0C 30 05 A0 00 18 02 D0 02 D0 02 00 02 68 00 20 02 A1 00 0A 00 0C 04 2D 03 2E 18 00 10 F0 03 0C 20 00 06 0B 0B 33 0E 1C 2A 38 46 54 62 69 70 77 79 7B 7D 7E 01 02 01 00 09 40 09 BE 19 FC 19 FA 19 F8 1A 38 1A 78 1A B6 2A F6 2B 34 2B 74 3B 74 6B F4 00 00
+05 29
+39 F7 0F
+39 FC A5 A5
+39 F1 A5 A5
+39 F0 A5 A5
+</EsyncPostOnCmd>
+<DSITermSequence>
+ 05 28
+ ff 14
+ 05 10
+ ff 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+ <BacklightType>3</BacklightType>
+ <BacklightBitWidth>12</BacklightBitWidth>
+ <DisplayResetInfo>0 10000 10000 10000 0</DisplayResetInfo>
+ <TLMMGPIODefaultHigh>0x58</TLMMGPIODefaultHigh>
+</Group>
